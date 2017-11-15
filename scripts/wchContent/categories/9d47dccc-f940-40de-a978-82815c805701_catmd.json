@@ -1,0 +1,18 @@
+{
+  "id": "9d47dccc-f940-40de-a978-82815c805701",
+  "rev": "1-2055e966e8a76da467234da61ec96fc8",
+  "name": "Dynamic list criteria",
+  "description": "Enables content creators to select the kinds of content to include in a dynamic list.",
+  "classification": "taxonomy",
+  "firstClassFor": [
+    ""
+  ],
+  "namePath": [
+    "Dynamic list criteria"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/9d47dccc-f940-40de-a978-82815c805701"
+    }
+  }
+}

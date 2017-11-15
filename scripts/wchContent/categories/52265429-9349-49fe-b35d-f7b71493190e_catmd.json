@@ -1,0 +1,18 @@
+{
+  "id": "52265429-9349-49fe-b35d-f7b71493190e",
+  "rev": "1-d837a8351025bb0d9b9bf8126b08b064",
+  "name": "List ordering options",
+  "description": "Enables content creators to order items in a dynamic list.",
+  "classification": "taxonomy",
+  "firstClassFor": [
+    ""
+  ],
+  "namePath": [
+    "List ordering options"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
+    }
+  }
+}

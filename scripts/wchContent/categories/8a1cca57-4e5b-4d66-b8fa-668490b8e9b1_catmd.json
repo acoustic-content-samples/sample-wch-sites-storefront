@@ -1,0 +1,26 @@
+{
+  "id": "8a1cca57-4e5b-4d66-b8fa-668490b8e9b1",
+  "rev": "1-2a10be3fdba44bd22c04b705486090ca",
+  "name": "Type",
+  "classification": "category",
+  "taxonomy": "9d47dccc-f940-40de-a978-82815c805701",
+  "parent": "9d47dccc-f940-40de-a978-82815c805701",
+  "ancestorIds": [
+    "9d47dccc-f940-40de-a978-82815c805701"
+  ],
+  "namePath": [
+    "Dynamic list criteria",
+    "Type"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/9d47dccc-f940-40de-a978-82815c805701"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/8a1cca57-4e5b-4d66-b8fa-668490b8e9b1"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/9d47dccc-f940-40de-a978-82815c805701"
+    }
+  }
+}

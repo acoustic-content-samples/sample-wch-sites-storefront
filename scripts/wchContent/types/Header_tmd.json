@@ -1,0 +1,34 @@
+{
+  "name": "REPLACE_TITLE header",
+  "classification": "content-type",
+  "description": "Customize elements of the header that shows up on your website pages.  The website navigation is governed by the developer code for the site.",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "id": "78490787-4867-4b8f-9a9d-bddd407b854b",
+    "path": "/dxdam/78/78490787-4867-4b8f-9a9d-bddd407b854b/header_icon_220.png"
+  },
+  "contentThumbnail": {
+    "imageElement": "websiteLogo",
+    "source": "imageElementOrType"
+  },
+  "status": "ready",
+  "tags": [
+    "IBM sites kicker"
+  ],
+  "elements": [
+    {
+      "elementType": "image",
+      "label": "Website logo",
+      "key": "websiteLogo",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif",
+        "svg"
+      ]
+    }
+  ]
+}

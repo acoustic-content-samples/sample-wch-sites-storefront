@@ -1,0 +1,98 @@
+{
+  "mediaType": "image/png",
+  "name": "header_icon_220.png",
+  "path": "/dxdam/78/78490787-4867-4b8f-9a9d-bddd407b854b/header_icon_220.png",
+  "digest": "4FmcuDVfDT59n5RlOI6AUg==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-08-23T03:36:26.778Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:timepiece",
+      "classification:electronic device",
+      "classification:black color",
+      "classification:digital clock",
+      "classification:window",
+      "classification:machine",
+      "classification:dialog box",
+      "classification:coal black color",
+      "classification:clock",
+      "classification:digital display",
+      "classification:automated teller machine",
+      "classification:measuring instrument",
+      "classification:video display",
+	  "user:oslo",
+	  "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:dialog box",
+      "classification:window",
+      "classification:video display",
+      "classification:electronic device",
+      "classification:digital clock",
+      "classification:clock",
+      "classification:timepiece",
+      "classification:measuring instrument",
+      "classification:digital display",
+      "classification:automated teller machine",
+      "classification:machine",
+      "classification:coal black color",
+      "classification:black color"
+    ]
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "header_icon_220.png",
+  "creatorId": "0e44f38c-1168-49ca-8e5a-2d0b7230a514",
+  "rev": "2-20fdf4988b63a8cfcdada7e38417fe74",
+  "cognitive": {
+    "classifications": [
+      "dialog box",
+      "window",
+      "video display",
+      "electronic device",
+      "digital clock",
+      "clock",
+      "timepiece",
+      "measuring instrument",
+      "digital display",
+      "automated teller machine",
+      "machine",
+      "coal black color",
+      "black color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#5177b0",
+      "muted": "#648cbc",
+      "darkVibrant": "#142c5c",
+      "darkMuted": "#34343c",
+      "lightVibrant": "#91aad4",
+      "lightMuted": "#9bb4d3"
+    },
+    "status": "complete"
+  },
+  "id": "78490787-4867-4b8f-9a9d-bddd407b854b",
+  "resource": "9a069bfa086cfe1ae7c98e789fed8146",
+  "fileSize": 1717,
+  "status": "ready",
+  "lastModifierId": "0e44f38c-1168-49ca-8e5a-2d0b7230a514",
+  "renditions": {
+    "default": {
+      "id": "r=9a069bfa086cfe1ae7c98e789fed8146&a=78490787-4867-4b8f-9a9d-bddd407b854b",
+      "source": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146"
+    }
+  },
+  "metadata": {
+    "width": 220,
+    "height": 145
+  },
+  "classification": "asset",
+  "created": "2017-08-23T03:36:24.440Z"
+}

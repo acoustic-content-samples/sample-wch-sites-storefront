@@ -1,0 +1,61 @@
+<!-- layout type -->
+<h1>StandardPageLayout</h1>
+<!-- show some metainformation -->
+<h2>Meta Information</h2>
+<dl>
+    <!-- more properties are available, consult https://www.npmjs.com/package/ibm-wch-sdk-ng for documentation -->
+    <dt>ID</dt>
+    <dd>{{renderingContext.id}}</dd>
+    <dt>name</dt>
+    <dd>{{renderingContext.name}}</dd>
+</dl>
+<a href="https://www.npmjs.com/package/ibm-wch-sdk-ng">more documentation</a>
+<!-- show the fields -->
+<h2>Property List</h2>
+  <dl>
+  <dt>
+    Property: banner
+| Key: banner
+| Label: Banner section
+  </dt>
+  <dd>
+<!-- reference, see https://www.npmjs.com/package/ibm-wch-sdk-ng ContentrefComponent -->
+    <pre>
+        &lt;ul *ngIf=&quot;banner&quot;&gt;
+            &lt;li *ngFor=&quot;let v of banner;trackBy: trackByComponentId;&quot;&gt;
+                &lt;wch-contrentref [renderingContext]=&quot;v&quot;&gt;&lt;/wch-contrentref&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    </pre>
+</dd>
+  <dt>
+    Property: sectionOne
+| Key: sectionOne
+| Label: Section one
+  </dt>
+  <dd>
+<!-- reference, see https://www.npmjs.com/package/ibm-wch-sdk-ng ContentrefComponent -->
+    <pre>
+        &lt;ul *ngIf=&quot;sectionOne&quot;&gt;
+            &lt;li *ngFor=&quot;let v of sectionOne;trackBy: trackByComponentId;&quot;&gt;
+                &lt;wch-contrentref [renderingContext]=&quot;v&quot;&gt;&lt;/wch-contrentref&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    </pre>
+</dd>
+  <dt>
+    Property: sectionTwo
+| Key: sectionTwo
+| Label: Section two
+  </dt>
+  <dd>
+<!-- reference, see https://www.npmjs.com/package/ibm-wch-sdk-ng ContentrefComponent -->
+    <pre>
+        &lt;ul *ngIf=&quot;sectionTwo&quot;&gt;
+            &lt;li *ngFor=&quot;let v of sectionTwo;trackBy: trackByComponentId;&quot;&gt;
+                &lt;wch-contrentref [renderingContext]=&quot;v&quot;&gt;&lt;/wch-contrentref&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    </pre>
+</dd>
+</dl>

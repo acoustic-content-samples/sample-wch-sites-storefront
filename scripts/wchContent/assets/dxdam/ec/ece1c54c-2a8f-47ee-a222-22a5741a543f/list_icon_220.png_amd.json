@@ -1,0 +1,76 @@
+{
+  "mediaType": "image/png",
+  "name": "list_icon_220.png",
+  "path": "/dxdam/ec/ece1c54c-2a8f-47ee-a222-22a5741a543f/list_icon_220.png",
+  "digest": "FmprEhCiG6GeLmpdCofr5A==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-08-23T03:54:16.836Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:black color",
+      "classification:lamp",
+      "classification:fluorescent lamp",
+      "classification:coal black color",
+      "classification:strip lighting",
+      "classification:light source",
+	  "user:oslo",
+	  "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:strip lighting",
+      "classification:light source",
+      "classification:fluorescent lamp",
+      "classification:lamp",
+      "classification:coal black color",
+      "classification:black color"
+    ]
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "list_icon_220.png",
+  "creatorId": "0e44f38c-1168-49ca-8e5a-2d0b7230a514",
+  "rev": "2-ea1363d7eeea01b3a3fa1b45099639cd",
+  "cognitive": {
+    "classifications": [
+      "strip lighting",
+      "light source",
+      "fluorescent lamp",
+      "lamp",
+      "coal black color",
+      "black color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#282ca0",
+      "muted": "#7c8ca2",
+      "darkVibrant": "#882c9c",
+      "darkMuted": "#384850",
+      "lightMuted": "#9da6b2"
+    },
+    "status": "complete"
+  },
+  "id": "ece1c54c-2a8f-47ee-a222-22a5741a543f",
+  "resource": "38fafa9631cbbe54a37595877533a2b5",
+  "fileSize": 1203,
+  "status": "ready",
+  "lastModifierId": "0e44f38c-1168-49ca-8e5a-2d0b7230a514",
+  "renditions": {
+    "default": {
+      "id": "r=38fafa9631cbbe54a37595877533a2b5&a=ece1c54c-2a8f-47ee-a222-22a5741a543f",
+      "source": "/authoring/v1/resources/38fafa9631cbbe54a37595877533a2b5"
+    }
+  },
+  "metadata": {
+    "width": 220,
+    "height": 145
+  },
+  "classification": "asset",
+  "created": "2017-08-23T03:54:14.280Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "standard-page-layout-mapping",
+  "rev": "temp",
+  "name": "standardPageLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "name": "Standard page"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "standard-page-layout",
+        "name": "standardPageLayout"
+      },
+      "layouts": [
+        {
+          "id": "standard-page-layout",
+          "name": "standardPageLayout"
+        }
+      ]
+    }
+  ]
+}

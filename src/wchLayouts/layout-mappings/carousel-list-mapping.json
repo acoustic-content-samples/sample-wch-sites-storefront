@@ -1,0 +1,31 @@
+{
+  "id": "carousel-list-mapping",
+  "rev": "temp",
+  "name": "carouselListMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "name": "List"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "carousel-list",
+        "name": "carouselList"
+      },
+      "layouts": [
+        {
+          "id": "carousel-list",
+          "name": "carouselList"
+        },
+        {
+          "id": "gallery-list",
+          "name": "galleryList"
+        },
+        {
+          "id": "vertical-list",
+          "name": "verticalList"
+        }
+      ]
+    }
+  ]
+}

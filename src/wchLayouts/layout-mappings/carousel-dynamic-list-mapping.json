@@ -1,0 +1,31 @@
+{
+  "id": "carousel-dynamic-list-mapping",
+  "rev": "temp",
+  "name": "carouselDynamicListMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "name": "Dynamic list"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "carousel-dynamic-list",
+        "name": "carouselDynamicList"
+      },
+      "layouts": [
+        {
+          "id": "carousel-dynamic-list",
+          "name": "carouselDynamicList"
+        },
+        {
+          "id": "gallery-dynamic-list",
+          "name": "galleryDynamicList"
+        },
+        {
+          "id": "vertical-dynamic-list",
+          "name": "verticalDynamicList"
+        }
+      ]
+    }
+  ]
+}

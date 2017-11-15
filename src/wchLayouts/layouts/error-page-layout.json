@@ -1,0 +1,12 @@
+{
+  "id": "error-page-layout",
+  "rev": "temp",
+  "name": "errorPageLayout",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/error-page-layout.jpg"
+  },
+  "template": "error-page-layout",
+  "templateType": "angular"
+}

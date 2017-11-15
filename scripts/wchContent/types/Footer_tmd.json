@@ -1,0 +1,66 @@
+{
+  "name": "REPLACE_TITLE footer",
+  "classification": "content-type",
+  "description": "Customize elements of the footer that shows up on website pages.",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1",
+    "path": "/dxdam/8d/8d7c84d1-aefe-4a01-8096-58b5acea04d1/footer_icon_220.png"
+  },
+  "contentThumbnail": {
+    "imageElement": "Logo",
+    "source": "imageElementOrType"
+  },
+  "status": "ready",
+  "tags": [
+    "IBM sites kicker"
+  ],
+  "elements": [
+    {
+      "elementType": "image",
+      "label": "Website logo",
+      "key": "Logo",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "imageProfileId": "763cc433-46d8-4a1e-9155-878ae8cf4dbc"
+    },
+    {
+      "elementType": "text",
+      "label": "Copyright",
+      "key": "copyright"
+    },
+    {
+      "elementType": "text",
+      "label": "Email address",
+      "key": "emailAddress"
+    },
+    {
+      "elementType": "text",
+      "label": "Label for sales contact",
+      "key": "labelForSalesContact"
+    },
+    {
+      "elementType": "text",
+      "label": "Sales contact number",
+      "key": "salesContactNumber",
+      "helpText": "Enter the number for the sales department."
+    },
+    {
+      "elementType": "text",
+      "label": "Label for customer service",
+      "key": "labelForCustomerService"
+    },
+    {
+      "elementType": "text",
+      "label": "Customer service contact number",
+      "key": "customerServiceContactNumber",
+      "helpText": "Enter the number for the customer service department."
+    }
+  ]
+}

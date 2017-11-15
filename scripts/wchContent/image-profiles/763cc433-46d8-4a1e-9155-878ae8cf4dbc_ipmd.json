@@ -1,0 +1,23 @@
+{
+  "id": "763cc433-46d8-4a1e-9155-878ae8cf4dbc",
+  "rev": "1-51030df14ce7282470a984e1cddb0e8d",
+  "name": "Profile for banner content",
+  "classification": "image-profile",
+  "description": "Used for images in the footer content types.",
+  "dimensions": [
+    {
+      "label": "Banner",
+      "key": "banner",
+      "width": 2000,
+      "height": 800,
+      "description": "Ensures authors do not use images that are too small for the desktop context."
+    },
+    {
+      "label": "Short",
+      "key": "short",
+      "width": 1200,
+      "height": 300,
+      "description": "Used for smaller areas."
+    }
+  ]
+}

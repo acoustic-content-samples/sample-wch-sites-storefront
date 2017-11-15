@@ -1,0 +1,26 @@
+{
+  "id": "93bf88e5-e810-4eef-ad28-7a9b291291d4",
+  "rev": "1-b44ef1af1dc9d971c2833c8729c465e1",
+  "name": "By date ascending",
+  "classification": "category",
+  "taxonomy": "52265429-9349-49fe-b35d-f7b71493190e",
+  "parent": "52265429-9349-49fe-b35d-f7b71493190e",
+  "ancestorIds": [
+    "52265429-9349-49fe-b35d-f7b71493190e"
+  ],
+  "namePath": [
+    "List ordering options",
+    "By date ascending"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/93bf88e5-e810-4eef-ad28-7a9b291291d4"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
+    }
+  }
+}

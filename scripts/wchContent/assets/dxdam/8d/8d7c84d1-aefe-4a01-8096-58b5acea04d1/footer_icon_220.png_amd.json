@@ -1,0 +1,92 @@
+{
+  "mediaType": "image/png",
+  "name": "footer_icon_220.png",
+  "path": "/dxdam/8d/8d7c84d1-aefe-4a01-8096-58b5acea04d1/footer_icon_220.png",
+  "digest": "PF6S48LJfs9pIG1Me6lBOA==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-08-23T03:36:04.388Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:timepiece",
+      "classification:electronic device",
+      "classification:digital clock",
+      "classification:window",
+      "classification:blue color",
+      "classification:dialog box",
+      "classification:coal black color",
+      "classification:clock",
+      "classification:digital display",
+      "classification:measuring instrument",
+      "classification:video display",
+	  "user:oslo",
+	  "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:digital clock",
+      "classification:clock",
+      "classification:timepiece",
+      "classification:measuring instrument",
+      "classification:digital display",
+      "classification:video display",
+      "classification:electronic device",
+      "classification:dialog box",
+      "classification:window",
+      "classification:coal black color",
+      "classification:blue color"
+    ]
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "footer_icon_220.png",
+  "creatorId": "0e44f38c-1168-49ca-8e5a-2d0b7230a514",
+  "rev": "2-d5ca4e036715804d28118856dad93b5c",
+  "cognitive": {
+    "classifications": [
+      "digital clock",
+      "clock",
+      "timepiece",
+      "measuring instrument",
+      "digital display",
+      "video display",
+      "electronic device",
+      "dialog box",
+      "window",
+      "coal black color",
+      "blue color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#7824b4",
+      "muted": "#6086b4",
+      "darkVibrant": "#14447c",
+      "darkMuted": "#34343c",
+      "lightVibrant": "#9cb4d5",
+      "lightMuted": "#c5d1e0"
+    },
+    "status": "complete"
+  },
+  "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1",
+  "resource": "ab62962454acad085be1f22d850d0bf7",
+  "fileSize": 1670,
+  "status": "ready",
+  "lastModifierId": "0e44f38c-1168-49ca-8e5a-2d0b7230a514",
+  "renditions": {
+    "default": {
+      "id": "r=ab62962454acad085be1f22d850d0bf7&a=8d7c84d1-aefe-4a01-8096-58b5acea04d1",
+      "source": "/authoring/v1/resources/ab62962454acad085be1f22d850d0bf7"
+    }
+  },
+  "metadata": {
+    "width": 220,
+    "height": 145
+  },
+  "classification": "asset",
+  "created": "2017-08-23T03:36:02.158Z"
+}

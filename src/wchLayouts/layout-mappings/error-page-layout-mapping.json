@@ -1,0 +1,23 @@
+{
+  "id": "error-page-layout-mapping",
+  "rev": "temp",
+  "name": "errorPageLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "name": "Error page"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "error-page-layout",
+        "name": "errorPageLayout"
+      },
+      "layouts": [
+        {
+          "id": "error-page-layout",
+          "name": "errorPageLayout"
+        }
+      ]
+    }
+  ]
+}
