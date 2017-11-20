@@ -1,0 +1,45 @@
+{
+  "id": "c051eda2-a619-40e0-b840-43341e44af98",
+  "rev": "4-832a41e6110b0ccc0db5a15c3e49332c",
+  "name": "Refund Policy",
+  "description": "",
+  "classification": "content",
+  "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "lastModified": "2017-11-16T19:52:33.848Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-16T14:30:24.669Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "status": "ready",
+  "elements": {
+    "banner": {
+      "elementType": "reference"
+    },
+    "sectionOne": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "63548abe-8571-44bc-aa6b-45bec56e5800"
+        }
+      ]
+    },
+    "sectionTwo": {
+      "elementType": "reference"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "standard-page-layout"
+      }
+    }
+  ],
+  "kind": [
+    "page"
+  ],
+  "thumbnail": {
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
+  }
+}

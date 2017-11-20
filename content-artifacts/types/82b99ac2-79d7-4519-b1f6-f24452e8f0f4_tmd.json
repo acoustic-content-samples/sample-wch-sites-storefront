@@ -1,0 +1,91 @@
+{
+  "id": "82b99ac2-79d7-4519-b1f6-f24452e8f0f4",
+  "rev": "13-5f624a435eca5b1a3b79d04e73652e3e",
+  "name": "E-Shopper header",
+  "classification": "content-type",
+  "path": "/E-/E-Shopper-header",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "id": "78490787-4867-4b8f-9a9d-bddd407b854b"
+  },
+  "contentThumbnail": {
+    "imageElement": "websiteLogo",
+    "source": "imageElementOrType"
+  },
+  "description": "Customize elements of the header that shows up on your website pages.  The website navigation is governed by the developer code for the site.",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-15T17:32:19.547Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-16T14:23:41.359Z",
+  "status": "ready",
+  "tags": [
+    "IBM sites kicker",
+    "e-shopper"
+  ],
+  "elements": [
+    {
+      "elementType": "image",
+      "label": "Website logo",
+      "key": "websiteLogo",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif",
+        "svg"
+      ]
+    },
+    {
+      "elementType": "reference",
+      "label": "Top links",
+      "key": "topLinks",
+      "restrictTypes": [
+        {
+          "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb"
+        }
+      ]
+    },
+    {
+      "elementType": "text",
+      "label": "Phone number",
+      "key": "phoneNumber"
+    },
+    {
+      "elementType": "text",
+      "label": "Email address",
+      "key": "emailAddress"
+    },
+    {
+      "elementType": "link",
+      "label": "Facebook link",
+      "key": "facebookLink"
+    },
+    {
+      "elementType": "link",
+      "label": "Twitter link",
+      "key": "twitterLink"
+    },
+    {
+      "elementType": "link",
+      "label": "Instagram link",
+      "key": "instagramLink"
+    },
+    {
+      "elementType": "link",
+      "label": "LinkedIn link",
+      "key": "linkedinLink"
+    },
+    {
+      "elementType": "link",
+      "label": "Dribbble link",
+      "key": "dribbbleLink"
+    },
+    {
+      "elementType": "link",
+      "label": "Google plus link",
+      "key": "googlePlusLink"
+    }
+  ]
+}

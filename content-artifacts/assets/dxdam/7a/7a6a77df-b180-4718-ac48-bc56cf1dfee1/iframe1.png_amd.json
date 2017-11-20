@@ -1,0 +1,98 @@
+{
+  "mediaType": "image/png",
+  "name": "iframe1.png",
+  "path": "/dxdam/7a/7a6a77df-b180-4718-ac48-bc56cf1dfee1/iframe1.png",
+  "digest": "WIoZZeD7RixpTfGR2HAa6w==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-16T20:36:50.143Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:pale yellow color",
+      "classification:person",
+      "classification:reddish orange color",
+      "user:e-shopper"
+    ],
+    "declined": [
+      "classification:perfume",
+      "classification:mixed drink",
+      "classification:L-plate (learners plate for car)",
+      "classification:food",
+      "classification:perfumery",
+      "classification:cologne",
+      "classification:alcoholic beverage",
+      "classification:beverage",
+      "classification:eau de toilette",
+      "classification:toiletry"
+    ],
+    "suggested": [
+      "classification:eau de toilette",
+      "classification:perfume",
+      "classification:toiletry",
+      "classification:person",
+      "classification:cologne",
+      "classification:L-plate (learners plate for car)",
+      "classification:mixed drink",
+      "classification:alcoholic beverage",
+      "classification:beverage",
+      "classification:food",
+      "classification:perfumery",
+      "classification:pale yellow color",
+      "classification:reddish orange color"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "iframe1.png",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "4-933786f7e4208b082a4ec80bf079b4d9",
+  "cognitive": {
+    "classifications": [
+      "eau de toilette",
+      "perfume",
+      "toiletry",
+      "person",
+      "cologne",
+      "L-plate (learners plate for car)",
+      "mixed drink",
+      "alcoholic beverage",
+      "beverage",
+      "food",
+      "perfumery",
+      "pale yellow color",
+      "reddish orange color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#f88e6c",
+      "muted": "#ae715d",
+      "darkVibrant": "#7e2306",
+      "darkMuted": "#805f57",
+      "lightVibrant": "#fcdc71",
+      "lightMuted": "#dcbcbe"
+    },
+    "status": "complete"
+  },
+  "id": "7a6a77df-b180-4718-ac48-bc56cf1dfee1",
+  "resource": "a4ad58fa-4509-49bc-824d-99809a13ed95",
+  "fileSize": 6915,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=a4ad58fa-4509-49bc-824d-99809a13ed95&a=7a6a77df-b180-4718-ac48-bc56cf1dfee1",
+      "source": "/authoring/v1/resources/a4ad58fa-4509-49bc-824d-99809a13ed95"
+    }
+  },
+  "metadata": {
+    "width": 121,
+    "height": 57
+  },
+  "classification": "asset",
+  "created": "2017-11-16T20:30:08.500Z"
+}

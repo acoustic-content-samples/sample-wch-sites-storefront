@@ -1,0 +1,64 @@
+{
+  "id": "6e932ae9-60bc-4686-868c-e156026f5a3b",
+  "rev": "11-c62673093e336a0101bddc6ccf75ecab",
+  "name": "New accessories online now!",
+  "classification": "content",
+  "typeId": "8f3b9172-8227-46b3-be14-f10c196c9134",
+  "locale": "en",
+  "lastModified": "2017-11-20T18:20:32.529Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-20T18:18:47.501Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "author": {
+      "elementType": "text",
+      "value": "Jane Doe"
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=1e7f065f-606d-489b-851e-3a6a49f5b063&a=c1cc071a-d103-413c-88b5-d98e91d5c9f5",
+          "source": "/authoring/v1/resources/1e7f065f-606d-489b-851e-3a6a49f5b063",
+          "width": 866,
+          "height": 396
+        }
+      },
+      "asset": {
+        "id": "c1cc071a-d103-413c-88b5-d98e91d5c9f5",
+        "resourceUri": "/authoring/v1/resources/1e7f065f-606d-489b-851e-3a6a49f5b063",
+        "fileName": "blog-two.jpg",
+        "fileSize": 197291,
+        "mediaType": "image/jpeg",
+        "width": 866,
+        "height": 396
+      }
+    },
+    "text": {
+      "elementType": "formattedtext",
+      "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Ac tortor vitae purus faucibus ornare suspendisse sed. Posuere ac ut consequat semper viverra nam libero justo. Ipsum a arcu cursus vitae congue mauris rhoncus. Mauris pellentesque pulvinar pellentesque habitant. Urna nunc id cursus metus aliquam eleifend mi in nulla. Enim facilisis gravida neque convallis. Adipiscing bibendum est ultricies integer quis. Purus semper eget duis at tellus. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Senectus et netus et malesuada fames.</p>\n\n<p>Id cursus metus aliquam eleifend. Vel orci porta non pulvinar neque. Porttitor rhoncus dolor purus non enim praesent elementum. Nunc sed blandit libero volutpat sed cras. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Aliquam ultrices sagittis orci a scelerisque. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Ac turpis egestas sed tempus urna et pharetra pharetra. Bibendum ut tristique et egestas quis. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Lorem mollis aliquam ut porttitor leo. Etiam sit amet nisl purus. Venenatis a condimentum vitae sapien. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Tortor aliquam nulla facilisi cras fermentum odio.</p>\n\n<p>Varius quam quisque id diam vel quam elementum. Aliquet nibh praesent tristique magna sit amet purus gravida quis. At elementum eu facilisis sed odio morbi quis. Cras semper auctor neque vitae tempus. Eget mi proin sed libero enim sed. Nibh ipsum consequat nisl vel. Nec ullamcorper sit amet risus nullam eget. Porttitor massa id neque aliquam vestibulum morbi blandit. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Ornare arcu odio ut sem. Orci eu lobortis elementum nibh tellus molestie nunc. Sociis natoque penatibus et magnis dis parturient. Pharetra vel turpis nunc eget lorem. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec.</p>\n"
+    },
+    "rating": {
+      "elementType": "number",
+      "value": 5
+    },
+    "title": {
+      "elementType": "text",
+      "value": "New accessories online now!"
+    },
+    "dateAndTime": {
+      "elementType": "datetime",
+      "value": "2017-09-01T21:09:00Z"
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "c1cc071a-d103-413c-88b5-d98e91d5c9f5"
+  },
+  "description": ""
+}

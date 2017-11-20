@@ -1,0 +1,36 @@
+{
+  "id": "c0984fde-9e9e-4a78-872b-61a9efbc5f1a",
+  "rev": "9-3e6df13c06de57e1ed77471dd506907f",
+  "name": "Online Help",
+  "description": "",
+  "classification": "content",
+  "typeId": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
+  "locale": "en",
+  "lastModified": "2017-11-16T19:56:22.585Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-15T18:35:07.288Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "Online Help"
+    },
+    "blurb": {
+      "elementType": "formattedtext",
+      "value": "<h3>How do I order?</h3>\n\n<p>It&#39;s easy to order from E-Shopper. If this is your first time purchasing from our store, just follow these three easy steps:</p>\n\n<ol>\n\t<li>Browse the catalog.</li>\n\t<li>Add the item you want to your shopping cart.</li>\n\t<li>Complete the checkout flow.</li>\n</ol>\n\n<p>You will be asked for your e-mail address and a password to register yourself as a customer. Then, the next time you shop with us, we will have your information already stored, and you won&#39;t need to input it again.</p>\n\n<p>&nbsp;</p>\n\n<h3>How can I pay?</h3>\n\n<p>We accept Visa, MasterCard, or American Express. When you are checking out, you will be prompted to enter your credit card number for payment.</p>\n\n<p>&nbsp;</p>\n\n<h3>Is it safe to use my credit card?</h3>\n\n<p>We guarantee that every transaction you make at E-Shopper will be 100 percent safe and secure. This means you pay nothing if unauthorized charges are made to your card as a result of shopping at E-Shopper. If you feel more comfortable, you may enter only your cards last five digits and its expiration date. Once you have fully submitted your order, you can call us and let us know the rest of your card number over the phone.</p>\n\n<p>&nbsp;</p>\n\n<h3>How do I track my order?</h3>\n\n<p>You can review the status of any order you have placed at E-Shopper simply by clicking the My account link at the top of every page. From there, you will be able to view or modify any order that has yet to enter the shipping process.</p>\n"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "e-shopper-blurb-layout"
+      }
+    }
+  ],
+  "kind": []
+}

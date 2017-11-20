@@ -1,0 +1,21 @@
+{
+  "id": "e-shopper-blurb-layout-mapping",
+  "rev": "4-6fb861fa4994fc8c7fde2d1f0f7f59f8",
+  "name": "eShopperBlurbLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "e-shopper-blurb-layout"
+      },
+      "layouts": [
+        {
+          "id": "e-shopper-blurb-layout"
+        }
+      ]
+    }
+  ]
+}

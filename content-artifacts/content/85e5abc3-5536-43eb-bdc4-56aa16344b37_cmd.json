@@ -1,0 +1,54 @@
+{
+  "id": "85e5abc3-5536-43eb-bdc4-56aa16344b37",
+  "rev": "8-bf9f2f2b3234685790b17b37a417bec7",
+  "name": "eshopperFooterVideos",
+  "description": "",
+  "classification": "content",
+  "typeId": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c",
+  "lastModified": "2017-11-16T20:44:40.915Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-16T20:43:08.934Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "maxItem": {
+      "elementType": "number",
+      "value": 4
+    },
+    "datesToInclude": {
+      "elementType": "category"
+    },
+    "listTitle": {
+      "elementType": "text",
+      "value": "eshopperFooterVideos"
+    },
+    "contentType": {
+      "elementType": "category",
+      "categoryIds": [
+        "63a760e3-984c-48ee-9458-2689c11b22fd"
+      ]
+    },
+    "sortOrder": {
+      "elementType": "category",
+      "categoryIds": [
+        "93bf88e5-e810-4eef-ad28-7a9b291291d4"
+      ]
+    },
+    "viewAllLink": {
+      "elementType": "link"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "carousel-dynamic-list"
+      }
+    }
+  ],
+  "kind": [],
+  "thumbnail": {
+    "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "39faea29-c950-4e41-95ca-ba0a7629f17a",
+  "rev": "4-24ef98797eeaa5d7ddd66d3a85b38ea6",
+  "name": "Privacy Policy",
+  "description": "",
+  "classification": "content",
+  "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "lastModified": "2017-11-16T19:52:52.394Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-16T14:30:59.592Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "status": "ready",
+  "elements": {
+    "banner": {
+      "elementType": "reference"
+    },
+    "sectionOne": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "aaf029fe-8dc4-4d96-a02f-3540591d8a23"
+        }
+      ]
+    },
+    "sectionTwo": {
+      "elementType": "reference"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "standard-page-layout"
+      }
+    }
+  ],
+  "kind": [
+    "page"
+  ],
+  "thumbnail": {
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
+  }
+}

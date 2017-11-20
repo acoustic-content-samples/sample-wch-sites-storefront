@@ -1,0 +1,40 @@
+{
+  "id": "de475bec-7c60-4f45-9ded-520d5d7b27eb",
+  "rev": "3-fb496c29fbd25f0400cfdb62695e6d61",
+  "name": "Checkout",
+  "description": "",
+  "classification": "content",
+  "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "lastModified": "2017-11-16T19:54:41.608Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-16T16:23:54.596Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "status": "ready",
+  "elements": {
+    "banner": {
+      "elementType": "reference"
+    },
+    "sectionOne": {
+      "elementType": "reference"
+    },
+    "sectionTwo": {
+      "elementType": "reference"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "standard-page-layout"
+      }
+    }
+  ],
+  "kind": [
+    "page"
+  ],
+  "thumbnail": {
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "e8a56863-efb8-416e-8c13-6de8025de066",
+  "rev": "11-9e3d2a1a9f00f34fb9e7f952bae734de",
+  "name": "eshopperFooterConfig",
+  "description": "",
+  "classification": "content",
+  "typeId": "063187b0-797f-4c65-84be-1de65a216012",
+  "locale": "en",
+  "lastModified": "2017-11-16T20:46:03.763Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-16T16:20:16.632Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "copyright": {
+      "elementType": "text",
+      "value": "E-SHOPPER Inc."
+    },
+    "siteTitle": {
+      "elementType": "text",
+      "value": "E-Shopper"
+    },
+    "policyLinks": {
+      "elementType": "reference"
+    },
+    "background": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=584e822a-d0d6-413d-b3da-1aac4fb21703&a=205f9ff2-9458-450a-992d-5dd971b17389",
+          "source": "/authoring/v1/resources/584e822a-d0d6-413d-b3da-1aac4fb21703",
+          "width": 295,
+          "height": 154
+        }
+      },
+      "asset": {
+        "id": "205f9ff2-9458-450a-992d-5dd971b17389",
+        "resourceUri": "/authoring/v1/resources/584e822a-d0d6-413d-b3da-1aac4fb21703",
+        "fileName": "map.png",
+        "fileSize": 14823,
+        "mediaType": "image/png",
+        "width": 295,
+        "height": 154
+      }
+    },
+    "siteDescription": {
+      "elementType": "text",
+      "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor"
+    },
+    "quickLinks": {
+      "elementType": "reference"
+    },
+    "serviceLinks": {
+      "elementType": "reference"
+    },
+    "videoLinks": {
+      "elementType": "reference",
+      "value": {
+        "id": "85e5abc3-5536-43eb-bdc4-56aa16344b37"
+      }
+    },
+    "address": {
+      "elementType": "text",
+      "value": "505 S Atlantic Ave Virginia Beach, VA"
+    },
+    "aboutLinks": {
+      "elementType": "reference"
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "205f9ff2-9458-450a-992d-5dd971b17389"
+  }
+}

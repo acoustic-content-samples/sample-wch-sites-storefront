@@ -1,0 +1,45 @@
+{
+  "id": "c3dfad4d-4df2-4d47-a678-7f238f53f74d",
+  "rev": "4-6e79545b0b350832b49823a363fcd7ee",
+  "name": "Corporate Responsibility",
+  "description": "",
+  "classification": "content",
+  "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "lastModified": "2017-11-16T19:51:32.529Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-16T14:27:43.262Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "status": "ready",
+  "elements": {
+    "banner": {
+      "elementType": "reference"
+    },
+    "sectionOne": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "bec796f0-c120-46d1-bd80-f6ee52b99e27"
+        }
+      ]
+    },
+    "sectionTwo": {
+      "elementType": "reference"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "standard-page-layout"
+      }
+    }
+  ],
+  "kind": [
+    "page"
+  ],
+  "thumbnail": {
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
+  }
+}

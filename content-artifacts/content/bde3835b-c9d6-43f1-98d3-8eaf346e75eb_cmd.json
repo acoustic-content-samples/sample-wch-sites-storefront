@@ -1,0 +1,64 @@
+{
+  "id": "bde3835b-c9d6-43f1-98d3-8eaf346e75eb",
+  "rev": "11-4455cd97fef696ffbd18fbe982b1be0b",
+  "name": "New hairstyles for a new year",
+  "classification": "content",
+  "typeId": "8f3b9172-8227-46b3-be14-f10c196c9134",
+  "locale": "en",
+  "lastModified": "2017-11-20T18:18:18.920Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-20T18:16:57.140Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "author": {
+      "elementType": "text",
+      "value": "Mac Smith"
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=389aaddb-26db-464e-b83d-f2495a50b100&a=17021d1e-dfd5-4a54-b4c2-2d0bc37d0339",
+          "source": "/authoring/v1/resources/389aaddb-26db-464e-b83d-f2495a50b100",
+          "width": 866,
+          "height": 396
+        }
+      },
+      "asset": {
+        "id": "17021d1e-dfd5-4a54-b4c2-2d0bc37d0339",
+        "resourceUri": "/authoring/v1/resources/389aaddb-26db-464e-b83d-f2495a50b100",
+        "fileName": "blog-three.jpg",
+        "fileSize": 273949,
+        "mediaType": "image/jpeg",
+        "width": 866,
+        "height": 396
+      }
+    },
+    "text": {
+      "elementType": "formattedtext",
+      "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem sed risus. Egestas sed sed risus pretium quam vulputate dignissim. Lectus vestibulum mattis ullamcorper velit sed. Rhoncus urna neque viverra justo nec ultrices dui. Eros in cursus turpis massa tincidunt dui ut ornare. Justo laoreet sit amet cursus sit amet dictum. Pharetra diam sit amet nisl suscipit adipiscing. At lectus urna duis convallis convallis tellus id. Ultrices tincidunt arcu non sodales neque sodales. Rutrum tellus pellentesque eu tincidunt.</p>\n\n<p>Justo donec enim diam vulputate. Tellus id interdum velit laoreet. Scelerisque eu ultrices vitae auctor eu augue ut. Elementum integer enim neque volutpat ac tincidunt vitae. Ut etiam sit amet nisl purus in mollis nunc sed. Tincidunt vitae semper quis lectus. Pretium lectus quam id leo in vitae turpis massa sed. Arcu non sodales neque sodales ut etiam. Vitae sapien pellentesque habitant morbi tristique. Amet venenatis urna cursus eget. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Risus commodo viverra maecenas accumsan. Cursus turpis massa tincidunt dui ut. Neque laoreet suspendisse interdum consectetur libero id faucibus. Turpis egestas pretium aenean pharetra magna ac placerat. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Tellus at urna condimentum mattis.</p>\n\n<p>Ut diam quam nulla porttitor massa. Nibh ipsum consequat nisl vel pretium lectus quam. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Eu augue ut lectus arcu bibendum at. Orci eu lobortis elementum nibh tellus molestie nunc non. Imperdiet massa tincidunt nunc pulvinar sapien. Magna sit amet purus gravida quis blandit. Felis imperdiet proin fermentum leo. Felis bibendum ut tristique et egestas quis. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Semper eget duis at tellus at. Quis auctor elit sed vulputate.</p>\n"
+    },
+    "rating": {
+      "elementType": "number",
+      "value": 3
+    },
+    "title": {
+      "elementType": "text",
+      "value": "New hairstyles for a new year"
+    },
+    "dateAndTime": {
+      "elementType": "datetime",
+      "value": "2018-01-01T14:07:00Z"
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "17021d1e-dfd5-4a54-b4c2-2d0bc37d0339"
+  },
+  "description": ""
+}

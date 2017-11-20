@@ -1,0 +1,34 @@
+{
+  "id": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
+  "rev": "4-30d8b36ea4ff7a32e44e9ebf0f9d9d30",
+  "name": "E-Shopper blurb",
+  "classification": "content-type",
+  "path": "/E-/E-Shopper-blurb",
+  "kind": [
+    "standalone"
+  ],
+  "description": "",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-15T18:27:13.169Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-16T19:57:16.527Z",
+  "status": "ready",
+  "tags": [
+    "e-shopper"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Title",
+      "key": "title",
+      "required": true,
+      "minLength": 1
+    },
+    {
+      "elementType": "formattedtext",
+      "label": "Blurb",
+      "key": "blurb",
+      "required": true
+    }
+  ]
+}

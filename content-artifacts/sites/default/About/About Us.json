@@ -1,0 +1,17 @@
+{
+  "name": "About Us",
+  "segment": "about-us",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "classification": "page",
+  "contentId": "33094fca-5a4e-43db-b97e-9c461f1b47b5",
+  "status": "draft",
+  "linkedDocId": "b97653b3-7ebb-410f-ae49-52f8b2e1bf4a",
+  "contentStatus": "ready",
+  "position": -1,
+  "id": "5c8064fc2b22e986aea0336eab36df59",
+  "rev": "2-9c5be8757da348ecf6307f8f92e127f7",
+  "parentId": "94200172-7d2f-4882-b8d6-0b1cca4049f3"
+}

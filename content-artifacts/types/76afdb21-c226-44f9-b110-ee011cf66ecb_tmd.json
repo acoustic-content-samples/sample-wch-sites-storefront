@@ -1,0 +1,50 @@
+{
+  "id": "76afdb21-c226-44f9-b110-ee011cf66ecb",
+  "rev": "10-2d7a4fc1eb2533265b2f13a7236f46e0",
+  "name": "E-Shopper video link",
+  "classification": "content-type",
+  "path": "/E-/E-Shopper",
+  "kind": [
+    "standalone"
+  ],
+  "contentThumbnail": {
+    "imageElement": "thumbnail",
+    "source": "imageElementOrType"
+  },
+  "description": "",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-16T20:27:53.853Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-16T20:29:39.420Z",
+  "status": "ready",
+  "tags": [
+    "e-shopper"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Title",
+      "key": "title",
+      "required": true,
+      "minLength": 1
+    },
+    {
+      "elementType": "datetime",
+      "label": "Date",
+      "key": "date",
+      "required": true
+    },
+    {
+      "elementType": "image",
+      "label": "Thumbnail",
+      "key": "thumbnail",
+      "required": true
+    },
+    {
+      "elementType": "link",
+      "label": "Link",
+      "key": "link",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Blog",
+  "segment": "blog",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "classification": "page",
+  "contentId": "f3af3791-cb0f-4c88-b784-af9ad6796425",
+  "status": "draft",
+  "linkedDocId": "fe130cfd-a121-4ab5-9ba1-e55e3ec7df8d",
+  "contentStatus": "ready",
+  "position": -1,
+  "id": "3657c4956f61dc5de55f6ec3632a85e9",
+  "rev": "4-9c10bb59d91a9f62a79a75bd167f4cb0"
+}

@@ -1,0 +1,89 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "blog-three.jpg",
+  "path": "/dxdam/17/17021d1e-dfd5-4a54-b4c2-2d0bc37d0339/blog-three.jpg",
+  "digest": "TTUWhu4S8IURarKuN5sWyw==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-20T18:16:39.973Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:makeup",
+      "classification:light brown color",
+      "classification:person",
+      "classification:hair",
+      "classification:toiletry",
+      "classification:cosmetic",
+      "face:18-24",
+      "user:e-shopper"
+    ],
+    "declined": [
+      "classification:ruddiness"
+    ],
+    "suggested": [
+      "classification:ruddiness",
+      "classification:person",
+      "classification:hair",
+      "classification:makeup",
+      "classification:cosmetic",
+      "classification:toiletry",
+      "classification:light brown color",
+      "face:18-24"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "blog-three.jpg",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "5-4536ad5e0a47a31c26e05d73532c0aaf",
+  "cognitive": {
+    "classifications": [
+      "ruddiness",
+      "person",
+      "hair",
+      "makeup",
+      "cosmetic",
+      "toiletry",
+      "light brown color"
+    ],
+    "faces": [
+      {
+        "age": {
+          "minimum": 18,
+          "maximum": 24
+        }
+      }
+    ],
+    "colors": {
+      "vibrant": "#68c4f0",
+      "muted": "#8f655e",
+      "darkVibrant": "#643424",
+      "darkMuted": "#513533",
+      "lightVibrant": "#f6bca4",
+      "lightMuted": "#ccafb1"
+    },
+    "status": "complete"
+  },
+  "id": "17021d1e-dfd5-4a54-b4c2-2d0bc37d0339",
+  "resource": "389aaddb-26db-464e-b83d-f2495a50b100",
+  "fileSize": 273949,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=389aaddb-26db-464e-b83d-f2495a50b100&a=17021d1e-dfd5-4a54-b4c2-2d0bc37d0339",
+      "source": "/authoring/v1/resources/389aaddb-26db-464e-b83d-f2495a50b100"
+    }
+  },
+  "metadata": {
+    "width": 866,
+    "height": 396
+  },
+  "classification": "asset",
+  "created": "2017-11-20T18:15:10.298Z"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "063187b0-797f-4c65-84be-1de65a216012",
+  "rev": "18-55c89a451969809c8d8c07e6fea93bbf",
+  "name": "E-Shopper footer",
+  "classification": "content-type",
+  "path": "/E-/E-Shopper-footer",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1"
+  },
+  "contentThumbnail": {
+    "imageElement": "background",
+    "source": "imageElementOrType"
+  },
+  "description": "Customize elements of the footer that shows up on website pages.",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-15T17:32:19.598Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-16T20:42:42.868Z",
+  "status": "ready",
+  "tags": [
+    "IBM sites kicker",
+    "e-shopper"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Copyright",
+      "key": "copyright"
+    },
+    {
+      "elementType": "text",
+      "label": "Address",
+      "key": "address",
+      "displayType": "singleLine"
+    },
+    {
+      "elementType": "text",
+      "label": "Site title",
+      "key": "siteTitle",
+      "required": true,
+      "minLength": 1
+    },
+    {
+      "elementType": "text",
+      "label": "Site description",
+      "key": "siteDescription"
+    },
+    {
+      "elementType": "reference",
+      "label": "Service links",
+      "key": "serviceLinks",
+      "restrictTypes": [
+        {
+          "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb"
+        }
+      ]
+    },
+    {
+      "elementType": "reference",
+      "label": "Quick links",
+      "key": "quickLinks",
+      "restrictTypes": [
+        {
+          "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb"
+        }
+      ]
+    },
+    {
+      "elementType": "reference",
+      "label": "Policy links",
+      "key": "policyLinks",
+      "restrictTypes": [
+        {
+          "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb"
+        }
+      ]
+    },
+    {
+      "elementType": "reference",
+      "label": "About links",
+      "key": "aboutLinks",
+      "restrictTypes": [
+        {
+          "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb"
+        }
+      ]
+    },
+    {
+      "elementType": "image",
+      "label": "Background",
+      "key": "background",
+      "required": true
+    },
+    {
+      "elementType": "reference",
+      "label": "Video links",
+      "key": "videoLinks",
+      "restrictTypes": [
+        {
+          "id": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c"
+        }
+      ]
+    }
+  ]
+}

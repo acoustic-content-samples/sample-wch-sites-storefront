@@ -1,0 +1,16 @@
+{
+  "name": "Refund Policy",
+  "segment": "refund-policy",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "classification": "page",
+  "contentId": "873d971d-01a6-4c1e-b64b-f9287023bcce",
+  "status": "draft",
+  "linkedDocId": "c68242f4-76f1-475e-b3a3-60fc872a0e4b",
+  "position": -1,
+  "id": "26385b0630b125dfaa5163530c258eee",
+  "rev": "1-40f3a8c283287cd732c615074a0181d9",
+  "parentId": "a3bdbc16-157a-4045-9938-6f9f67aa576e"
+}

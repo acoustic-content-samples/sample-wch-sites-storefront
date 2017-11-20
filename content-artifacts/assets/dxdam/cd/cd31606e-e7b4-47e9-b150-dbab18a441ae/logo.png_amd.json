@@ -1,0 +1,94 @@
+{
+  "mediaType": "image/png",
+  "name": "logo.png",
+  "path": "/dxdam/cd/cd31606e-e7b4-47e9-b150-dbab18a441ae/logo.png",
+  "digest": "FYm2BQMVhLI4+Ew//Y2bPQ==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-15T18:22:58.680Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:black color",
+      "classification:motel",
+      "classification:barrier",
+      "classification:sign",
+      "classification:minaret (tower)",
+      "classification:picket fence",
+      "classification:tower",
+      "classification:steeple",
+      "classification:hotel",
+      "classification:yellow color",
+      "classification:fence",
+      "classification:building",
+      "user:e-shopper"
+    ],
+    "declined": [],
+    "suggested": [
+      "classification:motel",
+      "classification:hotel",
+      "classification:building",
+      "classification:picket fence",
+      "classification:fence",
+      "classification:barrier",
+      "classification:steeple",
+      "classification:tower",
+      "classification:minaret (tower)",
+      "classification:sign",
+      "classification:black color",
+      "classification:yellow color"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "logo.png",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "4-0b5d939564db31fb10e20a9315c9330b",
+  "cognitive": {
+    "classifications": [
+      "motel",
+      "hotel",
+      "building",
+      "picket fence",
+      "fence",
+      "barrier",
+      "steeple",
+      "tower",
+      "minaret (tower)",
+      "sign",
+      "black color",
+      "yellow color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#f29416",
+      "muted": "#9c917f",
+      "darkVibrant": "#9d5f12",
+      "darkMuted": "#443c3c",
+      "lightVibrant": "#f4cd85",
+      "lightMuted": "#b4b4ab"
+    },
+    "status": "complete"
+  },
+  "id": "cd31606e-e7b4-47e9-b150-dbab18a441ae",
+  "resource": "e7708b2c-9194-48ed-aea0-b5eac92f8609",
+  "fileSize": 2899,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=e7708b2c-9194-48ed-aea0-b5eac92f8609&a=cd31606e-e7b4-47e9-b150-dbab18a441ae",
+      "source": "/authoring/v1/resources/e7708b2c-9194-48ed-aea0-b5eac92f8609"
+    }
+  },
+  "metadata": {
+    "width": 139,
+    "height": 39
+  },
+  "classification": "asset",
+  "created": "2017-11-15T18:22:11.269Z"
+}

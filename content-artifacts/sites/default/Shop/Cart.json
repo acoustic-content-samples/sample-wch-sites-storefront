@@ -1,0 +1,17 @@
+{
+  "name": "Cart",
+  "segment": "cart",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "classification": "page",
+  "contentId": "0869e219-9c30-460b-85e4-a418bcca9c1d",
+  "status": "draft",
+  "linkedDocId": "2ee36641-f02b-4676-94e7-a783209838f8",
+  "contentStatus": "ready",
+  "position": -1,
+  "id": "53f38bb7477bb61dda4614d07822fa52",
+  "rev": "2-7fdf9cc3f9fe2de698de3d5ff4d83616",
+  "parentId": "a3bdbc16-157a-4045-9938-6f9f67aa576e"
+}

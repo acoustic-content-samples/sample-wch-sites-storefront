@@ -1,0 +1,64 @@
+{
+  "id": "9f0388fa-9466-4a63-90e3-21035874e3fc",
+  "rev": "10-aad7c3b49b0c521e83ee8fca021e0cd3",
+  "name": "Girls Pink T Shirt arrived in store",
+  "description": "",
+  "classification": "content",
+  "typeId": "8f3b9172-8227-46b3-be14-f10c196c9134",
+  "locale": "en",
+  "lastModified": "2017-11-20T18:14:14.532Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-20T18:10:16.250Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "author": {
+      "elementType": "text",
+      "value": "Jane Doe"
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=8002797c-7fb5-406b-a93c-a28598fbf752&a=3fc6942a-1a41-403e-8135-884bb3e27a56",
+          "source": "/authoring/v1/resources/8002797c-7fb5-406b-a93c-a28598fbf752",
+          "width": 862,
+          "height": 398
+        }
+      },
+      "asset": {
+        "id": "3fc6942a-1a41-403e-8135-884bb3e27a56",
+        "resourceUri": "/authoring/v1/resources/8002797c-7fb5-406b-a93c-a28598fbf752",
+        "fileName": "blog-one.jpg",
+        "fileSize": 166708,
+        "mediaType": "image/jpeg",
+        "width": 862,
+        "height": 398
+      }
+    },
+    "text": {
+      "elementType": "formattedtext",
+      "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris vitae ultricies leo integer malesuada. Ultrices gravida dictum fusce ut placerat orci nulla. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Nec tincidunt praesent semper feugiat nibh sed. Massa vitae tortor condimentum lacinia quis. Diam volutpat commodo sed egestas egestas. Imperdiet dui accumsan sit amet nulla facilisi morbi.</p>\n\n<p>Eu turpis egestas pretium aenean pharetra magna ac placerat. A scelerisque purus semper eget duis at. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Est sit amet facilisis magna etiam tempor. Eget duis at tellus at urna condimentum mattis. Augue lacus viverra vitae congue. Habitasse platea dictumst quisque sagittis purus. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Elit duis tristique sollicitudin nibh sit amet commodo. Eget nunc scelerisque viverra mauris. Commodo viverra maecenas accumsan lacus. Mi eget mauris pharetra et ultrices neque.</p>\n\n<p>Ac turpis egestas sed tempus urna et pharetra pharetra. Ipsum dolor sit amet consectetur adipiscing. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Velit aliquet sagittis id consectetur. Id semper risus in hendrerit gravida rutrum quisque non tellus. Vel facilisis volutpat est velit egestas dui. Eu facilisis sed odio morbi quis commodo odio aenean. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Magna ac placerat vestibulum lectus mauris ultrices eros in cursus. Eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Tristique senectus et netus et malesuada fames ac turpis. Odio euismod lacinia at quis. Gravida cum sociis natoque penatibus et magnis dis parturient. Nisi porta lorem mollis aliquam ut porttitor leo. Nam at lectus urna duis convallis.</p>\n"
+    },
+    "rating": {
+      "elementType": "number",
+      "value": 4
+    },
+    "title": {
+      "elementType": "text",
+      "value": "Girls Pink T Shirt arrived in store"
+    },
+    "dateAndTime": {
+      "elementType": "datetime",
+      "value": "2017-11-09T23:15:00Z"
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "3fc6942a-1a41-403e-8135-884bb3e27a56"
+  }
+}

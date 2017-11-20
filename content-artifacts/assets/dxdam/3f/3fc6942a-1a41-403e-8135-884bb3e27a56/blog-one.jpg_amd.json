@@ -1,0 +1,88 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "blog-one.jpg",
+  "path": "/dxdam/3f/3fc6942a-1a41-403e-8135-884bb3e27a56/blog-one.jpg",
+  "digest": "wf7dB5mqnb57zKrQ6hIsNw==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-20T18:14:57.910Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:ultramarine color",
+      "classification:woman",
+      "classification:female",
+      "classification:young girl",
+      "classification:loungewear",
+      "classification:girl",
+      "classification:person",
+      "face:18-24",
+      "user:e-shopper"
+    ],
+    "declined": [],
+    "suggested": [
+      "classification:person",
+      "classification:young girl",
+      "classification:girl",
+      "classification:woman",
+      "classification:female",
+      "classification:loungewear",
+      "classification:ultramarine color",
+      "face:18-24"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "blog-one.jpg",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "4-962e90b5b1a83f7e9ec3d5fa6309f90f",
+  "cognitive": {
+    "classifications": [
+      "person",
+      "young girl",
+      "girl",
+      "woman",
+      "female",
+      "loungewear",
+      "ultramarine color"
+    ],
+    "faces": [
+      {
+        "age": {
+          "minimum": 18,
+          "maximum": 24
+        }
+      }
+    ],
+    "colors": {
+      "vibrant": "#1378b8",
+      "muted": "#92654e",
+      "darkVibrant": "#084d80",
+      "darkMuted": "#6a4730",
+      "lightVibrant": "#e8c98f",
+      "lightMuted": "#c38f7a"
+    },
+    "status": "complete"
+  },
+  "id": "3fc6942a-1a41-403e-8135-884bb3e27a56",
+  "resource": "8002797c-7fb5-406b-a93c-a28598fbf752",
+  "fileSize": 166708,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=8002797c-7fb5-406b-a93c-a28598fbf752&a=3fc6942a-1a41-403e-8135-884bb3e27a56:draft",
+      "source": "/authoring/v1/resources/8002797c-7fb5-406b-a93c-a28598fbf752"
+    }
+  },
+  "metadata": {
+    "width": 862,
+    "height": 398
+  },
+  "classification": "asset",
+  "created": "2017-11-20T18:13:32.524Z"
+}

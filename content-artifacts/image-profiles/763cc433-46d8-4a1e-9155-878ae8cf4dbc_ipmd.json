@@ -1,0 +1,27 @@
+{
+  "id": "763cc433-46d8-4a1e-9155-878ae8cf4dbc",
+  "rev": "3-55cf25792b5b116b16407200bc00df72",
+  "name": "Profile for banner content",
+  "classification": "image-profile",
+  "description": "Used for images in the footer content types.",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-15T17:32:01.462Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-15T17:32:01.462Z",
+  "dimensions": [
+    {
+      "label": "Banner",
+      "key": "banner",
+      "width": 2000,
+      "height": 800,
+      "description": "Ensures authors do not use images that are too small for the desktop context."
+    },
+    {
+      "label": "Short",
+      "key": "short",
+      "width": 1200,
+      "height": 300,
+      "description": "Used for smaller areas."
+    }
+  ]
+}

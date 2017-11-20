@@ -1,0 +1,67 @@
+{
+  "mediaType": "image/png",
+  "name": "dynamic_list_icon_220.png",
+  "path": "/dxdam/da/da3d0b43-51ce-4118-aeed-05764bd0fbaf/dynamic_list_icon_220.png",
+  "digest": "vyKTpoZciDPJSOnISdAZ1w==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-15T17:32:20.696Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:black color",
+      "user:oslo",
+      "user:IBM sample",
+      "classification:blue color",
+      "classification:coal black color"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:black color",
+      "classification:coal black color",
+      "classification:blue color"
+    ]
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "dynamic_list_icon_220.png",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "5-e7c239c6ddb2a36dfa2ba76d58af38ce",
+  "cognitive": {
+    "classifications": [
+      "black color",
+      "coal black color",
+      "blue color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#225098",
+      "muted": "#7c8ca2",
+      "darkVibrant": "#1c447c",
+      "darkMuted": "#343c45",
+      "lightMuted": "#94a4c4"
+    },
+    "status": "complete"
+  },
+  "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf",
+  "resource": "b05c661d5e891602477ea9714733573f",
+  "fileSize": 1861,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=b05c661d5e891602477ea9714733573f&a=da3d0b43-51ce-4118-aeed-05764bd0fbaf",
+      "source": "/authoring/v1/resources/b05c661d5e891602477ea9714733573f"
+    }
+  },
+  "metadata": {
+    "width": 220,
+    "height": 145
+  },
+  "classification": "asset",
+  "created": "2017-11-15T17:32:17.175Z"
+}

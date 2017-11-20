@@ -1,0 +1,36 @@
+{
+  "id": "2987b03f-5ea2-4c90-9f4f-3fa6009e4fa2",
+  "rev": "4-07713973a422a7a453eb1b87e442669f",
+  "name": "Company Information",
+  "description": "",
+  "classification": "content",
+  "typeId": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
+  "locale": "en",
+  "lastModified": "2017-11-16T19:45:48.338Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-15T18:50:18.847Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "Company Information"
+    },
+    "blurb": {
+      "elementType": "formattedtext",
+      "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non fermentum magna. Quisque eget accumsan turpis, at sodales sem. Sed pulvinar sit amet nulla bibendum ultrices. Praesent a lacinia orci. Proin a mauris metus. Ut ut suscipit metus, eget congue leo. Suspendisse elementum lectus at mi tempor auctor. Duis scelerisque, nisi eu tincidunt egestas, sem elit consectetur felis, in laoreet ipsum odio sed nulla. Nulla at eros justo. Donec laoreet sapien id suscipit pharetra.</p>\n\n<p>Proin blandit est sapien, eu semper ipsum mollis ut. Quisque lobortis efficitur arcu non dapibus. Maecenas tempor odio eu efficitur condimentum. Aliquam ornare non tellus sed interdum. Nullam consectetur hendrerit felis in faucibus. Nulla interdum vulputate placerat. Phasellus pulvinar consectetur justo id porttitor. Nam at tempus sapien. Cras at eros eu dui commodo aliquam nec a nulla.</p>\n\n<p>porta vel nulla eu vehicula. Suspendisse turpis enim, placerat id luctus eget, facilisis a felis. Sed vestibulum nulla felis, nec dapibus nulla consectetur id. In hac habitasse platea dictumst. Phasellus ac pellentesque magna, vitae rutrum ante. Sed elementum fringilla sapien eget commodo. Sed vitae laoreet sem, vitae elementum enim.</p>\n\n<p>mattis dictum fringilla. Suspendisse ac aliquet dui. Ut pellentesque id urna et consectetur. Nulla pretium, massa at aliquam ornare, elit ante egestas dui, in suscipit lectus lectus ut risus. Nullam ligula orci, dapibus at lacus id, vulputate congue massa. Sed nec gravida augue, a consectetur lorem. Mauris id dictum ante. Vestibulum ornare porta erat ut tempor. Praesent et consectetur enim, ut pretium arcu. Praesent imperdiet ac libero eu feugiat. Sed blandit at ipsum sed aliquet. Ut in dui sem. Integer ut metus sed tortor maximus faucibus sed et elit. Nulla vitae suscipit orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "e-shopper-blurb-layout"
+      }
+    }
+  ],
+  "kind": []
+}

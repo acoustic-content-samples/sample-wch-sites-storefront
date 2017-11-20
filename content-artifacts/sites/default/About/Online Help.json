@@ -1,0 +1,17 @@
+{
+  "name": "Online Help",
+  "segment": "online-help",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "classification": "page",
+  "contentId": "c65d082e-fc2d-4e5a-9b77-afba5abf4dd0",
+  "status": "draft",
+  "linkedDocId": "1bc4b5cc-bb56-44ff-80f0-7113a8f8ae98",
+  "contentStatus": "ready",
+  "position": -1,
+  "id": "53f38bb7477bb61dda4614d07822fdf7",
+  "rev": "2-6c097b98dcd6fae621077480f05c6584",
+  "parentId": "94200172-7d2f-4882-b8d6-0b1cca4049f3"
+}

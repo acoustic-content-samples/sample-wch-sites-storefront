@@ -1,0 +1,12 @@
+{
+  "id": "gallery-dynamic-list",
+  "rev": "3-e6ae589080bf041fa4fff496aa05c2e0",
+  "name": "Gallery",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/list-gallery_220.svg"
+  },
+  "template": "gallery-dynamic-list",
+  "templateType": "angular"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Contact",
+  "segment": "contact",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "classification": "page",
+  "contentId": "97307d06-473c-4b0f-8b89-ea3c6358da01",
+  "status": "draft",
+  "linkedDocId": "cea1f35e-5ebd-4b56-bec7-8b8dc552d674",
+  "position": -1,
+  "id": "e442a84f0bee096749da902685293b0f",
+  "rev": "1-4ab88c84096e23af815c5629cd449991"
+}

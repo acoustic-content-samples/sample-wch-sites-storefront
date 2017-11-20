@@ -1,0 +1,16 @@
+{
+  "name": "FAQs",
+  "segment": "faqs",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "classification": "page",
+  "contentId": "ed5feb06-1e01-4800-9a5f-867080270ee6",
+  "status": "draft",
+  "linkedDocId": "9e911d23-a492-4ca7-8a99-701bf20deeca",
+  "position": -1,
+  "id": "3657c4956f61dc5de55f6ec3632b0e1e",
+  "rev": "1-302228c16da05fdabd121ffd56c5fe6d",
+  "parentId": "94200172-7d2f-4882-b8d6-0b1cca4049f3"
+}

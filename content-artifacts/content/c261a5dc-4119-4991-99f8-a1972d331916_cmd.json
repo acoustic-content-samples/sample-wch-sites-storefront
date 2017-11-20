@@ -1,0 +1,57 @@
+{
+  "id": "c261a5dc-4119-4991-99f8-a1972d331916",
+  "rev": "7-139bf379a97d212ab1ba16996e29ebf2",
+  "name": "eshopperVideo2",
+  "description": "",
+  "classification": "content",
+  "typeId": "76afdb21-c226-44f9-b110-ee011cf66ecb",
+  "locale": "en",
+  "lastModified": "2017-11-16T20:38:29.378Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-16T20:37:35.938Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "Circle of Hands"
+    },
+    "date": {
+      "elementType": "datetime",
+      "value": "2017-10-23T04:00:00Z"
+    },
+    "thumbnail": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=60d35006-03cb-48a7-b0c2-5ced91ebc9a4&a=b865b09c-c107-411b-bc24-cedcf7d6445d",
+          "source": "/authoring/v1/resources/60d35006-03cb-48a7-b0c2-5ced91ebc9a4",
+          "width": 121,
+          "height": 57
+        }
+      },
+      "asset": {
+        "id": "b865b09c-c107-411b-bc24-cedcf7d6445d",
+        "resourceUri": "/authoring/v1/resources/60d35006-03cb-48a7-b0c2-5ced91ebc9a4",
+        "fileName": "iframe2.png",
+        "fileSize": 9870,
+        "mediaType": "image/png",
+        "width": 121,
+        "height": 57
+      }
+    },
+    "link": {
+      "elementType": "link",
+      "linkText": "Circle of Hands",
+      "linkURL": "https://www.youtube.com/"
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "b865b09c-c107-411b-bc24-cedcf7d6445d"
+  }
+}

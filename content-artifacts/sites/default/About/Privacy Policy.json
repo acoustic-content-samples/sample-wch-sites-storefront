@@ -1,0 +1,17 @@
+{
+  "name": "Privacy Policy",
+  "segment": "privacy-policy",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "classification": "page",
+  "contentId": "39faea29-c950-4e41-95ca-ba0a7629f17a",
+  "status": "draft",
+  "linkedDocId": "fb20ec39-44bb-40c2-b057-43a88154ac6c",
+  "contentStatus": "ready",
+  "position": -1,
+  "id": "2b8bae42845e3cbf848768c65433c51c",
+  "rev": "2-a5f9a790275bce54a33300fb50c49c5a",
+  "parentId": "94200172-7d2f-4882-b8d6-0b1cca4049f3"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "8f3b9172-8227-46b3-be14-f10c196c9134",
+  "rev": "7-bc2e4fe0e299667ccf045ee98425b32f",
+  "name": "E-Shopper blog post",
+  "classification": "content-type",
+  "path": "/E-/E-Shopper-blog-post",
+  "kind": [
+    "standalone"
+  ],
+  "contentThumbnail": {
+    "imageElement": "image",
+    "source": "imageElementOrType"
+  },
+  "description": "",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-20T18:04:07.057Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-20T18:06:57.626Z",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Title",
+      "key": "title",
+      "required": true,
+      "minLength": 1
+    },
+    {
+      "elementType": "text",
+      "label": "Author",
+      "key": "author"
+    },
+    {
+      "elementType": "datetime",
+      "label": "Date and time",
+      "key": "dateAndTime"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Rating",
+      "key": "rating",
+      "minimum": 0,
+      "maximum": 5
+    },
+    {
+      "elementType": "image",
+      "label": "Image",
+      "key": "image",
+      "required": true
+    },
+    {
+      "elementType": "formattedtext",
+      "label": "Text",
+      "key": "text",
+      "required": true
+    }
+  ]
+}

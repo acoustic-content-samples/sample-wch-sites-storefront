@@ -1,0 +1,82 @@
+{
+  "id": "70894f76-3180-4591-a116-588692f01127",
+  "rev": "6-621160c1e36aefded3da80f6deac9277",
+  "name": "eshopperHeaderConfig",
+  "description": "",
+  "classification": "content",
+  "typeId": "82b99ac2-79d7-4519-b1f6-f24452e8f0f4",
+  "locale": "en",
+  "lastModified": "2017-11-16T19:44:03.019Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-15T18:25:22.048Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "phoneNumber": {
+      "elementType": "text",
+      "value": "+2 95 01 88 821"
+    },
+    "instagramLink": {
+      "elementType": "link",
+      "linkURL": "https://www.instagram.com/"
+    },
+    "topLinks": {
+      "elementType": "reference",
+      "value": {
+        "id": "a2098323-07eb-4c8b-98ed-e07e24ce2294"
+      }
+    },
+    "emailAddress": {
+      "elementType": "text",
+      "value": "info@domain.com"
+    },
+    "websiteLogo": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=e7708b2c-9194-48ed-aea0-b5eac92f8609&a=cd31606e-e7b4-47e9-b150-dbab18a441ae",
+          "source": "/authoring/v1/resources/e7708b2c-9194-48ed-aea0-b5eac92f8609",
+          "width": 139,
+          "height": 39
+        }
+      },
+      "asset": {
+        "id": "cd31606e-e7b4-47e9-b150-dbab18a441ae",
+        "resourceUri": "/authoring/v1/resources/e7708b2c-9194-48ed-aea0-b5eac92f8609",
+        "fileName": "logo.png",
+        "fileSize": 2899,
+        "mediaType": "image/png",
+        "width": 139,
+        "height": 39
+      }
+    },
+    "dribbbleLink": {
+      "elementType": "link",
+      "linkURL": "https://dribbble.com/"
+    },
+    "googlePlusLink": {
+      "elementType": "link",
+      "linkURL": "https://plus.google.com/"
+    },
+    "twitterLink": {
+      "elementType": "link",
+      "linkURL": "https://twitter.com/"
+    },
+    "facebookLink": {
+      "elementType": "link",
+      "linkURL": "https://www.facebook.com/"
+    },
+    "linkedinLink": {
+      "elementType": "link",
+      "linkURL": "https://www.linkedin.com/"
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "cd31606e-e7b4-47e9-b150-dbab18a441ae"
+  }
+}
