@@ -1,0 +1,12 @@
+{
+  "classification": "layout",
+  "id": "e-shopper-blurb-layout",
+  "name": "eShopperBlurbLayout",
+  "prerender": false,
+  "rev": "b8JjSzMedj/jGo1lEE0YxppcpyKJPWTGfhdUVeE8U2Q=",
+  "template": "e-shopper-blurb-layout",
+  "templateType": "angular",
+  "thumbnail": {
+    "path": "/layouts/thumbnails/e-shopper-blurb-layout.jpg"
+  }
+}

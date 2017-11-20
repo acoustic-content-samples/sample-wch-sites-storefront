@@ -4,6 +4,7 @@
 export { CarouselDynamicListLayoutComponent } from './layouts/carousel-dynamic-list/carouselDynamicListLayout';
 export { CarouselListLayoutComponent } from './layouts/carousel-list/carouselListLayout';
 export { ErrorPageLayoutComponent } from './layouts/error-page/errorPageLayout';
+export { EShopperBlurbLayoutComponent } from './layouts/e-shopper-blurb/eShopperBlurbLayout';
 export { GalleryDynamicListLayoutComponent } from './layouts/gallery-dynamic-list/galleryDynamicListLayout';
 export { GalleryListLayoutComponent } from './layouts/gallery-list/galleryListLayout';
 export { PageNotFoundComponent } from './page-not-found/page-not-found.component';

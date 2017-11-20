@@ -1,63 +1,96 @@
-<footer>
-	<div class="wch-footer">
-		<div class="grid-container">
-			<div class="grid-x grid-padding-x">
-				<div class="medium-3 cell footer-logo">
-					<a href="#"><img *ngIf="isImageURLAvailable(LOGO_KEY)" [src]="getURL(LOGO_KEY)" /></a>
-				</div>
-				<div class="medium-3 cell footer-nav">
-					<h5>Menu</h5>
-					<ul>
-						<li *ngFor="let page of rc?.context?.site.pages">
-							<a href="javascript:void(0);" [routerLink]="page.route" title="{{page.name}}">{{page.name}}</a>
-						</li>
-					</ul>
-				</div>
-				<div class="medium-3 cell follow-us">
-					<h5>Follow us</h5>
-					<ul>
-						<li>
-							<a href="https://www.facebook.com">
-								<svg class="icon">
-									<use [attr.xlink:href]="icon.facebook"/>
-								</svg>
-								<span class="show-for-medium">Facebook</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://twitter.com">
-								<svg class="icon">
-									<use [attr.xlink:href]="icon.twitter"/>
-								</svg>
-								<span class="show-for-medium">Twitter</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com">
-								<svg class="icon">
-									<use [attr.xlink:href]="icon.instagram"/>
-								</svg>
-								<span class="show-for-medium">Instagram</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="medium-3 cell contact-us">
-					<h5>Contact us</h5>
-					<ul>
-						<li><span>{{getElementValue(SALES_LABEL_KEY)}}</span> <a href="tel:{{salesTel}}">
-							{{getElementValue(SALES_NUMBER_KEY)}} </a></li>
-						<li><span>{{getElementValue(CUSTOMER_SERVICE_LABEL_KEY)}}</span> <a href="tel:{{serviceTel}}">
-							{{getElementValue(CUSTOMER_SERVICE_NUMBER_KEY)}}</a></li>
-						<li><span>email</span> <a href="mailto:{{getElementValue(EMAIL_KEY)}}">
-							{{getElementValue(EMAIL_KEY)}}</a></li>
-					</ul>
-				</div>
+<footer id="footer"><!--Footer-->
 
-			</div>
-			<div class="grid-x legal">
-				<div class="copyright">&copy; <span>{{currentYear}}</span> {{getElementValue(COPYRIGHT_KEY)}}</div>
+	<div class="footer-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<div class="companyinfo">
+						<h2>{{getElement(SITE_TITLE).value}}</h2>
+						<p *ngIf="isElementAvailable(SITE_DESCRIPTION)">{{getElement(SITE_DESCRIPTION).value}}</p>
+					</div>
+				</div>
+				<div class="col-sm-7">
+					<div class="col-sm-3">
+						<div class="video-gallery text-center">
+							<a href="#">
+								<div class="iframe-img">
+									<img src="images/home/iframe1.png" alt=""><!-- TODO LOOP iframe2.png, iframe3.png, iframe3.png -->
+								</div>
+								<div class="overlay-icon">
+									<i class="fa fa-play-circle-o"></i>
+								</div>
+							</a>
+							<p>Circle of Hands</p>
+							<h2>24 DEC 2014</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="address">
+						<img src="images/home/map.png" alt="">
+						<p *ngIf="isElementAvailable(ADDRESS)">{{getElement(ADDRESS).value}}</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+		
+	<div class="footer-widget">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<div class="single-widget">
+						<h2>Service</h2>
+						<ul class="nav nav-pills nav-stacked">
+							<li><a href="#">Online Help</a></li><!-- TODO loop-->
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="single-widget">
+						<h2>Quick Shop</h2>
+						<ul class="nav nav-pills nav-stacked">
+							<li><a href="#">T-Shirt</a></li><!-- TODO loop-->
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="single-widget">
+						<h2>Policies</h2>
+						<ul class="nav nav-pills nav-stacked">
+							<li><a href="#">Terms of Use</a></li><!-- TODO loop-->
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="single-widget">
+						<h2>About Shopper</h2>
+						<ul class="nav nav-pills nav-stacked">
+							<li><a href="#">Company Information</a></li> <!-- TODO loop-->
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3 col-sm-offset-1">
+					<div class="single-widget">
+						<h2>Newsletter</h2>
+						<form action="#" class="searchform">
+							<input type="text" placeholder="Your email address">
+							<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+							<p>Get the most recent updates from <br>our site and be updated your self...</p>
+						</form>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+		
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<p class="pull-left">Copyright &copy; {{currentYear}} {{getElement(COPYRIGHT).value}} All rights reserved.</p>
+				<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+			</div>
+		</div>
+	</div>
+		
 </footer>

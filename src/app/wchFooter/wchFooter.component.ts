@@ -19,38 +19,27 @@ import {RenderingContext} from "ibm-wch-sdk-ng";
 import {ConfigServiceService} from "../common/configService/config-service.service";
 import {Constants} from "../Constants";
 import {Subscription} from "rxjs/Subscription";
-const facebook = require('./images/icon-facebook-logo.svg');
-const twitter = require('./images/icon-twitter-logo-white.svg');
-const instagram = require('./images/icon-instagram-logo.svg');
 
 @Component({
 	selector: 'wch-footer',
-	styleUrls: ['./wch-footer.scss'],
 	templateUrl: './wch-footer.html',
 })
 
+export class WchFooterComponent implements OnDestroy {
 
-export class WchFooterComponent implements OnInit, OnDestroy {
-
-	pages: any[] = [];
-	icon: any = {
-		facebook: `#${facebook.default.id}`,
-		twitter: `#${twitter.default.id}`,
-		instagram: `#${instagram.default.id}`
-	};
-
+	rc: RenderingContext;
+	footerConfig: any;
 	configSub: Subscription;
-
-	public readonly LOGO_KEY: string = 'Logo';
-	public readonly COPYRIGHT_KEY: string = 'copyright';
-	public readonly EMAIL_KEY: string = 'emailAddress';
-	public readonly SALES_LABEL_KEY: string = 'labelForSales';
-	public readonly SALES_NUMBER_KEY: string = 'salesNumber';
-	public readonly CUSTOMER_SERVICE_LABEL_KEY: string = 'labelForCustomerService';
-	public readonly CUSTOMER_SERVICE_NUMBER_KEY: string = 'customerServiceContactNumber';
-
-
-	//copyright date
+	public readonly COPYRIGHT: string = 'copyright';
+	public readonly ADDRESS: string = 'address';
+	public readonly SITE_TITLE: string = 'siteTitle';
+	public readonly SITE_DESCRIPTION: string = 'siteDescription';
+	public readonly BG_IMAGE: string = 'background';
+	public readonly VIDEO_LINKS: string = 'videoLinks';
+	public readonly SERVICE_LINKS: string = 'serviceLinks';
+	public readonly QUICK_LINKS: string = 'quickLinks';
+	public readonly POLICY_LINKS: string = 'policyLinks';
+	public readonly ABOUT_LINKS: string = 'aboutLinks';
 	currentYear: number = new Date().getFullYear();
 
 	@Input()
@@ -58,49 +47,33 @@ export class WchFooterComponent implements OnInit, OnDestroy {
 		this.rc = aValue;
 	}
 
-	rc: RenderingContext;
-	footerConfig: any;
-	salesTel: string;
-	serviceTel: string;
-
 	constructor(configService: ConfigServiceService) {
 		this.configSub = configService.getConfig(Constants.FOOTER_CONFIG).subscribe((context) => {
 			this.footerConfig = context;
-			this.salesTel = this.convertToTelURL(this.SALES_NUMBER_KEY);
-			this.serviceTel = this.convertToTelURL(this.CUSTOMER_SERVICE_NUMBER_KEY);
+
+
+
+console.warn('footerConfig %o',this.footerConfig); // TODO REMOVE
+
+
+
+
 		});
-	}
-
-	isImageURLAvailable(elem): boolean {
-		return (this.rc && this.footerConfig && this.footerConfig.elements && this.footerConfig.elements[elem]);
-	}
-
-	ngOnInit() {
-		//this.pages = (this.renderingContext.context['site']) ? this.renderingContext.context['site'].children : [];
-
 	}
 
 	ngOnDestroy(){
 		this.configSub.unsubscribe();
 	}
 
-	getURL(img) {
-		//TODO add fallback logic for rendition
+	isElementAvailable(elem): boolean {
+		return (this.rc && this.footerConfig && this.footerConfig.elements && this.footerConfig.elements[elem]);
+	}
+
+	getElement(elem) {
+		return this.footerConfig.elements[elem];
+	}
+
+	getImgURL(img) {
 		return this.rc.context.hub.deliveryUrl['origin'] + this.footerConfig.elements[img].renditions.default.url;
-	}
-
-	getElementValue(elem): string {
-
-		if(this.footerConfig && this.footerConfig.elements[elem]){
-			return this.footerConfig.elements[elem].value;
-		}
-		return '';
-	}
-
-	convertToTelURL(field): string {
-		if (this.footerConfig && this.footerConfig.elements && this.footerConfig.elements[field]) {
-			return `+${this.footerConfig.elements[field].value.replace(/\D/g, '')}`;
-		}
-		return '';
 	}
 }

@@ -1,21 +1,19 @@
 {
   "id": "standard-page-layout-mapping",
-  "rev": "temp",
+  "rev": "3-d35b2460491cdc9a90b018dfc6027041",
   "name": "standardPageLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "name": "Standard page"
+    "id": "2af1d22a-fecf-41e1-a808-7301cb37b79f"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "standard-page-layout",
-        "name": "standardPageLayout"
+        "id": "standard-page-layout"
       },
       "layouts": [
         {
-          "id": "standard-page-layout",
-          "name": "standardPageLayout"
+          "id": "standard-page-layout"
         }
       ]
     }

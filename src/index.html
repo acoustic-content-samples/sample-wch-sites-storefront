@@ -4,7 +4,6 @@
 
 	<script type='text/javascript'>
 		let possibleTenant = document.location.pathname.split('/')[1];
-		console.warn('index.html: possible tenant is %o and base url is %o', possibleTenant, possibleTenant.search(/\w{8}\-\w{4}\-\w{4}\-\w{4}\-\w{12}/) === 0 ? '/' + possibleTenant + '/' : '/');
 		let baseUrl = possibleTenant.search(/\w{8}\-\w{4}\-\w{4}\-\w{4}\-\w{12}/) === 0 ? '/' + possibleTenant + '/' : '/';
 		document.write('<base href="' + baseUrl + '">');
 	</script>
@@ -21,6 +20,9 @@
     <link href="assets/css/animate.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+San" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 	<!-- uncomment to use the Hero Video component: --><!--link href="//vjs.zencdn.net/6.2.8/video-js.css" rel="stylesheet"-->
 
 </head>

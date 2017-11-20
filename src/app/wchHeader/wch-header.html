@@ -1,39 +1,108 @@
-<header>
-	<nav id="header" #navMenu>
-		<div #dropdownToggle class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="large">
-			<button class="menu-icon" type="button" data-toggle="nav-menu"></button>
-			<div class="logo-container">
-				<a href="#">
-					<h1 *ngIf="isImageURLAvailable(LOGO)" class="logo" [style.background-image]="'url(' + getURL(LOGO) + ')'"></h1>
-				</a>
-			</div>
-		</div>
-		<div class="top-bar stacked-for-medium" id="nav-menu">
-			<div class="top-bar-left show-for-large">
-				<div class="logo-container">
-					<a href="#">
-						<h1 class="logo" *ngIf="isImageURLAvailable(LOGO)" [style.background-image]="'url(' + getURL(LOGO) + ')'">
-						</h1>
-					</a>
+<header id="header"><!--header-->
+	<div class="header_top"><!--header_top-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="contactinfo">
+						<ul class="nav nav-pills">
+							<li *ngIf="isElementAvailable(PHONE)"><a href="tel:#"><i class="fa fa-phone"></i> {{getElement(PHONE).value}}</a></li>
+							<li *ngIf="isElementAvailable(EMAIL)"><a href="mailto:#"><i class="fa fa-envelope"></i> {{getElement(EMAIL).value}}</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="social-icons pull-right">
+						<ul class="nav navbar-nav">
+							<li *ngIf="isElementAvailable(FACEBOOK)"><a href="{{getElement(FACEBOOK).linkURL}}"><i class="fa fa-facebook"></i></a></li>
+							<li *ngIf="isElementAvailable(TWITTER)"><a href="{{getElement(TWITTER).linkURL}}"><i class="fa fa-twitter"></i></a></li>
+							<li *ngIf="isElementAvailable(INSTAGRAM)"><a href="{{getElement(INSTAGRAM).linkURL}}"><i class="fa fa-instagram"></i></a></li>
+							<li *ngIf="isElementAvailable(LINKEDIN)"><a href="{{getElement(LINKEDIN).linkURL}}"><i class="fa fa-linkedin"></i></a></li>
+							<li *ngIf="isElementAvailable(DRIBBBLE)"><a href="{{getElement(DRIBBBLE).linkURL}}"><i class="fa fa-dribbble"></i></a></li>
+							<li *ngIf="isElementAvailable(GPLUS)"><a href="{{getElement(GPLUS).linkURL}}"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<div class="top-bar-right">
-				<ul id="nav-responsive-menu" #navLoop class="vertical medium-horizontal menu" data-responsive-menu="accordion large-dropdown">
-					<li class="top-level-nav-item" *ngFor="let page of rc?.context?.site.pages;let last='last'">
-						<a *ngIf="page" href [routerLink]="getRouteURL(page.route)" routerLinkActive="active">
-							<span (click)="menuItemSelected()" class="limit-page-name" title="{{page.name}}">{{page.name}}</span>
-						</a>
-						<ul class="vertical menu" *ngIf="page.children.length > 0">
-							<li *ngFor="let child of page.children">
-								<a (click)="menuItemSelected()" href [routerLink]="getRouteURL(child.route)" routerLinkActive="active">
-									<span class="limit-page-name" title="{{child.name}}">{{child.name}}</span>
-								</a>
-							</li>
+		</div>
+	</div><!--/header_top-->
+		
+	<div class="header-middle"><!--header-middle-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 clearfix">
+					<div class="logo pull-left">
+						<a *ngIf="isElementAvailable(LOGO)" href="index.html"><img src="{{getImgURL(LOGO)}}" alt=""></a>
+					</div>
+					<div class="btn-group pull-right clearfix">
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+								USA
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="">Canada</a></li>
+								<li><a href="">UK</a></li>
+							</ul>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+								DOLLAR
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="">Canadian Dollar</a></li>
+								<li><a href="">Pound</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 clearfix">
+					<div class="shop-menu clearfix pull-right">
+						<ul class="nav navbar-nav">
+							<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li> <!-- TODO LIST LOOP -->
 						</ul>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</div>
 		</div>
-
-	</nav>
+	</div><!--/header-middle-->
+	
+	<div class="header-bottom"><!--header-bottom-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="mainmenu pull-left">
+						<ul class="nav navbar-nav collapse navbar-collapse">
+							<li class="dropdown" *ngFor="let page of rc?.context?.site.pages;let last='last'">
+								<a *ngIf="page && page.children.length === 0" href [routerLink]="getRouteURL(page.route)" routerLinkActive="active">
+									{{page.name}}
+								</a>
+								<a *ngIf="page && page.children.length > 0" href>
+									{{page.name}}
+								</a>
+								<ul *ngIf="page && page.children.length > 0" role="menu" class="sub-menu">
+									<li *ngFor="let child of page.children">
+										<a href [routerLink]="getRouteURL(child.route)" routerLinkActive="active">{{child.name}}</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="search_box pull-right">
+						<input type="text" placeholder="Search">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--/header-bottom-->
 </header>

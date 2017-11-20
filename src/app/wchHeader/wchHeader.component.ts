@@ -17,13 +17,7 @@ import {
 	Component,
 	Input,
 	OnDestroy,
-	AfterViewInit,
-	AfterViewChecked,
-	ViewChildren,
-	ViewChild,
-	QueryList,
-	ElementRef,
-	ViewEncapsulation, OnChanges, SimpleChanges
+	ViewEncapsulation
 } from '@angular/core';
 
 import 'rxjs/add/operator/do';
@@ -34,52 +28,60 @@ import {LayoutComponent, RenderingContext, AbstractRenderingComponent} from "ibm
 import {ConfigServiceService} from "../common/configService/config-service.service";
 import {Constants} from "../Constants";
 import {Subscription} from "rxjs/Subscription";
-Foundation.addToJquery($);
 
 @Component({
 	selector: 'wch-header',
-	styleUrls: ['./wch-header.scss'],
 	templateUrl: './wch-header.html',
 	encapsulation: ViewEncapsulation.None
 })
-export class WchHeaderComponent implements AfterViewInit, OnDestroy, OnChanges {
+export class WchHeaderComponent implements OnDestroy {
+
+	rc: RenderingContext;
+	headerConfig: any;
+	configSub: Subscription;
+	public readonly LOGO: string = 'websiteLogo';
+	public readonly PHONE: string = 'phoneNumber';
+	public readonly EMAIL: string = 'emailAddress';
+	public readonly FACEBOOK: string = 'facebookLink';
+	public readonly TWITTER: string = 'twitterLink';
+	public readonly INSTAGRAM: string = 'instagramLink';
+	public readonly LINKEDIN: string = 'linkedinLink';
+	public readonly DRIBBBLE: string = 'dribbbleLink';
+	public readonly GPLUS: string = 'googlePlusLink';
+	public readonly LINKS: string = 'topLinks';
+
 	@Input()
 	public set renderingContext(aValue: RenderingContext) {
 		this.rc = aValue;
 	}
 
-	@ViewChildren('navLoop') navLoop: QueryList<any>;
-	@ViewChild('navMenu') navMenu: ElementRef;
-	@ViewChild('dropdownToggle') dropdownToggle: ElementRef;
-
-	rc: RenderingContext;
-	headerConfig: any;
-	public readonly LOGO: string = 'websiteLogo';
-	configSub: Subscription;
-	navSub: Subscription;
-	navigationChanged: boolean = false;
-
-
 	constructor(configService: ConfigServiceService) {
-
 		this.configSub = configService.getConfig(Constants.HEADER_CONFIG).subscribe((context) => {
 			this.headerConfig = context;
+
+
+
+console.warn('headerConfig %o',this.headerConfig); // TODO REMOVE
+
+
+
+
 		});
-
-	}
-
-	isImageURLAvailable(elem): boolean {
-		return (this.rc && this.headerConfig && this.headerConfig.elements && this.headerConfig.elements[elem]);
 	}
 
 	ngOnDestroy() {
 		this.configSub.unsubscribe();
-		this.navSub.unsubscribe();
-		$(this.navMenu.nativeElement).foundation('destroy');
 	}
 
-	getURL(img) {
-		//TODO add fallback logic for rendition
+	isElementAvailable(elem): boolean {
+		return (this.rc && this.headerConfig && this.headerConfig.elements && this.headerConfig.elements[elem]);
+	}
+
+	getElement(elem) { console.log('element "%o" => %o',elem,this.headerConfig.elements[elem]);
+		return this.headerConfig.elements[elem];
+	}
+
+	getImgURL(img) { console.log('img "%o" => %o and %o',img,this.headerConfig.elements[img],this.headerConfig.elements[img].renditions.default.url);
 		return this.rc.context.hub.deliveryUrl['origin'] + this.headerConfig.elements[img].renditions.default.url;
 	}
 
@@ -87,36 +89,7 @@ export class WchHeaderComponent implements AfterViewInit, OnDestroy, OnChanges {
 		return this.rc.id === page.contentId;
 	}
 
-	menuItemSelected() {
-		$(this.dropdownToggle.nativeElement).foundation('toggleMenu');
-	}
-
-	ngOnChanges(changes: SimpleChanges) {
-
-		if (changes['renderingContext'].currentValue !== changes['renderingContext'].previousValue) {
-			this.navigationChanged = true;
-
-		}
-	}
-
 	getRouteURL(url){
 		return decodeURI(url);
-	}
-
-
-	ngAfterViewInit() {
-		this.navSub = this.navLoop.changes.subscribe(item => {
-			if (this.navigationChanged) {
-				//Navigation possibly changed,  destroy the nav menu and rebuild.
-				try {
-					this.navigationChanged = false;
-					$('#nav-responsive-menu').foundation('_destroy');
-					$('#nav-responsive-menu').foundation();
-				} catch (e) {
-					//if foundations was already destroyed this will throw an error but no need to log it
-				}
-			}
-			$('#header').foundation();
-		});
 	}
 }
