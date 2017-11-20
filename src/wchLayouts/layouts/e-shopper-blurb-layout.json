@@ -1,12 +1,12 @@
 {
-  "classification": "layout",
   "id": "e-shopper-blurb-layout",
+  "rev": "4-a338d430e2251d6fa8758c8ff59d831e",
   "name": "eShopperBlurbLayout",
+  "classification": "layout",
   "prerender": false,
-  "rev": "b8JjSzMedj/jGo1lEE0YxppcpyKJPWTGfhdUVeE8U2Q=",
-  "template": "e-shopper-blurb-layout",
-  "templateType": "angular",
   "thumbnail": {
     "path": "/layouts/thumbnails/e-shopper-blurb-layout.jpg"
-  }
+  },
+  "template": "e-shopper-blurb-layout",
+  "templateType": "angular"
 }

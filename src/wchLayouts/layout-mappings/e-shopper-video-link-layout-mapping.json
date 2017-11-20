@@ -1,0 +1,24 @@
+{
+  "classification": "layout-mapping",
+  "id": "e-shopper-video-link-layout-mapping",
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "e-shopper-video-link-layout",
+        "name": "eShopperVideoLinkLayout"
+      },
+      "layouts": [
+        {
+          "id": "e-shopper-video-link-layout",
+          "name": "eShopperVideoLinkLayout"
+        }
+      ]
+    }
+  ],
+  "name": "eShopperVideoLinkLayoutMapping",
+  "rev": "0mxAsjUiUwFq6MlF0K5vDEYhm/pMM++2j9uzUlMKpJQ=",
+  "type": {
+    "id": "76afdb21-c226-44f9-b110-ee011cf66ecb",
+    "name": "E-Shopper video link"
+  }
+}

@@ -1,0 +1,19 @@
+<div class="single-blog-post">
+	<h3>{{title}}</h3>
+	<div class="post-meta">
+		<ul>
+			<li><i class="fa fa-user"></i>{{author}}</li>
+			<li><i class="fa fa-clock-o"></i> {{dateAndTime | date:'shortTime'}}</li>
+			<li><i class="fa fa-calendar"></i> {{dateAndTime | date:'mediumDate'}}</li>
+		</ul>
+		<span>
+			<i *ngIf="rating > 0" class="fa fa-star"></i>
+			<i *ngIf="rating > 1" class="fa fa-star"></i>
+			<i *ngIf="rating > 2" class="fa fa-star"></i>
+			<i *ngIf="rating > 3" class="fa fa-star"></i>
+			<i *ngIf="rating > 4" class="fa fa-star"></i>
+		</span>
+	</div>
+	<img [src]="renderingContext.context.hub.deliveryUrl.origin + image.url" [alt]="image.altText" [title]="image.asset.fileName">
+	<div class="post-text" [innerHTML]="text"></div>
+</div>

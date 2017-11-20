@@ -1,0 +1,14 @@
+<div class="col-sm-3">
+	<div class="video-gallery text-center">
+		<a [href]="link.linkURL" [title]="link.linkText">
+			<div class="iframe-img">
+				<img [src]="renderingContext.context.hub.deliveryUrl.origin + thumbnail.url" [alt]="thumbnail.altText" [title]="thumbnail.asset.fileName">
+			</div>
+			<div class="overlay-icon">
+				<i class="fa fa-play-circle-o"></i>
+			</div>
+		</a>
+		<p>{{title}}</p>
+		<h2>{{date | date}}</h2>
+	</div>
+</div>

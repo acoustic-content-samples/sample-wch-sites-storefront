@@ -1,0 +1,12 @@
+{
+  "classification": "layout",
+  "id": "e-shopper-video-link-layout",
+  "name": "eShopperVideoLinkLayout",
+  "prerender": false,
+  "rev": "NlOdfSQ2f5tAqo4ImYv8g/JchC/7mQgyzVtVBGnWDEM=",
+  "template": "e-shopper-video-link-layout",
+  "templateType": "angular",
+  "thumbnail": {
+    "path": "/layouts/thumbnails/e-shopper-video-link-layout.jpg"
+  }
+}
