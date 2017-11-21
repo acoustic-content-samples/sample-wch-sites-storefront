@@ -32,3 +32,12 @@
 	font-weight: 300;
 	margin-bottom: 30px;
 }
+
+.forgot {
+	color: #696763;
+}
+
+.forgot:hover, .forgot:focus {
+    color: #fe980f;
+	text-decoration: underline;
+}

@@ -30,7 +30,7 @@ export class BrandsComponent implements OnInit, OnDestroy {
 
 	private filterParamName: string = 'brand';
 
-    private brands: any[] = [];
+    brands: any[] = [];
     private selectectBrands: string[] = [];
     private allBrandsMap: Map<string, number> = new Map();
 

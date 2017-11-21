@@ -20,6 +20,8 @@ import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {FormsModule} from '@angular/forms';
 import {HttpModule, Http} from '@angular/http';
+import { HTTP_INTERCEPTORS, HttpClientModule, HttpClient } from "@angular/common/http";
+import { Logger, Options as LoggerOptions} from "angular2-logger/core";
 import {RouterModule, Routes} from '@angular/router';
 
 import { Ng2LoggerFactory } from './common/Ng2LoggerFactory';
@@ -27,7 +29,7 @@ import { Ng2LoggerFactory } from './common/Ng2LoggerFactory';
 import 'script-loader!foundation-sites/dist/js/foundation.js';
 
 import {WchNgModule, PageComponent, SiteBootstrap, Site, WchLoggerFactory} from 'ibm-wch-sdk-ng';
-
+import { LoggerOptions as AppLoggerOptions} from "./common/logger.options";
 
 import {WchHeaderComponent} from './wchHeader/wchHeader.component';
 import {WchFooterComponent} from './wchFooter/wchFooter.component';
@@ -36,6 +38,9 @@ import {environment} from './environment/environment';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import { SiteCommonModule } from './common/site.common.module';
 import { HighlightService } from './common/highlightService/highlight.service';
+import { CommerceModule } from './commerce/commerce.module';
+import { ConfigService } from './common/config.service';
+import { StorefrontUtils } from './common/storefrontUtils.service';
 import { AuthenticationTransactionService } from "./commerce/services/componentTransaction/authentication.transaction.service";
 
 import { GenericLayoutModule } from './components/generic/generic.layout.module';
@@ -58,10 +63,12 @@ export function HttpLoaderFactory(http: Http) {
 		BrowserModule,
 		FormsModule,
 		HttpModule,
+		HttpClientModule,
 		WchNgModule.forRoot(environment),
 		SiteCommonModule,
 		GenericLayoutModule,
 		SAMPLE_MODULE,
+		CommerceModule,
 		TranslateModule.forRoot({
 			loader: {
 				provide: TranslateLoader,
@@ -78,9 +85,20 @@ export function HttpLoaderFactory(http: Http) {
 		...LAYOUTS
 	],
 	providers: [
-		{provide: WchLoggerFactory, useClass: Ng2LoggerFactory},
+		ConfigService,
+		{
+			provide: WchLoggerFactory,
+			useClass: Ng2LoggerFactory
+		},
+		AppLoggerOptions,
+		{
+			provide: LoggerOptions,
+			useClass: AppLoggerOptions
+		},
+        Logger,
 		AuthenticationTransactionService,
-		HighlightService
+		HighlightService,
+        StorefrontUtils
 	],
 	entryComponents: [
 		PageNotFoundComponent

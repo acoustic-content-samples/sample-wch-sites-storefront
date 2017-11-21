@@ -62,7 +62,7 @@ export class WchFooterComponent implements OnDestroy {
 	}
 
 	getElement(elem) {
-		return this.footerConfig.elements[elem];
+		return this.footerConfig ? this.footerConfig.elements[elem] : '';
 	}
 
 	getImgURL(img) {

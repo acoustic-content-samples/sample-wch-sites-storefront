@@ -66,7 +66,7 @@ export class LanguageSelectionComponent implements OnInit {
         });
 	}
 
-	private changeLang() {
+	changeLang() {
 		this.translate.use(this.selectedLanguage);
 	}
 
