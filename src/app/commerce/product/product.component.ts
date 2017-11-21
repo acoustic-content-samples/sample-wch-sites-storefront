@@ -11,9 +11,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import { ProductService } from "../services/product.service";
 import { Subscription } from "rxjs/Subscription";
-import { StorefrontUtils } from "../../common/storefrontUtils.service";
-//import { ShoppingCartService } from "../../../services/shopping-cart.service";
-//import { GenericCatComponent } from "../../../component/generic-cat.component";
+import { StorefrontUtils } from "../storefrontUtils.service";
 
 @Component( {
     selector: 'product-item',

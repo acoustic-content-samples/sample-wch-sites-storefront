@@ -15,7 +15,7 @@ import 'rxjs/add/operator/toPromise';
 import { CartService } from "../rest/transaction/cart.service";
 import { ProductService } from "../product.service";
 import { AssignedPromotionCodeService } from "../rest/transaction/assignedPromotionCode.service";
-import { StorefrontUtils } from "../../../common/storefrontUtils.service";
+import { StorefrontUtils } from "../../storefrontUtils.service";
 import { AuthenticationTransactionService } from '../../../commerce/services/componentTransaction/authentication.transaction.service';
 
 @Injectable()

@@ -1,4 +1,4 @@
-@import '../../common/variables';
+@import '../variables';
 
 /*************************
 *******login component CSS******
@@ -86,4 +86,17 @@
 .guest-checkout {
 	float: left;
 	margin-top: 20px;
+}
+
+.forgot {
+	color: #504e4b;
+}
+
+.forgot:hover, .forgot:focus, .forgot:active {
+	text-decoration: underline;
+	color: #fe980f;
+}
+
+.spacer {
+	margin-top: 15px;
 }

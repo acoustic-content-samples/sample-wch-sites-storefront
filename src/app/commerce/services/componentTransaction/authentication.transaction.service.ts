@@ -16,7 +16,7 @@ import 'rxjs/add/operator/share';
 import { Logger } from "angular2-logger/core";
 import { LoginIdentityService } from "../rest/transaction/loginIdentity.service";
 import { PersonService } from "../rest/transaction/person.service";
-import { StorefrontUtils } from "../../../common/storefrontUtils.service";
+import { StorefrontUtils } from "../../storefrontUtils.service";
 
 @Injectable()
 export class AuthenticationTransactionService {

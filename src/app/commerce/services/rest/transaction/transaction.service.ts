@@ -12,7 +12,7 @@ import { HttpClient, HttpResponse, HttpErrorResponse } from "@angular/common/htt
 import { Logger } from "angular2-logger/core";
 import { Observable } from 'rxjs/Observable';
 import { CommerceEnvironment } from "../../../commerce.environment";
-import { StorefrontUtils } from "../../../../common/storefrontUtils.service";
+import { StorefrontUtils } from "../../../storefrontUtils.service";
 
 @Injectable()
 export class TransactionService {

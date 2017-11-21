@@ -29,7 +29,7 @@ import { Ng2LoggerFactory } from './common/Ng2LoggerFactory';
 import 'script-loader!foundation-sites/dist/js/foundation.js';
 
 import {WchNgModule, PageComponent, SiteBootstrap, Site, WchLoggerFactory} from 'ibm-wch-sdk-ng';
-import { LoggerOptions as AppLoggerOptions} from "./common/logger.options";
+import { LoggerOptions as AppLoggerOptions} from "./commerce/logger.options";
 
 import {WchHeaderComponent} from './wchHeader/wchHeader.component';
 import {WchFooterComponent} from './wchFooter/wchFooter.component';
@@ -39,8 +39,8 @@ import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import { SiteCommonModule } from './common/site.common.module';
 import { HighlightService } from './common/highlightService/highlight.service';
 import { CommerceModule } from './commerce/commerce.module';
-import { ConfigService } from './common/config.service';
-import { StorefrontUtils } from './common/storefrontUtils.service';
+import { ConfigService } from './commerce/config.service';
+import { StorefrontUtils } from './commerce/storefrontUtils.service';
 import { AuthenticationTransactionService } from "./commerce/services/componentTransaction/authentication.transaction.service";
 
 import { GenericLayoutModule } from './components/generic/generic.layout.module';

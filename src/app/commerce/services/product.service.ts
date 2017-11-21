@@ -11,7 +11,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 
 import { ProductViewService } from "./rest/search/productView.service";
-import { StorefrontUtils } from "../../common/storefrontUtils.service";
+import { StorefrontUtils } from "../storefrontUtils.service";
 
 @Injectable()
 export class ProductService{

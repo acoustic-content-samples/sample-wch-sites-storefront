@@ -14,7 +14,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { Logger } from "angular2-logger/core";
 
 import { ConfigurationService } from '../../commerce/services/rest/transaction/configuration.service';
-import { StorefrontUtils } from '../../common/storefrontUtils.service';
+import { StorefrontUtils } from '../storefrontUtils.service';
 import { CommerceEnvironment } from "../../commerce/commerce.environment";
 
 

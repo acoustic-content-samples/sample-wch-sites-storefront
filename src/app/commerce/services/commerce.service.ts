@@ -16,7 +16,7 @@ import {Observer} from "rxjs/Observer";
 
 import {CategoryService} from './category.service';
 import {ProductService} from './product.service';
-import { StorefrontUtils } from "../../common/storefrontUtils.service";
+import { StorefrontUtils } from "../storefrontUtils.service";
 
 
 @Injectable()

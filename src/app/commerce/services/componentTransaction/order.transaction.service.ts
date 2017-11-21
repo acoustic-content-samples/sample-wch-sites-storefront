@@ -15,7 +15,7 @@ import { Observer } from 'rxjs/Observer';
 import { OrderService } from "../rest/transaction/order.service";
 import { SubscriptionService } from "../rest/transaction/subscription.service";
 import { CartService } from "../rest/transaction/cart.service";
-import { StorefrontUtils } from "../../../common/storefrontUtils.service";
+import { StorefrontUtils } from "../../storefrontUtils.service";
 import { Logger } from "angular2-logger/core";
 
 @Injectable()

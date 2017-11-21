@@ -13,7 +13,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { CheckoutTransactionService } from "../../commerce/services/componentTransaction/checkout.transaction.service";
 import { PersonContactService } from '../../commerce/services/rest/transaction/personContact.service';
 import { CountryService } from '../../commerce/services/rest/transaction/country.service';
-import { StorefrontUtils } from '../../common/storefrontUtils.service';
+import { StorefrontUtils } from '../storefrontUtils.service';
 import { CommerceEnvironment } from "../../commerce/commerce.environment";
 
 @Component( {

@@ -14,7 +14,7 @@ import { CartTransactionService } from "./cart.transaction.service";
 import { PaymentInstructionService } from "../rest/transaction/paymentInstruction.service";
 import { ShippingInfoService } from "../rest/transaction/shippingInfo.service";
 import { PersonContactService } from "../rest/transaction/personContact.service";
-import { StorefrontUtils } from "../../../common/storefrontUtils.service";
+import { StorefrontUtils } from "../../storefrontUtils.service";
 
 @Injectable()
 export class CheckoutTransactionService {
