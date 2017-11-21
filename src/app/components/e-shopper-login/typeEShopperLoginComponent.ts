@@ -2,20 +2,20 @@ import {
     RenderingContext
 } from 'ibm-wch-sdk-ng';
 import { Component } from '@angular/core';
-import { AbstractStandardPageComponent } from './abstractStandardPageComponent';
+import { AbstractEShopperLoginComponent } from './abstractEShopperLoginComponent';
 
 /*
- * @name Standard page
- * @id 790da5de-c562-4efc-bae6-8f40da3902da
+ * @name E-Shopper login
+ * @id 2e44f20c-16fd-44ae-8a12-3c981c6234aa
  */
 /* TODO uncomment this if you plan to use the component standalone, i.e. not as the basis of a layout.
 @Component({
-  selector: 'app-type-standard-page-component',
-  templateUrl: './typeStandardPageComponent.html',
-  styleUrls: ['./typeStandardPageComponent.scss']
+  selector: 'app-type-e-shopper-login-component',
+  templateUrl: './typeEShopperLoginComponent.html',
+  styleUrls: ['./typeEShopperLoginComponent.scss']
 })
 */
-export class TypeStandardPageComponent extends AbstractStandardPageComponent {
+export class TypeEShopperLoginComponent extends AbstractEShopperLoginComponent {
 
     /*
      * TODO add custom fields here. These fields should be those

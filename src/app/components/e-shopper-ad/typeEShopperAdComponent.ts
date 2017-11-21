@@ -1,26 +1,25 @@
 import {
-    LayoutComponent
+    RenderingContext
 } from 'ibm-wch-sdk-ng';
 import { Component } from '@angular/core';
-import { TypeStandardPageComponent } from './../../components/standard-page/typeStandardPageComponent';
+import { AbstractEShopperAdComponent } from './abstractEShopperAdComponent';
 
 /*
- * @name standardPageLayout
- * @id a3115e8c-b102-4d86-a534-b40c67f0a8d9
+ * @name E-Shopper ad
+ * @id 23c92986-b470-47f5-b3af-1e4c4770abdc
  */
-@LayoutComponent({
-    selector: 'standard-page-layout'
-})
+/* TODO uncomment this if you plan to use the component standalone, i.e. not as the basis of a layout.
 @Component({
-  selector: 'app-standard-page-layout-component',
-  templateUrl: './standardPageLayout.html',
-  styleUrls: ['./standardPageLayout.scss']
+  selector: 'app-type-e-shopper-ad-component',
+  templateUrl: './typeEShopperAdComponent.html',
+  styleUrls: ['./typeEShopperAdComponent.scss']
 })
-export class StandardPageLayoutComponent extends TypeStandardPageComponent {
+*/
+export class TypeEShopperAdComponent extends AbstractEShopperAdComponent {
 
     /*
      * TODO add custom fields here. These fields should be those
-     * specific to this layout.
+     * common to all layouts.
      */
 
     constructor() {

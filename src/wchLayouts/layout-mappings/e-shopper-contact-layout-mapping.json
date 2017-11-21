@@ -1,0 +1,21 @@
+{
+  "id": "e-shopper-contact-layout-mapping",
+  "rev": "1-aaa368b4e75da4dcfec05e6fd68dfbbb",
+  "name": "eShopperContactLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "bb6e9a2b-1a87-41b7-a6d0-8d2037554c3e"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "e-shopper-contact-layout"
+      },
+      "layouts": [
+        {
+          "id": "e-shopper-contact-layout"
+        }
+      ]
+    }
+  ]
+}

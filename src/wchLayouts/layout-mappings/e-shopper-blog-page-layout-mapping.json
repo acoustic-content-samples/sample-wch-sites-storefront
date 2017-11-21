@@ -1,0 +1,21 @@
+{
+  "id": "e-shopper-blog-page-layout-mapping",
+  "rev": "9-2d264f51186174df15cffea5614ed613",
+  "name": "eShopperBlogPageLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "a469fb98-65c3-4538-8d03-ce345be7be81"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "e-shopper-blog-page-layout"
+      },
+      "layouts": [
+        {
+          "id": "e-shopper-blog-page-layout"
+        }
+      ]
+    }
+  ]
+}

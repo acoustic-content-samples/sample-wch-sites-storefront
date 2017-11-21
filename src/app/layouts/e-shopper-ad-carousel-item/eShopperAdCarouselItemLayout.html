@@ -1,0 +1,12 @@
+<div class="item">
+	<div class="col-sm-6">
+		<h1>{{ title }}</h1>
+		<h2 *ngIf="caption">{{ caption }}</h2>
+		<p *ngIf="description">{{ description }}</p>
+		<button *ngIf="getItNowLink" type="button" class="btn btn-default get" [title]="getItNowLink.linkTitle">{{ getItNowLink.linkText }}</button>
+	</div>
+	<div class="col-sm-6">
+		<img class="girl img-responsive" [src]="renderingContext.context.hub.deliveryUrl.origin + adImage.url" [alt]="adImage.altText">
+		<img class="pricing" *ngIf="sticker && sticker.url" [src]="renderingContext.context.hub.deliveryUrl.origin + sticker.url" [alt]="sticker.altText">
+	</div>
+</div>

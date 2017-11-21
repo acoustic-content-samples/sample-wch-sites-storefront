@@ -36,6 +36,7 @@ import {environment} from './environment/environment';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import { SiteCommonModule } from './common/site.common.module';
 import { HighlightService } from './common/highlightService/highlight.service';
+import { AuthenticationTransactionService } from "./commerce/services/componentTransaction/authentication.transaction.service";
 
 import { GenericLayoutModule } from './components/generic/generic.layout.module';
 
@@ -78,7 +79,8 @@ export function HttpLoaderFactory(http: Http) {
 	],
 	providers: [
 		{provide: WchLoggerFactory, useClass: Ng2LoggerFactory},
-		 HighlightService
+		AuthenticationTransactionService,
+		HighlightService
 	],
 	entryComponents: [
 		PageNotFoundComponent
@@ -86,20 +88,5 @@ export function HttpLoaderFactory(http: Http) {
 	],
 	bootstrap: [AppComponent]
 })
-export class AppModule {
-
-	// cleue: add some fallback content
-/*	@SiteBootstrap()
-	static defaultSite: Site = {
-		id: 'default',
-		pages: [{
-			contentId: '908a3f7e-3c09-40d0-98a9-d30984f7f5ef',
-			id: '41781ed4-2cc6-4320-b52a-aeb6a66f8f62',
-			route: '/Home',
-			decodedRoute: '/Home',
-			name: 'Name',
-			children: []
-		}]
-	}; */
-}
+export class AppModule { }
 

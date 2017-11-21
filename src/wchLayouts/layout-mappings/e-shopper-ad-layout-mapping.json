@@ -1,0 +1,21 @@
+{
+  "id": "e-shopper-ad-layout-mapping",
+  "rev": "1-c8e44f75738a36bc6a44af0479276e23",
+  "name": "eShopperAdLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "23c92986-b470-47f5-b3af-1e4c4770abdc"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "e-shopper-ad-layout"
+      },
+      "layouts": [
+        {
+          "id": "e-shopper-ad-layout"
+        }
+      ]
+    }
+  ]
+}

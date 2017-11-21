@@ -4,8 +4,13 @@
 export { CarouselDynamicListLayoutComponent } from './layouts/carousel-dynamic-list/carouselDynamicListLayout';
 export { CarouselListLayoutComponent } from './layouts/carousel-list/carouselListLayout';
 export { ErrorPageLayoutComponent } from './layouts/error-page/errorPageLayout';
+export { EShopperAdCarouselItemLayoutComponent } from './layouts/e-shopper-ad-carousel-item/eShopperAdCarouselItemLayout';
+export { EShopperAdLayoutComponent } from './layouts/e-shopper-ad/eShopperAdLayout';
+export { EShopperBlogPageLayoutComponent } from './layouts/e-shopper-blog-page/eShopperBlogPageLayout';
 export { EShopperBlogPostLayoutComponent } from './layouts/e-shopper-blog-post/eShopperBlogPostLayout';
 export { EShopperBlurbLayoutComponent } from './layouts/e-shopper-blurb/eShopperBlurbLayout';
+export { EShopperContactLayoutComponent } from './layouts/e-shopper-contact/eShopperContactLayout';
+export { EShopperLoginLayoutComponent } from './layouts/e-shopper-login/eShopperLoginLayout';
 export { EShopperVideoLinkLayoutComponent } from './layouts/e-shopper-video-link/eShopperVideoLinkLayout';
 export { GalleryDynamicListLayoutComponent } from './layouts/gallery-dynamic-list/galleryDynamicListLayout';
 export { GalleryListLayoutComponent } from './layouts/gallery-list/galleryListLayout';

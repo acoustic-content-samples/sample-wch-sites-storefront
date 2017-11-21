@@ -1,12 +1,12 @@
 {
-  "classification": "layout",
   "id": "e-shopper-blog-post-layout",
+  "rev": "3-ce7e813ae14288cd2616ddcb250f537a",
   "name": "eShopperBlogPostLayout",
+  "classification": "layout",
   "prerender": false,
-  "rev": "HiZgcC+RaYQh+iJUIU3m6o+WhwOCUXrWe1XeaUzcPYw=",
-  "template": "e-shopper-blog-post-layout",
-  "templateType": "angular",
   "thumbnail": {
     "path": "/layouts/thumbnails/e-shopper-blog-post-layout.jpg"
-  }
+  },
+  "template": "e-shopper-blog-post-layout",
+  "templateType": "angular"
 }

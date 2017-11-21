@@ -13,12 +13,12 @@
 				<div class="col-sm-6">
 					<div class="social-icons pull-right">
 						<ul class="nav navbar-nav">
-							<li *ngIf="isElementAvailable(FACEBOOK)"><a href="{{getElement(FACEBOOK).linkURL}}"><i class="fa fa-facebook"></i></a></li>
-							<li *ngIf="isElementAvailable(TWITTER)"><a href="{{getElement(TWITTER).linkURL}}"><i class="fa fa-twitter"></i></a></li>
-							<li *ngIf="isElementAvailable(INSTAGRAM)"><a href="{{getElement(INSTAGRAM).linkURL}}"><i class="fa fa-instagram"></i></a></li>
-							<li *ngIf="isElementAvailable(LINKEDIN)"><a href="{{getElement(LINKEDIN).linkURL}}"><i class="fa fa-linkedin"></i></a></li>
-							<li *ngIf="isElementAvailable(DRIBBBLE)"><a href="{{getElement(DRIBBBLE).linkURL}}"><i class="fa fa-dribbble"></i></a></li>
-							<li *ngIf="isElementAvailable(GPLUS)"><a href="{{getElement(GPLUS).linkURL}}"><i class="fa fa-google-plus"></i></a></li>
+							<li *ngIf="isElementAvailable(FACEBOOK)"><a href="{{getElement(FACEBOOK).linkURL}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li *ngIf="isElementAvailable(TWITTER)"><a href="{{getElement(TWITTER).linkURL}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li *ngIf="isElementAvailable(INSTAGRAM)"><a href="{{getElement(INSTAGRAM).linkURL}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+							<li *ngIf="isElementAvailable(LINKEDIN)"><a href="{{getElement(LINKEDIN).linkURL}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							<li *ngIf="isElementAvailable(DRIBBBLE)"><a href="{{getElement(DRIBBBLE).linkURL}}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+							<li *ngIf="isElementAvailable(GPLUS)"><a href="{{getElement(GPLUS).linkURL}}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -31,7 +31,7 @@
 			<div class="row">
 				<div class="col-md-4 clearfix">
 					<div class="logo pull-left">
-						<a *ngIf="isElementAvailable(LOGO)" href="index.html"><img src="{{getImgURL(LOGO)}}" alt=""></a>
+						<a *ngIf="isElementAvailable(LOGO)" href routerLink="/home"><img src="{{getImgURL(LOGO)}}" alt=""></a>
 					</div>
 					<div class="btn-group pull-right clearfix">
 						<div class="btn-group">
@@ -59,7 +59,9 @@
 				<div class="col-md-8 clearfix">
 					<div class="shop-menu clearfix pull-right">
 						<ul class="nav navbar-nav">
-							<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li> <!-- TODO LIST LOOP -->
+							<li><a href="checkout.html" href routerLink="/shop/checkout"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+							<li><a href="checkout.html" href routerLink="/shop/cart"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+							<li><a href="checkout.html" href routerLink="/shop/login"><i class="fa fa-lock"></i> Login</a></li>
 						</ul>
 					</div>
 				</div>
@@ -87,6 +89,7 @@
 								</a>
 								<a *ngIf="page && page.children.length > 0" href>
 									{{page.name}}
+									<i class="fa fa-angle-down"></i>
 								</a>
 								<ul *ngIf="page && page.children.length > 0" role="menu" class="sub-menu">
 									<li *ngFor="let child of page.children">

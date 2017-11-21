@@ -1,0 +1,12 @@
+{
+  "id": "e-shopper-ad-carousel-item-layout",
+  "rev": "3-1d7ef728846a76da3802df03e5add96a",
+  "name": "eShopperAdCarouselItemLayout",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/e-shopper-ad-carousel-item-layout.jpg"
+  },
+  "template": "e-shopper-ad-carousel-item-layout",
+  "templateType": "angular"
+}

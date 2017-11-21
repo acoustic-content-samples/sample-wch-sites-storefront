@@ -1,0 +1,12 @@
+{
+  "id": "e-shopper-blog-page-layout",
+  "rev": "9-f89d9a468fc37d9cf2528972c82c617d",
+  "name": "eShopperBlogPageLayout",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/e-shopper-blog-page-layout.jpg"
+  },
+  "template": "e-shopper-blog-page-layout",
+  "templateType": "angular"
+}

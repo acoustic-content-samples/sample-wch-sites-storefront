@@ -58,14 +58,6 @@ export class WchHeaderComponent implements OnDestroy {
 	constructor(configService: ConfigServiceService) {
 		this.configSub = configService.getConfig(Constants.HEADER_CONFIG).subscribe((context) => {
 			this.headerConfig = context;
-
-
-
-console.warn('headerConfig %o',this.headerConfig); // TODO REMOVE
-
-
-
-
 		});
 	}
 

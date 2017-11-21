@@ -1,0 +1,21 @@
+{
+  "id": "e-shopper-ad-carousel-item-layout-mapping",
+  "rev": "3-6b8c97cda02f67e7a007db00d2d48284",
+  "name": "eShopperAdCarouselItemLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "54b1ff0e-d7a2-4476-bda3-e8c8d400db09"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "e-shopper-ad-carousel-item-layout"
+      },
+      "layouts": [
+        {
+          "id": "e-shopper-ad-carousel-item-layout"
+        }
+      ]
+    }
+  ]
+}

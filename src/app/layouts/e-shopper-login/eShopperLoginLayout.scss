@@ -1,0 +1,34 @@
+.login-error {
+	margin-bottom: 15px;
+	color: crimson;
+}
+
+.login-loading {
+	float: left;
+	margin-top: 9px;
+	margin-left: 15px;
+}
+
+.guest-checkout {
+	float: left;
+	margin-top: 20px;
+}
+
+.guest-checkout form button {
+	float: left;
+	background: #FE980F;
+	border: medium none;
+	border-radius: 0;
+	color: white;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	padding: 6px 25px;
+}
+
+.guest-checkout h2 {
+	color: #696763;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}

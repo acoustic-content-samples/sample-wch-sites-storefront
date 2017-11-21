@@ -50,14 +50,6 @@ export class WchFooterComponent implements OnDestroy {
 	constructor(configService: ConfigServiceService) {
 		this.configSub = configService.getConfig(Constants.FOOTER_CONFIG).subscribe((context) => {
 			this.footerConfig = context;
-
-
-
-console.warn('footerConfig %o',this.footerConfig); // TODO REMOVE
-
-
-
-
 		});
 	}
 
