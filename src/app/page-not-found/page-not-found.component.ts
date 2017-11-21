@@ -17,6 +17,8 @@ import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 import {ComponentsService, LayoutComponent, RenderingContext} from 'ibm-wch-sdk-ng';
 import {ConfigServiceService} from '../common/configService/config-service.service';
 import {Subscription} from "rxjs/Subscription";
+const logo = require('./images/logo.png');
+const a404 = require('./images/404.png');
 
 @LayoutComponent({
   selector: ComponentsService.PAGE_NOT_FOUND_LAYOUT
@@ -28,6 +30,8 @@ import {Subscription} from "rxjs/Subscription";
   styleUrls: ['./page-not-found.component.scss']
 })
 export class PageNotFoundComponent implements OnInit, OnDestroy {
+  logoImg: any;
+  a404Img: any;
 
   @Input()
   public set renderingContext(aValue: RenderingContext) {
@@ -39,7 +43,8 @@ export class PageNotFoundComponent implements OnInit, OnDestroy {
   rc: RenderingContext;
 
   constructor(configService: ConfigServiceService) {
-
+	this.logoImg = logo;
+	this.a404Img = a404;
     this.configSub = configService.getConfig('404 Error page').subscribe((context) => {
       this.context = context;
     });
