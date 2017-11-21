@@ -1,0 +1,12 @@
+{
+  "id": "e-shopper-ad-layout",
+  "rev": "1-b261ae69068c62bb678f7c62cb46343b",
+  "name": "eShopperAdLayout",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/e-shopper-ad-layout.jpg"
+  },
+  "template": "e-shopper-ad-layout",
+  "templateType": "angular"
+}

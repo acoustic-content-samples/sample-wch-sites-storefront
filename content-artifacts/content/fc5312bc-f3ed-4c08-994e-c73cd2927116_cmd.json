@@ -1,11 +1,11 @@
 {
   "id": "fc5312bc-f3ed-4c08-994e-c73cd2927116",
-  "rev": "3-a59fe72ab17766109f8c5d7be05c66be",
+  "rev": "4-3a5dfdc517d531fe78d16fd96daf8e02",
   "name": "Contact",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-16T19:49:18.846Z",
+  "lastModified": "2017-11-20T20:17:28.558Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-15T18:54:54.092Z",
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
@@ -18,7 +18,12 @@
       "elementType": "reference"
     },
     "sectionOne": {
-      "elementType": "reference"
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "dced50ce-375b-48d4-b424-3ac652ef8860"
+        }
+      ]
     },
     "sectionTwo": {
       "elementType": "reference"

@@ -1,0 +1,50 @@
+{
+  "id": "8617ec67-21f4-4067-b772-e9e7062ad328",
+  "rev": "4-765ab6e758570eb3003a19943a6d9c01",
+  "name": "E-Shopper ad carousel",
+  "classification": "content",
+  "typeId": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c",
+  "locale": "en",
+  "lastModified": "2017-11-21T16:15:37.318Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-21T16:15:12.634Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "maxItem": {
+      "elementType": "number"
+    },
+    "datesToInclude": {
+      "elementType": "category"
+    },
+    "listTitle": {
+      "elementType": "text"
+    },
+    "contentType": {
+      "elementType": "category",
+      "categoryIds": [
+        "0e824eb0-bb45-4ad2-b8d0-2de2edd27461"
+      ]
+    },
+    "sortOrder": {
+      "elementType": "category"
+    },
+    "viewAllLink": {
+      "elementType": "link"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "carousel-dynamic-list"
+      }
+    }
+  ],
+  "kind": [],
+  "thumbnail": {
+    "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf"
+  },
+  "description": ""
+}

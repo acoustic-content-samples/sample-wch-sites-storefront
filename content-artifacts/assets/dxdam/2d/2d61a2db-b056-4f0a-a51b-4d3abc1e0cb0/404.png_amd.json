@@ -1,0 +1,76 @@
+{
+  "mediaType": "image/png",
+  "name": "404.png",
+  "path": "/dxdam/2d/2d61a2db-b056-4f0a-a51b-4d3abc1e0cb0/404.png",
+  "digest": "60tDxlu93/P11YAawUg5qA==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-21T01:47:43.631Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:box",
+      "classification:light brown color",
+      "classification:bandbox",
+      "classification:ballot box",
+      "classification:orange color",
+      "classification:carton",
+      "user:e-shopper"
+    ],
+    "declined": [],
+    "suggested": [
+      "classification:carton",
+      "classification:box",
+      "classification:ballot box",
+      "classification:bandbox",
+      "classification:orange color",
+      "classification:light brown color"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "404.png",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "5-f1d7c0d225c5ef2c79803806b47a17f6",
+  "cognitive": {
+    "classifications": [
+      "carton",
+      "box",
+      "ballot box",
+      "bandbox",
+      "orange color",
+      "light brown color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#e4943a",
+      "muted": "#b0804e",
+      "darkVibrant": "#572f18",
+      "darkMuted": "#5e4634",
+      "lightVibrant": "#ecac5e",
+      "lightMuted": "#b99c79"
+    },
+    "status": "complete"
+  },
+  "id": "2d61a2db-b056-4f0a-a51b-4d3abc1e0cb0",
+  "resource": "371094cd-c317-4662-b66b-e713146a3428",
+  "fileSize": 24312,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=371094cd-c317-4662-b66b-e713146a3428&a=2d61a2db-b056-4f0a-a51b-4d3abc1e0cb0:draft",
+      "source": "/authoring/v1/resources/371094cd-c317-4662-b66b-e713146a3428"
+    }
+  },
+  "metadata": {
+    "width": 836,
+    "height": 748
+  },
+  "classification": "asset",
+  "created": "2017-11-21T01:47:14.622Z"
+}

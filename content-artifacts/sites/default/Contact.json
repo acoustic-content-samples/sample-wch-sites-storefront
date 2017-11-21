@@ -6,10 +6,10 @@
   "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
   "title": "",
   "classification": "page",
-  "contentId": "97307d06-473c-4b0f-8b89-ea3c6358da01",
-  "status": "draft",
-  "linkedDocId": "cea1f35e-5ebd-4b56-bec7-8b8dc552d674",
-  "position": -1,
-  "id": "e442a84f0bee096749da902685293b0f",
-  "rev": "1-4ab88c84096e23af815c5629cd449991"
+  "contentId": "e814c71a-9814-4a08-a989-9ca453603fa7",
+  "contentStatus": "draft",
+  "contentLinkedDocId": "fc5312bc-f3ed-4c08-994e-c73cd2927116",
+  "position": 3,
+  "id": "cea1f35e-5ebd-4b56-bec7-8b8dc552d674",
+  "rev": "7-ca1a7cfc71d520098aff4e9095dce3e7"
 }

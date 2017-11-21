@@ -1,0 +1,45 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "girl1.jpg",
+  "path": "/dxdam/83/833882f0-945b-4cfa-94b4-c207c73d814a/girl1.jpg",
+  "digest": "7hs1vQtzyWPXzraq4sms1g==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-21T16:12:19.682Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "user:e-shopper"
+    ],
+    "declined": [],
+    "analysis": "failed"
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "girl1.jpg",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "4-88db733eb4bf026455696c89fcfc5a87",
+  "cognitive": {
+    "status": "failed"
+  },
+  "id": "833882f0-945b-4cfa-94b4-c207c73d814a",
+  "resource": "62937212-45f5-4118-b67f-db15da212dc8",
+  "fileSize": 133812,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=62937212-45f5-4118-b67f-db15da212dc8&a=833882f0-945b-4cfa-94b4-c207c73d814a",
+      "source": "/authoring/v1/resources/62937212-45f5-4118-b67f-db15da212dc8"
+    }
+  },
+  "metadata": {
+    "width": 484,
+    "height": 441
+  },
+  "classification": "asset",
+  "created": "2017-11-21T16:10:18.125Z"
+}

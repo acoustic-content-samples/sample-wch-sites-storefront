@@ -1,0 +1,44 @@
+{
+  "id": "d6664eee-7d8b-43aa-9575-cacfa77fae82",
+  "rev": "6-51f930a665ad65a82436d0b164555a22",
+  "name": "eShopperSaleAd",
+  "classification": "content",
+  "typeId": "23c92986-b470-47f5-b3af-1e4c4770abdc",
+  "locale": "en",
+  "lastModified": "2017-11-21T15:58:38.934Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-21T15:58:12.876Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "ad": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=523ba443-03b7-426a-b210-bba66954131f&a=dc1a2880-a545-422a-a13b-17a0c7fc8494",
+          "source": "/authoring/v1/resources/523ba443-03b7-426a-b210-bba66954131f",
+          "width": 1170,
+          "height": 150
+        }
+      },
+      "asset": {
+        "id": "dc1a2880-a545-422a-a13b-17a0c7fc8494",
+        "resourceUri": "/authoring/v1/resources/523ba443-03b7-426a-b210-bba66954131f",
+        "fileName": "advertisement.jpg",
+        "fileSize": 43493,
+        "mediaType": "image/jpeg",
+        "width": 1170,
+        "height": 150
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "dc1a2880-a545-422a-a13b-17a0c7fc8494"
+  },
+  "description": ""
+}

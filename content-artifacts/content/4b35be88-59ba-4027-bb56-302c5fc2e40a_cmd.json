@@ -1,0 +1,64 @@
+{
+  "id": "4b35be88-59ba-4027-bb56-302c5fc2e40a",
+  "rev": "12-cf4c758c7a25753dca20e698d77228a1",
+  "name": "eShopperCarouselAd2",
+  "classification": "content",
+  "typeId": "54b1ff0e-d7a2-4476-bda3-e8c8d400db09",
+  "locale": "en",
+  "lastModified": "2017-11-21T16:25:05.318Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-21T16:23:25.928Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "description": {
+      "elementType": "text",
+      "value": "Eros adipiscing vestibulum litora donec neque, erat odio, vestibulum wisi."
+    },
+    "getItNowLink": {
+      "elementType": "link",
+      "linkURL": "http://demo.themeum.com/html/eshopper/index.html",
+      "linkText": "Get them now"
+    },
+    "caption": {
+      "elementType": "text",
+      "value": "Get your scarves, hats and jewelry today!"
+    },
+    "sticker": {
+      "elementType": "image"
+    },
+    "title": {
+      "elementType": "text",
+      "value": "New accessories available"
+    },
+    "adImage": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=548fd441-7c4e-4002-bf23-a4a93a06ef0d&a=ab5d896e-32dc-4171-9b00-220c1185f105",
+          "source": "/authoring/v1/resources/548fd441-7c4e-4002-bf23-a4a93a06ef0d",
+          "width": 484,
+          "height": 441
+        }
+      },
+      "asset": {
+        "id": "ab5d896e-32dc-4171-9b00-220c1185f105",
+        "resourceUri": "/authoring/v1/resources/548fd441-7c4e-4002-bf23-a4a93a06ef0d",
+        "fileName": "girl2.jpg",
+        "fileSize": 144294,
+        "mediaType": "image/jpeg",
+        "width": 484,
+        "height": 441
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "ab5d896e-32dc-4171-9b00-220c1185f105"
+  },
+  "description": ""
+}

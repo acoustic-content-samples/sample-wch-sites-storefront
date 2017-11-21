@@ -1,0 +1,76 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "advertisement.jpg",
+  "path": "/dxdam/dc/dc1a2880-a545-422a-a13b-17a0c7fc8494/advertisement.jpg",
+  "digest": "ohhMT1kzQMJMdwxmVWfhCw==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-21T15:56:56.043Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:window envelope",
+      "classification:envelope",
+      "classification:wrapping",
+      "classification:magnetic stripe",
+      "classification:memory device",
+      "classification:orange color",
+      "classification:reddish orange color",
+      "user:e-shopper"
+    ],
+    "declined": [],
+    "suggested": [
+      "classification:window envelope",
+      "classification:envelope",
+      "classification:wrapping",
+      "classification:magnetic stripe",
+      "classification:memory device",
+      "classification:orange color",
+      "classification:reddish orange color"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "advertisement.jpg",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "4-648e34d6e3c19645c3131d32e8e617eb",
+  "cognitive": {
+    "classifications": [
+      "window envelope",
+      "envelope",
+      "wrapping",
+      "magnetic stripe",
+      "memory device",
+      "orange color",
+      "reddish orange color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#fcac43",
+      "darkVibrant": "#824a02",
+      "lightVibrant": "#fcc478"
+    },
+    "status": "complete"
+  },
+  "id": "dc1a2880-a545-422a-a13b-17a0c7fc8494",
+  "resource": "523ba443-03b7-426a-b210-bba66954131f",
+  "fileSize": 43493,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=523ba443-03b7-426a-b210-bba66954131f&a=dc1a2880-a545-422a-a13b-17a0c7fc8494",
+      "source": "/authoring/v1/resources/523ba443-03b7-426a-b210-bba66954131f"
+    }
+  },
+  "metadata": {
+    "width": 1170,
+    "height": 150
+  },
+  "classification": "asset",
+  "created": "2017-11-21T15:56:28.695Z"
+}

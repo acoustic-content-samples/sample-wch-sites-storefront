@@ -1,0 +1,58 @@
+{
+  "id": "54b1ff0e-d7a2-4476-bda3-e8c8d400db09",
+  "rev": "10-05d9cf2335f31ddef225e092c13c1acd",
+  "name": "E-Shopper ad carousel item",
+  "classification": "content-type",
+  "path": "/E-Shopper-carousel",
+  "kind": [
+    "standalone"
+  ],
+  "contentThumbnail": {
+    "imageElement": "adImage",
+    "source": "imageElementOrType"
+  },
+  "description": "",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-21T16:11:31.162Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-21T16:13:51.464Z",
+  "status": "ready",
+  "tags": [
+    "e-shopper"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Title",
+      "key": "title",
+      "required": true,
+      "minLength": 1
+    },
+    {
+      "elementType": "text",
+      "label": "Caption",
+      "key": "caption"
+    },
+    {
+      "elementType": "text",
+      "label": "Description",
+      "key": "description"
+    },
+    {
+      "elementType": "link",
+      "label": "Get it now link",
+      "key": "getItNowLink"
+    },
+    {
+      "elementType": "image",
+      "label": "Ad image",
+      "key": "adImage",
+      "required": true
+    },
+    {
+      "elementType": "image",
+      "label": "Sticker",
+      "key": "sticker"
+    }
+  ]
+}

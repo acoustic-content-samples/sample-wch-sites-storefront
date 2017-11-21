@@ -1,0 +1,12 @@
+{
+  "id": "e-shopper-login-layout",
+  "rev": "4-dd50ba659aff81b2242d4a3501867adf",
+  "name": "eShopperLoginLayout",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/e-shopper-login-layout.jpg"
+  },
+  "template": "e-shopper-login-layout",
+  "templateType": "angular"
+}

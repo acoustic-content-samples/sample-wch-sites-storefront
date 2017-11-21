@@ -1,11 +1,11 @@
 {
   "id": "e15984a4-d1d4-4efe-8bc1-a2d67ea5c46f",
-  "rev": "3-2b79b19cf72e9a9494ec446ed12ee884",
+  "rev": "4-a93c88f043d30f1aeaadea40c8c5ca27",
   "name": "Home",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-16T19:48:20.017Z",
+  "lastModified": "2017-11-21T16:16:20.522Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-15T18:54:10.158Z",
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
@@ -15,7 +15,12 @@
   "status": "ready",
   "elements": {
     "banner": {
-      "elementType": "reference"
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "8617ec67-21f4-4067-b772-e9e7062ad328"
+        }
+      ]
     },
     "sectionOne": {
       "elementType": "reference"

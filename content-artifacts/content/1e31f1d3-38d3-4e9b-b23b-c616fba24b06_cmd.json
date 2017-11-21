@@ -1,0 +1,43 @@
+{
+  "id": "1e31f1d3-38d3-4e9b-b23b-c616fba24b06",
+  "rev": "4-8e88d3e661057022b1327f3a097ccca9",
+  "name": "Login",
+  "description": "",
+  "classification": "content",
+  "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "lastModified": "2017-11-21T17:03:40.848Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-21T01:13:52.770Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [],
+  "status": "ready",
+  "elements": {
+    "banner": {
+      "elementType": "reference"
+    },
+    "sectionOne": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "d5088441-2657-4873-b7e8-e358e2ab21cc"
+        }
+      ]
+    },
+    "sectionTwo": {
+      "elementType": "reference"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "standard-page-layout"
+      }
+    }
+  ],
+  "kind": [
+    "page"
+  ],
+  "thumbnail": {
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
+  }
+}

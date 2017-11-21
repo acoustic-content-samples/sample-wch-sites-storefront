@@ -1,0 +1,15 @@
+{
+  "name": "Blog2",
+  "segment": "blog2",
+  "layoutId": "e-shopper-blog-page-layout",
+  "description": "",
+  "contentTypeId": "a469fb98-65c3-4538-8d03-ce345be7be81",
+  "title": "",
+  "classification": "page",
+  "contentId": "54c1bfe7-7621-4548-913f-d8c5a151708c",
+  "contentStatus": "draft",
+  "contentLinkedDocId": "c16c2c72-69e6-45d7-9240-56e4d05277dd",
+  "position": 2,
+  "id": "4491aeec-f14c-4b98-b661-e50822e90a17",
+  "rev": "5-efc641f093434e0727bbb8221d7fcf51"
+}

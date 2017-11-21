@@ -1,0 +1,82 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "girl3.jpg",
+  "path": "/dxdam/7a/7a33a502-575c-4b0e-a8e7-b1c3587aa7b0/girl3.jpg",
+  "digest": "rsUyntDjWDDzieJuXqxiLg==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-21T16:10:59.775Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:dinner dress",
+      "classification:eveningwear",
+      "classification:dress",
+      "classification:alizarine red color",
+      "classification:cocktail dress",
+      "classification:dark red color",
+      "face:Female",
+      "user:e-shopper"
+    ],
+    "declined": [],
+    "suggested": [
+      "classification:dinner dress",
+      "classification:eveningwear",
+      "classification:dress",
+      "classification:alizarine red color",
+      "classification:cocktail dress",
+      "classification:dark red color",
+      "face:Female"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "girl3.jpg",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "4-bcbf4565b25bc54767a0dda1b78ebefa",
+  "cognitive": {
+    "classifications": [
+      "dinner dress",
+      "eveningwear",
+      "dress",
+      "alizarine red color",
+      "cocktail dress",
+      "dark red color"
+    ],
+    "faces": [
+      {
+        "gender": "Female"
+      }
+    ],
+    "colors": {
+      "vibrant": "#0e82ed",
+      "muted": "#a97b65",
+      "darkVibrant": "#840404",
+      "darkMuted": "#5f3a29",
+      "lightVibrant": "#f3b59f",
+      "lightMuted": "#c9b0ad"
+    },
+    "status": "complete"
+  },
+  "id": "7a33a502-575c-4b0e-a8e7-b1c3587aa7b0",
+  "resource": "afd17b29-5c62-4ddc-951a-79ecd9b64fae",
+  "fileSize": 124440,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=afd17b29-5c62-4ddc-951a-79ecd9b64fae&a=7a33a502-575c-4b0e-a8e7-b1c3587aa7b0",
+      "source": "/authoring/v1/resources/afd17b29-5c62-4ddc-951a-79ecd9b64fae"
+    }
+  },
+  "metadata": {
+    "width": 484,
+    "height": 441
+  },
+  "classification": "asset",
+  "created": "2017-11-21T16:10:18.550Z"
+}

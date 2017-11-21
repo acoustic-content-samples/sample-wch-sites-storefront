@@ -1,11 +1,11 @@
 {
   "id": "2121a30c-7e47-4a0d-9e98-d63c185875f5",
-  "rev": "3-e9cb82afaf7669cc12ec69d887da3d50",
+  "rev": "4-79e696f63876566c28ec17eec02a3b7b",
   "name": "Login",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-16T19:54:21.359Z",
+  "lastModified": "2017-11-21T15:59:56.500Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-16T16:24:24.882Z",
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
@@ -15,7 +15,12 @@
   "status": "ready",
   "elements": {
     "banner": {
-      "elementType": "reference"
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "d6664eee-7d8b-43aa-9575-cacfa77fae82"
+        }
+      ]
     },
     "sectionOne": {
       "elementType": "reference"

@@ -1,0 +1,32 @@
+{
+  "id": "c16c2c72-69e6-45d7-9240-56e4d05277dd",
+  "rev": "4-9fd209a1f02eb0b796de5716c5ffa236",
+  "name": "Blog2",
+  "description": "",
+  "classification": "content",
+  "typeId": "a469fb98-65c3-4538-8d03-ce345be7be81",
+  "lastModified": "2017-11-21T00:44:32.509Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-20T20:51:49.345Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [],
+  "status": "ready",
+  "elements": {
+    "blogList": {
+      "elementType": "reference",
+      "value": {
+        "id": "7bd38eb7-69aa-4a7f-b9fd-583ef7c714ca"
+      }
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "e-shopper-blog-page-layout"
+      }
+    }
+  ],
+  "kind": [
+    "page"
+  ]
+}

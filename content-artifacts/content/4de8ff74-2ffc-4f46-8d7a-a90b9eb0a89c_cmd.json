@@ -1,0 +1,64 @@
+{
+  "id": "4de8ff74-2ffc-4f46-8d7a-a90b9eb0a89c",
+  "rev": "11-4de34cd70e0bba72a93862a3a341fd43",
+  "name": "eShopperCarouselAd3",
+  "description": "",
+  "classification": "content",
+  "typeId": "54b1ff0e-d7a2-4476-bda3-e8c8d400db09",
+  "locale": "en",
+  "lastModified": "2017-11-21T16:27:31.436Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-21T16:25:40.092Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "description": {
+      "elementType": "text",
+      "value": "Etiam libero mauris fusce, morbi quis risus, ultricies ad, ut eu, sed torquent. Neque consectetuer proin, et viverra elit nibh, mi orci, metus aliquam justo."
+    },
+    "getItNowLink": {
+      "elementType": "link",
+      "linkURL": "http://demo.themeum.com/html/eshopper/index.html",
+      "linkText": "Give today"
+    },
+    "caption": {
+      "elementType": "text",
+      "value": "Pick out gifts for everyone on your list"
+    },
+    "sticker": {
+      "elementType": "image"
+    },
+    "title": {
+      "elementType": "text",
+      "value": "Shop gifts"
+    },
+    "adImage": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=afd17b29-5c62-4ddc-951a-79ecd9b64fae&a=7a33a502-575c-4b0e-a8e7-b1c3587aa7b0",
+          "source": "/authoring/v1/resources/afd17b29-5c62-4ddc-951a-79ecd9b64fae",
+          "width": 484,
+          "height": 441
+        }
+      },
+      "asset": {
+        "id": "7a33a502-575c-4b0e-a8e7-b1c3587aa7b0",
+        "resourceUri": "/authoring/v1/resources/afd17b29-5c62-4ddc-951a-79ecd9b64fae",
+        "fileName": "girl3.jpg",
+        "fileSize": 124440,
+        "mediaType": "image/jpeg",
+        "width": 484,
+        "height": 441
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "7a33a502-575c-4b0e-a8e7-b1c3587aa7b0"
+  }
+}

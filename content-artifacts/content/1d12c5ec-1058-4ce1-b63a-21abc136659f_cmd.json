@@ -1,0 +1,81 @@
+{
+  "id": "1d12c5ec-1058-4ce1-b63a-21abc136659f",
+  "rev": "11-542700e5be6436b6713ae7e79027cf97",
+  "name": "eShopperCarouselAd1",
+  "classification": "content",
+  "typeId": "54b1ff0e-d7a2-4476-bda3-e8c8d400db09",
+  "locale": "en",
+  "lastModified": "2017-11-21T16:23:13.432Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-21T16:20:55.965Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "description": {
+      "elementType": "text",
+      "value": "Natus augue nunc ante class odio, amet nulla tortor."
+    },
+    "getItNowLink": {
+      "elementType": "link",
+      "linkURL": "http://demo.themeum.com/html/eshopper/index.html",
+      "linkText": "Shop now"
+    },
+    "caption": {
+      "elementType": "text",
+      "value": "Don't miss out on the season's new styles."
+    },
+    "sticker": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=f4480336-29b0-4a2e-b1c2-480f6942be54&a=e584fe3d-933a-425e-a9ee-c8ef4080c334",
+          "source": "/authoring/v1/resources/f4480336-29b0-4a2e-b1c2-480f6942be54",
+          "width": 172,
+          "height": 172
+        }
+      },
+      "asset": {
+        "id": "e584fe3d-933a-425e-a9ee-c8ef4080c334",
+        "resourceUri": "/authoring/v1/resources/f4480336-29b0-4a2e-b1c2-480f6942be54",
+        "fileName": "pricing.png",
+        "fileSize": 10268,
+        "mediaType": "image/png",
+        "width": 172,
+        "height": 172
+      }
+    },
+    "title": {
+      "elementType": "text",
+      "value": "Shop dresses today"
+    },
+    "adImage": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=62937212-45f5-4118-b67f-db15da212dc8&a=833882f0-945b-4cfa-94b4-c207c73d814a",
+          "source": "/authoring/v1/resources/62937212-45f5-4118-b67f-db15da212dc8",
+          "width": 484,
+          "height": 441
+        }
+      },
+      "asset": {
+        "id": "833882f0-945b-4cfa-94b4-c207c73d814a",
+        "resourceUri": "/authoring/v1/resources/62937212-45f5-4118-b67f-db15da212dc8",
+        "fileName": "girl1.jpg",
+        "fileSize": 133812,
+        "mediaType": "image/jpeg",
+        "width": 484,
+        "height": 441
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "833882f0-945b-4cfa-94b4-c207c73d814a"
+  },
+  "description": ""
+}

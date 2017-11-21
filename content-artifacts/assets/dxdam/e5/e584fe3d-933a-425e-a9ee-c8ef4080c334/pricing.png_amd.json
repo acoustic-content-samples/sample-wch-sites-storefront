@@ -1,0 +1,100 @@
+{
+  "mediaType": "image/png",
+  "name": "pricing.png",
+  "path": "/dxdam/e5/e584fe3d-933a-425e-a9ee-c8ef4080c334/pricing.png",
+  "digest": "8/MlSlZZmS9wRBWrCpFz6Q==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-11-21T16:10:59.775Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:fanion flag",
+      "classification:flag",
+      "classification:Edam",
+      "classification:cheese",
+      "classification:dairy product",
+      "classification:food product",
+      "classification:food",
+      "classification:roundel",
+      "classification:plate",
+      "classification:shield",
+      "classification:protective covering",
+      "classification:antifouling paint",
+      "classification:paint",
+      "classification:alizarine red color",
+      "user:e-shopper"
+    ],
+    "declined": [],
+    "suggested": [
+      "classification:fanion flag",
+      "classification:flag",
+      "classification:Edam",
+      "classification:cheese",
+      "classification:dairy product",
+      "classification:food product",
+      "classification:food",
+      "classification:roundel",
+      "classification:plate",
+      "classification:shield",
+      "classification:protective covering",
+      "classification:antifouling paint",
+      "classification:paint",
+      "classification:alizarine red color"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "pricing.png",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "rev": "4-6c9027b1687451b5a7b4ab99f3278153",
+  "cognitive": {
+    "classifications": [
+      "fanion flag",
+      "flag",
+      "Edam",
+      "cheese",
+      "dairy product",
+      "food product",
+      "food",
+      "roundel",
+      "plate",
+      "shield",
+      "protective covering",
+      "antifouling paint",
+      "paint",
+      "alizarine red color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#fb9612",
+      "muted": "#868684",
+      "darkVibrant": "#4c1d1b",
+      "darkMuted": "#241813",
+      "lightVibrant": "#f4c77f",
+      "lightMuted": "#f2ebe4"
+    },
+    "status": "complete"
+  },
+  "id": "e584fe3d-933a-425e-a9ee-c8ef4080c334",
+  "resource": "f4480336-29b0-4a2e-b1c2-480f6942be54",
+  "fileSize": 10268,
+  "status": "ready",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "renditions": {
+    "default": {
+      "id": "r=f4480336-29b0-4a2e-b1c2-480f6942be54&a=e584fe3d-933a-425e-a9ee-c8ef4080c334",
+      "source": "/authoring/v1/resources/f4480336-29b0-4a2e-b1c2-480f6942be54"
+    }
+  },
+  "metadata": {
+    "width": 172,
+    "height": 172
+  },
+  "classification": "asset",
+  "created": "2017-11-21T16:10:21.211Z"
+}

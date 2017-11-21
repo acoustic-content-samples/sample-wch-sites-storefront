@@ -1,0 +1,32 @@
+{
+  "id": "0e824eb0-bb45-4ad2-b8d0-2de2edd27461",
+  "rev": "1-7fcfc919cc9b098bfcbb481191d5c755",
+  "name": "E-Shopper ad carousel item",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "Laura Pomerleau",
+  "classification": "category",
+  "taxonomy": "9d47dccc-f940-40de-a978-82815c805701",
+  "parent": "8a1cca57-4e5b-4d66-b8fa-668490b8e9b1",
+  "ancestorIds": [
+    "9d47dccc-f940-40de-a978-82815c805701",
+    "8a1cca57-4e5b-4d66-b8fa-668490b8e9b1"
+  ],
+  "namePath": [
+    "Dynamic list criteria",
+    "Type",
+    "E-Shopper ad carousel item"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/9d47dccc-f940-40de-a978-82815c805701"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/0e824eb0-bb45-4ad2-b8d0-2de2edd27461"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/8a1cca57-4e5b-4d66-b8fa-668490b8e9b1"
+    }
+  },
+  "created": "2017-11-21T16:14:42.420Z",
+  "lastModified": "2017-11-21T16:14:42.420Z"
+}

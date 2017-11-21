@@ -1,12 +1,12 @@
 {
   "id": "7bd38eb7-69aa-4a7f-b9fd-583ef7c714ca",
-  "rev": "8-dc2c0c11a3366936ea91b41eecb347e1",
-  "name": "E-Shopper blog",
+  "rev": "10-6c75de025de012ba08fa0d06a1a6ff9a",
+  "name": "E-Shopper blog list",
   "description": "",
   "classification": "content",
   "typeId": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c",
   "locale": "en",
-  "lastModified": "2017-11-20T18:24:40.419Z",
+  "lastModified": "2017-11-21T00:53:25.499Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-20T18:20:59.916Z",
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
@@ -23,8 +23,7 @@
       "elementType": "category"
     },
     "listTitle": {
-      "elementType": "text",
-      "value": "Latest from our blog"
+      "elementType": "text"
     },
     "contentType": {
       "elementType": "category",
@@ -45,7 +44,7 @@
   "selectedLayouts": [
     {
       "layout": {
-        "id": "carousel-dynamic-list"
+        "id": "vertical-dynamic-list"
       }
     }
   ],

@@ -1,0 +1,44 @@
+{
+  "id": "c26fcb04-9c18-4214-80a6-4d341a747380",
+  "rev": "4-02b979eea111e1a36e02109d7db78f74",
+  "name": "eShopperShippingAd",
+  "classification": "content",
+  "typeId": "23c92986-b470-47f5-b3af-1e4c4770abdc",
+  "locale": "en",
+  "lastModified": "2017-11-21T15:59:22.930Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-21T15:58:54.742Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "ad": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=4bf5708b-627a-4977-91b7-3345dd242181&a=b622c681-6cf1-490d-be07-c20bdbd41a2b",
+          "source": "/authoring/v1/resources/4bf5708b-627a-4977-91b7-3345dd242181",
+          "width": 270,
+          "height": 329
+        }
+      },
+      "asset": {
+        "id": "b622c681-6cf1-490d-be07-c20bdbd41a2b",
+        "resourceUri": "/authoring/v1/resources/4bf5708b-627a-4977-91b7-3345dd242181",
+        "fileName": "shipping.jpg",
+        "fileSize": 57427,
+        "mediaType": "image/jpeg",
+        "width": 270,
+        "height": 329
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "b622c681-6cf1-490d-be07-c20bdbd41a2b"
+  },
+  "description": ""
+}

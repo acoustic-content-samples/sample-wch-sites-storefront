@@ -6,10 +6,9 @@
   "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
   "title": "",
   "classification": "page",
-  "contentId": "49c741dc-370b-41e1-88fb-d48c69270531",
-  "status": "draft",
-  "linkedDocId": "57f395be-c457-4b4d-b808-8697307c478c",
-  "position": -1,
-  "id": "26385b0630b125dfaa5163530c258ea4",
-  "rev": "1-c7e1d741974331cba9b10c90c73e6661"
+  "contentId": "e15984a4-d1d4-4efe-8bc1-a2d67ea5c46f",
+  "contentStatus": "ready",
+  "position": 0,
+  "id": "57f395be-c457-4b4d-b808-8697307c478c",
+  "rev": "6-51e99040103cf357b449452615b96f72"
 }

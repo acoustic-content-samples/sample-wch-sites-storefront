@@ -1,0 +1,20 @@
+{
+  "id": "d5088441-2657-4873-b7e8-e358e2ab21cc",
+  "rev": "3-549660934a02f46c0eba7ca754c683cc",
+  "name": "eShopperLogin",
+  "classification": "content",
+  "typeId": "2e44f20c-16fd-44ae-8a12-3c981c6234aa",
+  "locale": "en",
+  "lastModified": "2017-11-21T17:01:10.877Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-21T17:01:02.840Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {},
+  "kind": [],
+  "description": ""
+}

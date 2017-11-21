@@ -1,0 +1,56 @@
+{
+  "id": "dced50ce-375b-48d4-b424-3ac652ef8860",
+  "rev": "13-5cfe3dac403116148669d8b817b5a222",
+  "name": "eShopperContact",
+  "classification": "content",
+  "typeId": "bb6e9a2b-1a87-41b7-a6d0-8d2037554c3e",
+  "lastModified": "2017-11-20T20:16:59.154Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-20T20:14:42.922Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "name": {
+      "elementType": "text",
+      "value": "E-Shopper Inc."
+    },
+    "email": {
+      "elementType": "text",
+      "value": "info@e-shopper.com"
+    },
+    "youtube": {
+      "elementType": "link",
+      "linkURL": "https://www.youtube.com/"
+    },
+    "googlePlus": {
+      "elementType": "link",
+      "linkURL": "https://plus.google.com/"
+    },
+    "fax": {
+      "elementType": "text",
+      "value": "1-714-252-0026"
+    },
+    "facebook": {
+      "elementType": "link",
+      "linkURL": "https://www.facebook.com/"
+    },
+    "address": {
+      "elementType": "text",
+      "value": "935 W. Webster Ave Chicago, IL"
+    },
+    "twitter": {
+      "elementType": "link",
+      "linkURL": "https://twitter.com/"
+    },
+    "phone": {
+      "elementType": "text",
+      "value": "+2346 17 38 93"
+    }
+  },
+  "kind": [],
+  "description": ""
+}
