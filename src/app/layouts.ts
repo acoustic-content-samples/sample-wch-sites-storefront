@@ -10,6 +10,7 @@ import { EShopperBlogPageLayoutComponent } from './layouts/e-shopper-blog-page/e
 import { EShopperBlogPostLayoutComponent } from './layouts/e-shopper-blog-post/eShopperBlogPostLayout';
 import { EShopperBlurbLayoutComponent } from './layouts/e-shopper-blurb/eShopperBlurbLayout';
 import { EShopperCartLayoutComponent } from './layouts/e-shopper-cart/eShopperCartLayout';
+import { EShopperCheckoutLayoutComponent } from './layouts/e-shopper-checkout/eShopperCheckoutLayout';
 import { EShopperContactLayoutComponent } from './layouts/e-shopper-contact/eShopperContactLayout';
 import { EShopperLoginLayoutComponent } from './layouts/e-shopper-login/eShopperLoginLayout';
 import { EShopperVideoLinkLayoutComponent } from './layouts/e-shopper-video-link/eShopperVideoLinkLayout';
@@ -30,6 +31,7 @@ export const LAYOUTS = [
   EShopperBlogPostLayoutComponent,
   EShopperBlurbLayoutComponent,
   EShopperCartLayoutComponent,
+  EShopperCheckoutLayoutComponent,
   EShopperContactLayoutComponent,
   EShopperLoginLayoutComponent,
   EShopperVideoLinkLayoutComponent,

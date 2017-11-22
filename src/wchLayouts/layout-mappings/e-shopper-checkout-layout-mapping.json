@@ -1,0 +1,24 @@
+{
+  "classification": "layout-mapping",
+  "id": "e-shopper-checkout-layout-mapping",
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "e-shopper-checkout-layout",
+        "name": "eShopperCheckoutLayout"
+      },
+      "layouts": [
+        {
+          "id": "e-shopper-checkout-layout",
+          "name": "eShopperCheckoutLayout"
+        }
+      ]
+    }
+  ],
+  "name": "eShopperCheckoutLayoutMapping",
+  "rev": "66FQML33MojicoA14Ir/wu+tcfO70WnWNmqGvkxKdKQ=",
+  "type": {
+    "id": "98faa920-6c28-4669-9af1-4a24b4704ff4",
+    "name": "E-Shopper checkout"
+  }
+}

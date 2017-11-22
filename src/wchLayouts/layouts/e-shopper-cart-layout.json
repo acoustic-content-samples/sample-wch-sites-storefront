@@ -1,12 +1,12 @@
 {
-  "classification": "layout",
   "id": "e-shopper-cart-layout",
+  "rev": "3-e5344cde834143593768515ad82b1fb6",
   "name": "eShopperCartLayout",
+  "classification": "layout",
   "prerender": false,
-  "rev": "dGnw4tq8MTgJQufGkTHukcyZqMMmzbvuqYA33fyIWZ4=",
-  "template": "e-shopper-cart-layout",
-  "templateType": "angular",
   "thumbnail": {
     "path": "/layouts/thumbnails/e-shopper-cart-layout.jpg"
-  }
+  },
+  "template": "e-shopper-cart-layout",
+  "templateType": "angular"
 }
