@@ -1,4 +1,4 @@
-<footer id="footer"><!--Footer-->
+<footer id="footer" style="margin-top: 50px;"><!--Footer-->
 
 	<div class="footer-top">
 		<div class="container">
@@ -12,22 +12,64 @@
 				<div class="col-sm-7">
 					<div class="col-sm-3">
 						<div class="video-gallery text-center">
-							<a href="#">
+							<a href="https://www.youtube.com/" target="_blank">
 								<div class="iframe-img">
-									<img src="images/home/iframe1.png" alt=""><!-- TODO LOOP iframe2.png, iframe3.png, iframe4.png -->
+									<img [src]="iframe1Img" alt="one">
+								</div>
+								<div class="overlay-icon">
+									<i class="fa fa-play-circle-o"></i>
+								</div>
+							</a>
+							<p>Circle of Shirts</p>
+							<h2>2 SEP 2014</h2>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="video-gallery text-center">
+							<a href="https://www.youtube.com/" target="_blank">
+								<div class="iframe-img">
+									<img [src]="iframe2Img" alt="two">
 								</div>
 								<div class="overlay-icon">
 									<i class="fa fa-play-circle-o"></i>
 								</div>
 							</a>
 							<p>Circle of Hands</p>
-							<h2>24 DEC 2014</h2>
+							<h2>30 OCT 2014</h2>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="video-gallery text-center">
+							<a href="https://www.youtube.com/" target="_blank">
+								<div class="iframe-img">
+									<img [src]="iframe3Img" alt="three">
+								</div>
+								<div class="overlay-icon">
+									<i class="fa fa-play-circle-o"></i>
+								</div>
+							</a>
+							<p>Circle of Suits</p>
+							<h2>18 NOV 2017</h2>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="video-gallery text-center">
+							<a href="https://www.youtube.com/" target="_blank">
+								<div class="iframe-img">
+									<img [src]="iframe4Img" alt="four">
+								</div>
+								<div class="overlay-icon">
+									<i class="fa fa-play-circle-o"></i>
+								</div>
+							</a>
+							<p>Circle of Sales</p>
+							<h2>24 DEC 2017</h2>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
 					<div class="address">
-						<img src="images/home/map.png" alt="">
+						<a *ngIf="isElementAvailable(BG_IMAGE)" href routerLink="/home"><img src="{{getImgURL(BG_IMAGE)}}" alt=""></a>
 						<p *ngIf="isElementAvailable(ADDRESS)">{{getElement(ADDRESS).value}}</p>
 					</div>
 				</div>

@@ -1,24 +1,21 @@
 {
-  "classification": "layout-mapping",
   "id": "e-shopper-checkout-layout-mapping",
+  "rev": "3-3f28e8cea7733322466e95a36cc01322",
+  "name": "eShopperCheckoutLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "98faa920-6c28-4669-9af1-4a24b4704ff4"
+  },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "e-shopper-checkout-layout",
-        "name": "eShopperCheckoutLayout"
+        "id": "e-shopper-checkout-layout"
       },
       "layouts": [
         {
-          "id": "e-shopper-checkout-layout",
-          "name": "eShopperCheckoutLayout"
+          "id": "e-shopper-checkout-layout"
         }
       ]
     }
-  ],
-  "name": "eShopperCheckoutLayoutMapping",
-  "rev": "66FQML33MojicoA14Ir/wu+tcfO70WnWNmqGvkxKdKQ=",
-  "type": {
-    "id": "98faa920-6c28-4669-9af1-4a24b4704ff4",
-    "name": "E-Shopper checkout"
-  }
+  ]
 }

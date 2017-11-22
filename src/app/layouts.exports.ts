@@ -13,7 +13,7 @@ export { EShopperCartLayoutComponent } from './layouts/e-shopper-cart/eShopperCa
 export { EShopperCheckoutLayoutComponent } from './layouts/e-shopper-checkout/eShopperCheckoutLayout';
 export { EShopperContactLayoutComponent } from './layouts/e-shopper-contact/eShopperContactLayout';
 export { EShopperLoginLayoutComponent } from './layouts/e-shopper-login/eShopperLoginLayout';
-export { EShopperVideoLinkLayoutComponent } from './layouts/e-shopper-video-link/eShopperVideoLinkLayout';
+export { EShopperProductsLayoutComponent } from './layouts/e-shopper-products/eShopperProductsLayout';
 export { GalleryDynamicListLayoutComponent } from './layouts/gallery-dynamic-list/galleryDynamicListLayout';
 export { GalleryListLayoutComponent } from './layouts/gallery-list/galleryListLayout';
 export { PageNotFoundComponent } from './page-not-found/page-not-found.component';

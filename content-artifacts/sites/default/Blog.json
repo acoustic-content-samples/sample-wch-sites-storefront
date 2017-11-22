@@ -1,17 +1,15 @@
 {
   "name": "Blog",
   "segment": "blog",
-  "layoutId": "standard-page-layout",
+  "layoutId": "e-shopper-blog-page-layout",
   "description": "",
-  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "contentTypeId": "a469fb98-65c3-4538-8d03-ce345be7be81",
   "title": "",
   "classification": "page",
-  "contentId": "7f44745f-f803-4a01-85b0-fe0e69b3a605",
-  "status": "draft",
-  "linkedDocId": "fe130cfd-a121-4ab5-9ba1-e55e3ec7df8d",
+  "contentId": "54c1bfe7-7621-4548-913f-d8c5a151708c",
   "contentStatus": "draft",
-  "contentLinkedDocId": "f3af3791-cb0f-4c88-b784-af9ad6796425",
-  "position": -1,
-  "id": "3657c4956f61dc5de55f6ec3632a85e9",
-  "rev": "5-55c4716eb94d8f59fa8ff61d94881cae"
+  "contentLinkedDocId": "c16c2c72-69e6-45d7-9240-56e4d05277dd",
+  "position": 2,
+  "id": "4491aeec-f14c-4b98-b661-e50822e90a17",
+  "rev": "5-efc641f093434e0727bbb8221d7fcf51"
 }

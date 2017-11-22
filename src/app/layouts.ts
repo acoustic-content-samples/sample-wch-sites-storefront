@@ -13,7 +13,7 @@ import { EShopperCartLayoutComponent } from './layouts/e-shopper-cart/eShopperCa
 import { EShopperCheckoutLayoutComponent } from './layouts/e-shopper-checkout/eShopperCheckoutLayout';
 import { EShopperContactLayoutComponent } from './layouts/e-shopper-contact/eShopperContactLayout';
 import { EShopperLoginLayoutComponent } from './layouts/e-shopper-login/eShopperLoginLayout';
-import { EShopperVideoLinkLayoutComponent } from './layouts/e-shopper-video-link/eShopperVideoLinkLayout';
+import { EShopperProductsLayoutComponent } from './layouts/e-shopper-products/eShopperProductsLayout';
 import { GalleryDynamicListLayoutComponent } from './layouts/gallery-dynamic-list/galleryDynamicListLayout';
 import { GalleryListLayoutComponent } from './layouts/gallery-list/galleryListLayout';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -34,7 +34,7 @@ export const LAYOUTS = [
   EShopperCheckoutLayoutComponent,
   EShopperContactLayoutComponent,
   EShopperLoginLayoutComponent,
-  EShopperVideoLinkLayoutComponent,
+  EShopperProductsLayoutComponent,
   GalleryDynamicListLayoutComponent,
   GalleryListLayoutComponent,
   PageNotFoundComponent,

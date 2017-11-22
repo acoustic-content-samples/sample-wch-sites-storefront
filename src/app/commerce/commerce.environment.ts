@@ -8,8 +8,8 @@
  * specific language governing permissions and limitations under the License.
 */
 export const CommerceEnvironment = {
-    searchUseMocks: true,
-    transactionUseMocks: true,
+    searchUseMocks: false,
+    transactionUseMocks: false,
     pageSize: 25,
     errors: {
         genericUserError: "USR.CWXFR0130E",

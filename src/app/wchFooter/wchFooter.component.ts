@@ -19,6 +19,10 @@ import {RenderingContext} from "ibm-wch-sdk-ng";
 import {ConfigServiceService} from "../common/configService/config-service.service";
 import {Constants} from "../Constants";
 import {Subscription} from "rxjs/Subscription";
+const iframe1 = require('./images/iframe1.png');
+const iframe2 = require('./images/iframe2.png');
+const iframe3 = require('./images/iframe3.png');
+const iframe4 = require('./images/iframe4.png');
 
 @Component({
 	selector: 'wch-footer',
@@ -26,6 +30,10 @@ import {Subscription} from "rxjs/Subscription";
 })
 
 export class WchFooterComponent implements OnDestroy {
+	iframe1Img: any;
+	iframe2Img: any;
+	iframe3Img: any;
+	iframe4Img: any;
 
 	rc: RenderingContext;
 	footerConfig: any;
@@ -35,7 +43,6 @@ export class WchFooterComponent implements OnDestroy {
 	public readonly SITE_TITLE: string = 'siteTitle';
 	public readonly SITE_DESCRIPTION: string = 'siteDescription';
 	public readonly BG_IMAGE: string = 'background';
-	public readonly VIDEO_LINKS: string = 'videoLinks';
 	public readonly SERVICE_LINKS: string = 'serviceLinks';
 	public readonly QUICK_LINKS: string = 'quickLinks';
 	public readonly POLICY_LINKS: string = 'policyLinks';
@@ -48,6 +55,10 @@ export class WchFooterComponent implements OnDestroy {
 	}
 
 	constructor(configService: ConfigServiceService) {
+		this.iframe1Img = iframe1;
+		this.iframe2Img = iframe2;
+		this.iframe3Img = iframe3;
+		this.iframe4Img = iframe4;
 		this.configSub = configService.getConfig(Constants.FOOTER_CONFIG).subscribe((context) => {
 			this.footerConfig = context;
 		});

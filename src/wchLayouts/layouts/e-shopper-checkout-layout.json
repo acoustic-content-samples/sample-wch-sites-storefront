@@ -1,12 +1,12 @@
 {
-  "classification": "layout",
   "id": "e-shopper-checkout-layout",
+  "rev": "4-86331eaba5066da87c7d823f9aee2f0d",
   "name": "eShopperCheckoutLayout",
+  "classification": "layout",
   "prerender": false,
-  "rev": "AsZ0lWhq5iI4gvHZXlBuUb6ril7vbmHhuFV67MOFqhY=",
-  "template": "e-shopper-checkout-layout",
-  "templateType": "angular",
   "thumbnail": {
     "path": "/layouts/thumbnails/e-shopper-checkout-layout.jpg"
-  }
+  },
+  "template": "e-shopper-checkout-layout",
+  "templateType": "angular"
 }
