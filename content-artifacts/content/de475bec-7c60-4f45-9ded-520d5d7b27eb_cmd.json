@@ -1,11 +1,11 @@
 {
   "id": "de475bec-7c60-4f45-9ded-520d5d7b27eb",
-  "rev": "3-fb496c29fbd25f0400cfdb62695e6d61",
+  "rev": "4-734349a75e227fe4352636ab30b0a8c5",
   "name": "Checkout",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-16T19:54:41.608Z",
+  "lastModified": "2017-11-22T12:55:49.814Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-16T16:23:54.596Z",
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
@@ -18,7 +18,12 @@
       "elementType": "reference"
     },
     "sectionOne": {
-      "elementType": "reference"
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "cf3cd5c9-73e5-4ca0-bfb2-b88fe2237b5e"
+        }
+      ]
     },
     "sectionTwo": {
       "elementType": "reference"

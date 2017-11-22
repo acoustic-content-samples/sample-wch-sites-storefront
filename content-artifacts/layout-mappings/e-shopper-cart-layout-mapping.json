@@ -1,0 +1,21 @@
+{
+  "id": "e-shopper-cart-layout-mapping",
+  "rev": "3-39f0ff0d41dafe9c2826b8498386c22e",
+  "name": "eShopperCartLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "d929f7b1-7b95-4e1a-9efd-631112ad92ea"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "e-shopper-cart-layout"
+      },
+      "layouts": [
+        {
+          "id": "e-shopper-cart-layout"
+        }
+      ]
+    }
+  ]
+}

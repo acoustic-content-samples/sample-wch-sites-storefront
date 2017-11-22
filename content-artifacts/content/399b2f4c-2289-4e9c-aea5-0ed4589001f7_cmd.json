@@ -1,0 +1,27 @@
+{
+  "id": "399b2f4c-2289-4e9c-aea5-0ed4589001f7",
+  "rev": "3-8a3ad5380511de6e822c6debdc92cb48",
+  "name": "eShopperCart",
+  "classification": "content",
+  "typeId": "d929f7b1-7b95-4e1a-9efd-631112ad92ea",
+  "locale": "en",
+  "lastModified": "2017-11-22T12:04:53.748Z",
+  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "created": "2017-11-22T12:04:46.554Z",
+  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "tags": [
+    "user:e-shopper"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {},
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "e-shopper-cart-layout"
+      }
+    }
+  ],
+  "kind": [],
+  "description": ""
+}
