@@ -1,6 +1,6 @@
 {
   "id": "82b99ac2-79d7-4519-b1f6-f24452e8f0f4",
-  "rev": "13-5f624a435eca5b1a3b79d04e73652e3e",
+  "rev": "16-226dc0bf1ca424902daea33590a5d6c6",
   "name": "E-Shopper header",
   "classification": "content-type",
   "path": "/E-/E-Shopper-header",
@@ -18,7 +18,7 @@
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-15T17:32:19.547Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-16T14:23:41.359Z",
+  "lastModified": "2017-11-22T17:24:26.335Z",
   "status": "ready",
   "tags": [
     "IBM sites kicker",
@@ -35,16 +35,6 @@
         "png",
         "gif",
         "svg"
-      ]
-    },
-    {
-      "elementType": "reference",
-      "label": "Top links",
-      "key": "topLinks",
-      "restrictTypes": [
-        {
-          "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb"
-        }
       ]
     },
     {

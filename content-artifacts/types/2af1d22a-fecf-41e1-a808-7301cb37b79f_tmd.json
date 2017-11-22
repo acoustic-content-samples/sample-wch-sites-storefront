@@ -1,6 +1,6 @@
 {
   "id": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "rev": "9-2f8ce81e797e7d07f2ff528e411a283e",
+  "rev": "11-d15b66e1fa611033059833f4126c08c6",
   "name": "Standard page",
   "classification": "content-type",
   "path": "/St/Standard-page",
@@ -19,7 +19,7 @@
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-15T17:32:21.086Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-20T20:41:27.360Z",
+  "lastModified": "2017-11-22T17:24:26.041Z",
   "status": "ready",
   "tags": [
     "oslo",

@@ -1,6 +1,6 @@
 {
   "id": "8f3b9172-8227-46b3-be14-f10c196c9134",
-  "rev": "7-bc2e4fe0e299667ccf045ee98425b32f",
+  "rev": "9-ecf40aaae35c9dccfb8cf3e72d9b48fc",
   "name": "E-Shopper blog post",
   "classification": "content-type",
   "path": "/E-/E-Shopper-blog-post",
@@ -15,7 +15,7 @@
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-20T18:04:07.057Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-20T18:06:57.626Z",
+  "lastModified": "2017-11-22T17:24:26.955Z",
   "status": "ready",
   "tags": [],
   "elements": [

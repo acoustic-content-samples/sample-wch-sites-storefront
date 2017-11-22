@@ -1,12 +1,12 @@
 {
   "id": "e8a56863-efb8-416e-8c13-6de8025de066",
-  "rev": "11-9e3d2a1a9f00f34fb9e7f952bae734de",
+  "rev": "12-52930dc348c3622a98ad07f2e9005d08",
   "name": "eshopperFooterConfig",
   "description": "",
   "classification": "content",
   "typeId": "063187b0-797f-4c65-84be-1de65a216012",
   "locale": "en",
-  "lastModified": "2017-11-16T20:46:03.763Z",
+  "lastModified": "2017-11-22T14:15:52.261Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-16T16:20:16.632Z",
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
@@ -23,9 +23,6 @@
     "siteTitle": {
       "elementType": "text",
       "value": "E-Shopper"
-    },
-    "policyLinks": {
-      "elementType": "reference"
     },
     "background": {
       "elementType": "image",
@@ -51,24 +48,12 @@
       "elementType": "text",
       "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor"
     },
-    "quickLinks": {
-      "elementType": "reference"
-    },
-    "serviceLinks": {
-      "elementType": "reference"
-    },
     "videoLinks": {
-      "elementType": "reference",
-      "value": {
-        "id": "85e5abc3-5536-43eb-bdc4-56aa16344b37"
-      }
+      "elementType": "reference"
     },
     "address": {
       "elementType": "text",
       "value": "505 S Atlantic Ave Virginia Beach, VA"
-    },
-    "aboutLinks": {
-      "elementType": "reference"
     }
   },
   "kind": [],

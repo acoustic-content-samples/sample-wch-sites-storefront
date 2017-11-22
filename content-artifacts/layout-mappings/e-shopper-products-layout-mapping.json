@@ -1,0 +1,21 @@
+{
+  "id": "e-shopper-products-layout-mapping",
+  "rev": "3-ca16a6087fb2755f8cd954aebd59dce7",
+  "name": "eShopperProductsLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "c77e86a9-926a-4c7b-99c9-dd41b8547ade"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "e-shopper-products-layout"
+      },
+      "layouts": [
+        {
+          "id": "e-shopper-products-layout"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": "d929f7b1-7b95-4e1a-9efd-631112ad92ea",
-  "rev": "2-aa7c7ab238606b3924c9569a8329b182",
+  "rev": "4-791229c34f80e61bb8d6e0de4c0d51ba",
   "name": "E-Shopper cart",
   "classification": "content-type",
   "path": "/E-Shopper-cart",
@@ -11,7 +11,7 @@
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-21T17:08:45.058Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-21T17:08:51Z",
+  "lastModified": "2017-11-22T17:24:27.082Z",
   "status": "ready",
   "tags": [
     "e-shopper"

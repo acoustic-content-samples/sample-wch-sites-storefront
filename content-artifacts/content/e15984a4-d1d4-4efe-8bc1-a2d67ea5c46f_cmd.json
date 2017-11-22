@@ -1,11 +1,11 @@
 {
   "id": "e15984a4-d1d4-4efe-8bc1-a2d67ea5c46f",
-  "rev": "4-a93c88f043d30f1aeaadea40c8c5ca27",
+  "rev": "5-efbd001acd142d2884f049e1a247eddf",
   "name": "Home",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-21T16:16:20.522Z",
+  "lastModified": "2017-11-22T14:51:59.696Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-15T18:54:10.158Z",
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
@@ -19,6 +19,9 @@
       "values": [
         {
           "id": "8617ec67-21f4-4067-b772-e9e7062ad328"
+        },
+        {
+          "id": "317f5db0-f940-4b67-ba22-c8e7769f8d9d"
         }
       ]
     },

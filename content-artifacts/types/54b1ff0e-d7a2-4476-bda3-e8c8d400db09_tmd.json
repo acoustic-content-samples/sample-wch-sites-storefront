@@ -1,6 +1,6 @@
 {
   "id": "54b1ff0e-d7a2-4476-bda3-e8c8d400db09",
-  "rev": "10-05d9cf2335f31ddef225e092c13c1acd",
+  "rev": "12-2c3b5e1a9fc0ac94b995cd02a731c3ba",
   "name": "E-Shopper ad carousel item",
   "classification": "content-type",
   "path": "/E-Shopper-carousel",
@@ -15,7 +15,7 @@
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-21T16:11:31.162Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-21T16:13:51.464Z",
+  "lastModified": "2017-11-22T17:24:26.254Z",
   "status": "ready",
   "tags": [
     "e-shopper"

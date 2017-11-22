@@ -1,6 +1,6 @@
 {
   "id": "bb6e9a2b-1a87-41b7-a6d0-8d2037554c3e",
-  "rev": "13-04dd4bd865974fcc807f883a622a0b14",
+  "rev": "15-a23092afc9d7bec6d6022e67926324cf",
   "name": "E-Shopper contact",
   "classification": "content-type",
   "path": "/E-/E-Shopper-contact",
@@ -11,7 +11,7 @@
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-20T20:11:27.454Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-20T20:14:13.186Z",
+  "lastModified": "2017-11-22T17:24:27.246Z",
   "status": "ready",
   "tags": [
     "e-shopper"

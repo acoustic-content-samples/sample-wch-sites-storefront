@@ -1,6 +1,6 @@
 {
   "id": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c",
-  "rev": "7-282756937dc4b187cbe2eb54922fad5d",
+  "rev": "9-f91487477dcea09a0c715a249aa04c39",
   "name": "Dynamic list",
   "classification": "content-type",
   "path": "/Dy/Dynamic-list",
@@ -18,7 +18,7 @@
   "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
   "created": "2017-11-15T17:32:21.193Z",
   "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-16T19:57:48.897Z",
+  "lastModified": "2017-11-22T17:24:26.428Z",
   "status": "ready",
   "tags": [
     "oslo",
