@@ -9,6 +9,7 @@ import { EShopperAdLayoutComponent } from './layouts/e-shopper-ad/eShopperAdLayo
 import { EShopperBlogPageLayoutComponent } from './layouts/e-shopper-blog-page/eShopperBlogPageLayout';
 import { EShopperBlogPostLayoutComponent } from './layouts/e-shopper-blog-post/eShopperBlogPostLayout';
 import { EShopperBlurbLayoutComponent } from './layouts/e-shopper-blurb/eShopperBlurbLayout';
+import { EShopperCartLayoutComponent } from './layouts/e-shopper-cart/eShopperCartLayout';
 import { EShopperContactLayoutComponent } from './layouts/e-shopper-contact/eShopperContactLayout';
 import { EShopperLoginLayoutComponent } from './layouts/e-shopper-login/eShopperLoginLayout';
 import { EShopperVideoLinkLayoutComponent } from './layouts/e-shopper-video-link/eShopperVideoLinkLayout';
@@ -28,6 +29,7 @@ export const LAYOUTS = [
   EShopperBlogPageLayoutComponent,
   EShopperBlogPostLayoutComponent,
   EShopperBlurbLayoutComponent,
+  EShopperCartLayoutComponent,
   EShopperContactLayoutComponent,
   EShopperLoginLayoutComponent,
   EShopperVideoLinkLayoutComponent,

@@ -1,0 +1,91 @@
+<section id="cart_items">
+	<div class="container">
+		<div class="breadcrumbs">
+			<ol class="breadcrumb">
+				<li><a routerLink="/home">Home</a></li>
+				<li class="active">Shopping Cart</li>
+			</ol>
+		</div>
+		<div class="table-responsive cart_info">
+			<table class="table table-condensed">
+				<thead>
+					<tr class="cart_menu">
+						<td class="image">Item</td>
+						<td class="description"></td>
+						<td class="price">Price</td>
+						<td class="quantity">Quantity</td>
+						<td class="total">Total</td>
+						<td></td>
+					</tr>
+				</thead>
+				<tbody *ngIf="cart">
+					<tr *ngFor="let item of cart.orderItem">
+						<ng-container *ngIf="item.catalogEntry">
+							<td class="cart_product">
+								<a [routerLink]="['/product', item.catalogEntry.parentCatalogEntyPartnumber]"><img [src]="item.catalogEntry.thumbnail" alt=""></a>
+							</td>
+							<td class="cart_description">
+								<h4><a [routerLink]="['/product', item.catalogEntry.parentCatalogEntyPartnumber]">{{item.catalogEntry.name}}</a></h4>
+								<p>SKU: {{item.partNumber}}</p>
+							</td>
+							<td class="cart_price">
+								<p>${{item.unitPrice | number:'2.2-2'}}</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									<a class="cart_quantity_up button" (click)="increaseQuantity(item)"> + </a>
+									<input class="cart_quantity_input" type="text" name="quantity" [(ngModel)]="item.quantity" autocomplete="off" size="2">
+									<a class="cart_quantity_down button" (click)="decreaseQuantity(item)"> - </a>
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">${{item.orderItemPrice | number:'2.2-2'}}</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" routerLink="/nowhere"><i class="fa fa-times"></i></a>
+							</td>
+						</ng-container>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</section>
+<!--/#cart_items-->
+
+<section id="do_action">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<ul class="user_option">
+					<li>
+						<promo-code [cart]="this"></promo-code>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="total_area">
+					<ul>
+						<li *ngIf="cart">Cart Sub Total <span>${{cart.totalProductPrice | number:'2.2-2'}}</span></li>
+						<li *ngIf="cart">Discount <span>${{cart.totalAdjustment | number:'1.2-2'}}</span></li>
+						<li *ngIf="cart">Total <span>${{cart.grandTotal | number:'2.2-2'}}</span></li>
+					</ul>
+					<a class="btn btn-default update" href="">Update</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--Checkout options-->
+<section class="checkout-options">
+	<div class="container">
+		<div class="generic-checkout" *ngIf="!isLoggedIn">
+			<h2 translate>CheckoutOptions</h2>
+			<login [useForCheckout]="true"></login>
+		</div>
+		<div class="registered-checkout" *ngIf="isLoggedIn">
+			<a class="btn btn-default update" [routerLink]="['/checkout']" translate>ContinueCheckout</a>
+		</div>
+	</div>
+</section>

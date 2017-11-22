@@ -33,6 +33,7 @@ import { BrandsComponent } from './brands/brands.component';
 import { PriceRangeComponent } from './priceRange/priceRange.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { ProductComponent } from './product/product.component';
+import { PromoCodeComponent } from './promoCode/promoCode.component';
 import { GuestShippingBillingComponent } from './guestShippingBilling/guestShippingBilling.component';
 import { LoginComponent } from './login/login.component';
 import { LanguageSelectionComponent } from './languageSelection/languageSelection.component';
@@ -55,6 +56,7 @@ import { LanguageSelectionComponent } from './languageSelection/languageSelectio
 		PriceRangeComponent,
 		FeaturedComponent,
 		ProductComponent,
+		PromoCodeComponent,
 		LoginComponent,
 		LanguageSelectionComponent,
 		GuestShippingBillingComponent
@@ -79,6 +81,7 @@ import { LanguageSelectionComponent } from './languageSelection/languageSelectio
 		PriceRangeComponent,
 		FeaturedComponent,
 		ProductComponent,
+		PromoCodeComponent,
 		LoginComponent,
 		LanguageSelectionComponent,
 		GuestShippingBillingComponent

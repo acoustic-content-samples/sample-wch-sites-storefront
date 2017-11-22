@@ -1,0 +1,44 @@
+@import '../../commerce/variables';
+
+.breadcrumbs {
+    margin: 0;
+}
+
+.breadcrumbs .breadcrumb {
+    margin-left: 0;
+}
+
+.breadcrumbs li {
+    font-size: .9rem;
+    color: inherit;
+    text-transform: none;
+	color: #999;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+	content: "";
+	position: inherit;
+    margin: 0;
+}
+
+.checkout-options {
+  margin-bottom: 50px;
+}
+
+.checkout-options .container{
+  h2 {
+    background: none repeat scroll 0 0 $brand-color-secondary;
+    color: $base-text-color;
+    padding: 10px 25px;
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+
+  .registered-checkout {
+    float: right;
+  }
+}
+
+#do_action {
+    margin-bottom: 0;
+}

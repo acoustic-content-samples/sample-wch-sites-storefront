@@ -9,6 +9,7 @@ export { EShopperAdLayoutComponent } from './layouts/e-shopper-ad/eShopperAdLayo
 export { EShopperBlogPageLayoutComponent } from './layouts/e-shopper-blog-page/eShopperBlogPageLayout';
 export { EShopperBlogPostLayoutComponent } from './layouts/e-shopper-blog-post/eShopperBlogPostLayout';
 export { EShopperBlurbLayoutComponent } from './layouts/e-shopper-blurb/eShopperBlurbLayout';
+export { EShopperCartLayoutComponent } from './layouts/e-shopper-cart/eShopperCartLayout';
 export { EShopperContactLayoutComponent } from './layouts/e-shopper-contact/eShopperContactLayout';
 export { EShopperLoginLayoutComponent } from './layouts/e-shopper-login/eShopperLoginLayout';
 export { EShopperVideoLinkLayoutComponent } from './layouts/e-shopper-video-link/eShopperVideoLinkLayout';

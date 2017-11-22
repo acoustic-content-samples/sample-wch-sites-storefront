@@ -1,0 +1,12 @@
+{
+  "classification": "layout",
+  "id": "e-shopper-cart-layout",
+  "name": "eShopperCartLayout",
+  "prerender": false,
+  "rev": "dGnw4tq8MTgJQufGkTHukcyZqMMmzbvuqYA33fyIWZ4=",
+  "template": "e-shopper-cart-layout",
+  "templateType": "angular",
+  "thumbnail": {
+    "path": "/layouts/thumbnails/e-shopper-cart-layout.jpg"
+  }
+}
