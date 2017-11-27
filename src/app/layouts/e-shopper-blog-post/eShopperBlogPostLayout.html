@@ -21,4 +21,5 @@
 	</div>
 	<img [src]="renderingContext.context.hub.deliveryUrl.origin + image.url" [alt]="image.altText" [title]="image.asset.fileName">
 	<div class="post-text" [innerHTML]="text"></div>
+	<a class="btn btn-primary" [routerLink]="['/blog', renderingContext.name]">Read More</a>
 </div>

@@ -10,23 +10,25 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-	selector: 'item-container',
-	styleUrls: ['itemContainer.scss'],
-	templateUrl: 'itemContainer.html'
+	selector: 'star-rating',
+	styleUrls: ['./starRating.scss'],
+	templateUrl: './starRating.html'
 })
-export class ItemContainerComponent implements OnInit{
-    @Input() item: any;
+export class StarRatingComponent implements OnInit {
+	@Input() rating: number;
+	stars:string[] = [];
 
-    constructor() {}
-
-    ngOnInit() {}
-
-    getUrl(item: any): string {
-        if(item.price) {
-            return item.url.length ? '/shop/products/' + item.url[item.url.length - 1] : '/shop/products';
-        } else {
-            return '/shop/products/' + item.url.join('/');
-        }
-    }
-
+	ngOnInit () {
+		console.log(`floor: ${Math.floor(this.rating)}`);
+		console.log(`ceiling: ${Math.ceil(this.rating)}`);
+		for (let i=1; i<=5; i++) {
+			if (i <= Math.floor(this.rating)) {
+				this.stars.push('fa-star');
+			} else if (i === Math.ceil(this.rating)) {
+				this.stars.push('fa-star-half-o');
+			} else {
+				this.stars.push('fa-star-o');
+			}
+		}
+	}
 }

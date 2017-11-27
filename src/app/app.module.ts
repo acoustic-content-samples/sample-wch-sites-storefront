@@ -15,33 +15,38 @@
  *******************************************************************************/
 import { LAYOUTS } from './layouts';
 import { SAMPLE_MODULE } from './sample.module';
-import {NgModule, ViewEncapsulation} from '@angular/core';
-import {BrowserModule} from '@angular/platform-browser';
-import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
-import {FormsModule} from '@angular/forms';
-import {HttpModule, Http} from '@angular/http';
+import {NgModule, ViewEncapsulation } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { FormsModule } from '@angular/forms';
+import { HttpModule, Http } from '@angular/http';
 import { HTTP_INTERCEPTORS, HttpClientModule, HttpClient } from "@angular/common/http";
-import { Logger, Options as LoggerOptions} from "angular2-logger/core";
-import {RouterModule, Routes} from '@angular/router';
+import { Logger, Options as LoggerOptions } from "angular2-logger/core";
+import { RouterModule, Routes } from '@angular/router';
 
 import { Ng2LoggerFactory } from './common/Ng2LoggerFactory';
 
 import 'script-loader!foundation-sites/dist/js/foundation.js';
 
-import {WchNgModule, PageComponent, SiteBootstrap, Site, WchLoggerFactory} from 'ibm-wch-sdk-ng';
-import { LoggerOptions as AppLoggerOptions} from "./commerce/logger.options";
+import { WchNgModule, PageComponent, SiteBootstrap, Site, WchLoggerFactory } from 'ibm-wch-sdk-ng';
+import { LoggerOptions as AppLoggerOptions } from "./commerce/logger.options";
 
-import {WchHeaderComponent} from './wchHeader/wchHeader.component';
-import {WchFooterComponent} from './wchFooter/wchFooter.component';
-import {AppComponent} from './app.component';
-import {environment} from './environment/environment';
-import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
+import { WchHeaderComponent} from './wchHeader/wchHeader.component';
+import { WchFooterComponent } from './wchFooter/wchFooter.component';
+import { ProductDetailsComponent } from './layouts/e-shopper-products/productDetails/productDetails.component';
+import { BundleComponentsComponent } from './layouts/e-shopper-products/productDetails/bundleComponents.component';
+import { ReviewsModule } from './layouts/e-shopper-products/productDetails/reviews/reviews.module';
+import { BlogSingleComponent } from './layouts/e-shopper-blog-page/blogSingle/blogSingle.component';
+import { AppComponent } from './app.component';
+import { environment } from './environment/environment';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SiteCommonModule } from './common/site.common.module';
 import { HighlightService } from './common/highlightService/highlight.service';
 import { CommerceModule } from './commerce/commerce.module';
 import { ConfigService } from './commerce/config.service';
 import { StorefrontUtils } from './commerce/storefrontUtils.service';
 import { AuthenticationTransactionService } from "./commerce/services/componentTransaction/authentication.transaction.service";
+import { StarRatingComponent } from './commerce/starRating/starRating.component';
 
 import { GenericLayoutModule } from './components/generic/generic.layout.module';
 
@@ -49,8 +54,10 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 const pageRoutes: Routes = [
-	{path: '', redirectTo: '/home', pathMatch: 'full'},
-	{path: '**', component: PageComponent}
+	{ path: 'products/:id', component: ProductDetailsComponent },
+	{ path: 'blog/:id', component: BlogSingleComponent },
+	{ path: '', redirectTo: '/home', pathMatch: 'full' },
+	{ path: '**', component: PageComponent }
 ];
 
 export function HttpLoaderFactory(http: Http) {
@@ -69,6 +76,7 @@ export function HttpLoaderFactory(http: Http) {
 		GenericLayoutModule,
 		SAMPLE_MODULE,
 		CommerceModule,
+		ReviewsModule,
 		TranslateModule.forRoot({
 			loader: {
 				provide: TranslateLoader,
@@ -81,7 +89,11 @@ export function HttpLoaderFactory(http: Http) {
 		AppComponent,
 		WchHeaderComponent,
 		WchFooterComponent,
+		BlogSingleComponent,
+		ProductDetailsComponent,
+		BundleComponentsComponent,
 		PageNotFoundComponent,
+		StarRatingComponent,
 		...LAYOUTS
 	],
 	providers: [

@@ -45,10 +45,10 @@
 							<tr *ngFor="let item of cart.orderItem">
 								<ng-container *ngIf="item.catalogEntry">
 									<td class="cart_product">
-										<a [routerLink]="['/product', item.catalogEntry.parentCatalogEntyPartnumber]"><img src="{{item.catalogEntry.thumbnail}}" alt=""></a>
+										<a [routerLink]="['/shop/products', item.catalogEntry.parentCatalogEntyPartnumber]"><img src="{{item.catalogEntry.thumbnail}}" alt=""></a>
 									</td>
 									<td class="cart_description">
-										<h4><a [routerLink]="['/product', item.catalogEntry.parentCatalogEntyPartnumber]">{{item.catalogEntry.name}}</a></h4>
+										<h4><a [routerLink]="['/shop/products', item.catalogEntry.parentCatalogEntyPartnumber]">{{item.catalogEntry.name}}</a></h4>
 										<p>SKU: {{item.partNumber}}</p>
 									</td>
 									<td class="cart_price">

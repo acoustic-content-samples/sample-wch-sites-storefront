@@ -14,8 +14,8 @@
  * limitations under the License.
  *******************************************************************************/
 export class Constants {
-  //static readonly DOMAIN_NAME = 'dch-dxcloud.rtp.raleigh.ibm.com';
-  //static readonly CONTENT_HUB_ID = '93ad2da4-9dc6-4290-9ef5-0f8d3d087748';
+  static readonly DOMAIN_NAME = 'dch-dxcloud.rtp.raleigh.ibm.com';
+  static readonly CONTENT_HUB_ID = '93ad2da4-9dc6-4290-9ef5-0f8d3d087748';
 
   static readonly PROTOCOL = window.location.protocol;
   static readonly apiUrl = `${Constants.PROTOCOL}//${Constants['DOMAIN_NAME']}/api/${Constants['CONTENT_HUB_ID']}`;

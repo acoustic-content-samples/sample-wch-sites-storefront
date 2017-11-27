@@ -1,7 +1,7 @@
 import {
     LayoutComponent
 } from 'ibm-wch-sdk-ng';
-import { Component } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 import { TypeEShopperBlogPostComponent } from './../../components/e-shopper-blog-post/typeEShopperBlogPostComponent';
 
 /*
@@ -13,7 +13,8 @@ import { TypeEShopperBlogPostComponent } from './../../components/e-shopper-blog
 })
 @Component({
   selector: 'app-e-shopper-blog-post-layout-component',
-  templateUrl: './eShopperBlogPostLayout.html'
+  templateUrl: './eShopperBlogPostLayout.html',
+  styleUrls: ['./eShopperBlogPostLayout.scss']
 })
 export class EShopperBlogPostLayoutComponent extends TypeEShopperBlogPostComponent {
 

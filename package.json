@@ -47,6 +47,7 @@
     "foundation-sites": "^6.4.1",
     "ibm-wch-sdk-ng": "1.0.508",
     "ng2-logger": "^1.0.3",
+    "p3x-angular-compile": "^4.3.0-53",
     "reflect-metadata": "^0.1.10",
     "rxjs": "^5.1.0",
     "slick-carousel": "^1.7.1",

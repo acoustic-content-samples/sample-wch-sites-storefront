@@ -13,12 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-import {Component, Input, OnDestroy, OnInit} from '@angular/core';
-
-import {RenderingContext} from "ibm-wch-sdk-ng";
-import {ConfigServiceService} from "../common/configService/config-service.service";
-import {Constants} from "../Constants";
-import {Subscription} from "rxjs/Subscription";
+import { Component, Input, OnDestroy } from '@angular/core';
+import { RenderingContext } from "ibm-wch-sdk-ng";
+import { ConfigServiceService } from "../common/configService/config-service.service";
+import { Constants } from "../Constants";
+import { Subscription } from "rxjs/Subscription";
 const iframe1 = require('./images/iframe1.png');
 const iframe2 = require('./images/iframe2.png');
 const iframe3 = require('./images/iframe3.png');

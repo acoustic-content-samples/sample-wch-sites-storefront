@@ -7,26 +7,12 @@
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
 */
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-	selector: 'item-container',
-	styleUrls: ['itemContainer.scss'],
-	templateUrl: 'itemContainer.html'
+	selector: 'reviews',
+	templateUrl: './reviews.html'
 })
-export class ItemContainerComponent implements OnInit{
-    @Input() item: any;
-
-    constructor() {}
-
-    ngOnInit() {}
-
-    getUrl(item: any): string {
-        if(item.price) {
-            return item.url.length ? '/shop/products/' + item.url[item.url.length - 1] : '/shop/products';
-        } else {
-            return '/shop/products/' + item.url.join('/');
-        }
-    }
-
+export class ReviewsComponent {
+	@Input() partNumber: string;
 }

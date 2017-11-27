@@ -37,7 +37,8 @@ import { PromoCodeComponent } from './promoCode/promoCode.component';
 import { GuestShippingBillingComponent } from './guestShippingBilling/guestShippingBilling.component';
 import { LoginComponent } from './login/login.component';
 import { LanguageSelectionComponent } from './languageSelection/languageSelection.component';
-
+import { StaticTemplateComponent } from './staticTemplate/staticTemplate.component';
+import { StaticTemplateService } from './staticTemplate/staticTemplate.service';
 
 @NgModule( {
 	imports: [
@@ -59,7 +60,8 @@ import { LanguageSelectionComponent } from './languageSelection/languageSelectio
 		PromoCodeComponent,
 		LoginComponent,
 		LanguageSelectionComponent,
-		GuestShippingBillingComponent
+		GuestShippingBillingComponent,
+        StaticTemplateComponent
 	],
 	providers: [
 		CommerceService,
@@ -71,7 +73,8 @@ import { LanguageSelectionComponent } from './languageSelection/languageSelectio
 		AccountTransactionService,
 		AssignedPromotionCodeService,
 		OrderTransactionService,
-		ConfigurationService
+		ConfigurationService,
+        StaticTemplateService
 	],
 	exports: [
 		ItemContainerComponent,
@@ -84,7 +87,8 @@ import { LanguageSelectionComponent } from './languageSelection/languageSelectio
 		PromoCodeComponent,
 		LoginComponent,
 		LanguageSelectionComponent,
-		GuestShippingBillingComponent
+		GuestShippingBillingComponent,
+        StaticTemplateComponent
 	]
 } )
 export class CommerceModule { }

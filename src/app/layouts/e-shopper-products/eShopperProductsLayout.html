@@ -14,8 +14,9 @@
 			</div>
 			<div class="col-sm-9 padding-right">
 				<div class="features_items"><!--features_items-->
-					<h2 class="title text-center">Featured Items</h2>
+					<h2 class="title text-center">Items</h2>
 					<item-container *ngFor="let item of filteredItems" [item]="item"></item-container>
+					<p *ngIf="filteredItems.length === 0">Pick a category to begin</p>
 				</div><!--features_items-->
 			</div>
 		</div>

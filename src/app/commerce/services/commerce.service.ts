@@ -73,7 +73,7 @@ export class CommerceService {
         return Observable.create((observer: Observer<any>) => {
             this.productService.findProductBySearchTerm(this.storefrontUtils.commerceStoreId, term)
                 .then((products) => {
-                    this._updateProducts(this.addURLToItems(['product'], products));
+                    this._updateProducts(this.addURLToItems(['shop/products'], products));
                     observer.next(this.products);
                 })
         });

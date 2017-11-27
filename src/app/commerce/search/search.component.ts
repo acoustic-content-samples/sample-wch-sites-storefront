@@ -22,7 +22,7 @@ export class SearchComponent {
 
     search(event: any): void {
         if(event.key === 'Enter') {
-            this.router.navigate(['/products'], { queryParams: { 'search': this.searchTerm } });
+            this.router.navigate(['/shop/products'], { queryParams: { 'search': this.searchTerm } });
         }
     }
 }
