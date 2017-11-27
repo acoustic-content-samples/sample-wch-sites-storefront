@@ -33,6 +33,7 @@ import { LoggerOptions as AppLoggerOptions } from "./commerce/logger.options";
 
 import { WchHeaderComponent} from './wchHeader/wchHeader.component';
 import { WchFooterComponent } from './wchFooter/wchFooter.component';
+import { EShopperProductsLayoutComponent } from './layouts/e-shopper-products/eShopperProductsLayout';
 import { ProductDetailsComponent } from './layouts/e-shopper-products/productDetails/productDetails.component';
 import { BundleComponentsComponent } from './layouts/e-shopper-products/productDetails/bundleComponents.component';
 import { ReviewsModule } from './layouts/e-shopper-products/productDetails/reviews/reviews.module';
@@ -54,7 +55,10 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 const pageRoutes: Routes = [
-	{ path: 'products/:id', component: ProductDetailsComponent },
+	{ path: 'products/:id', component: EShopperProductsLayoutComponent },
+	{ path: 'products/:category/:id', component: EShopperProductsLayoutComponent },
+	{ path: 'products/:category/:subCategory/:id', component: EShopperProductsLayoutComponent },
+	{ path: 'product/:id', component: ProductDetailsComponent },
 	{ path: 'blog/:id', component: BlogSingleComponent },
 	{ path: '', redirectTo: '/home', pathMatch: 'full' },
 	{ path: '**', component: PageComponent }
