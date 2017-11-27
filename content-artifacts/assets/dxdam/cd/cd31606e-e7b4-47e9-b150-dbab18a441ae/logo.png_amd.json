@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-15T18:22:58.680Z",
+  "lastModified": "2017-11-27T17:59:41.139Z",
   "description": "",
   "tags": {
     "values": [
@@ -26,59 +26,22 @@
       "user:e-shopper"
     ],
     "declined": [],
-    "suggested": [
-      "classification:motel",
-      "classification:hotel",
-      "classification:building",
-      "classification:picket fence",
-      "classification:fence",
-      "classification:barrier",
-      "classification:steeple",
-      "classification:tower",
-      "classification:minaret (tower)",
-      "classification:sign",
-      "classification:black color",
-      "classification:yellow color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "logo.png",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "4-0b5d939564db31fb10e20a9315c9330b",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "10-6bf10c0566aee3e5d5bc10febfc5f1b6",
   "cognitive": {
-    "classifications": [
-      "motel",
-      "hotel",
-      "building",
-      "picket fence",
-      "fence",
-      "barrier",
-      "steeple",
-      "tower",
-      "minaret (tower)",
-      "sign",
-      "black color",
-      "yellow color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#f29416",
-      "muted": "#9c917f",
-      "darkVibrant": "#9d5f12",
-      "darkMuted": "#443c3c",
-      "lightVibrant": "#f4cd85",
-      "lightMuted": "#b4b4ab"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "cd31606e-e7b4-47e9-b150-dbab18a441ae",
   "resource": "e7708b2c-9194-48ed-aea0-b5eac92f8609",
   "fileSize": 2899,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=e7708b2c-9194-48ed-aea0-b5eac92f8609&a=cd31606e-e7b4-47e9-b150-dbab18a441ae",
@@ -90,5 +53,22 @@
     "height": 39
   },
   "classification": "asset",
-  "created": "2017-11-15T18:22:11.269Z"
+  "created": "2017-11-27T17:59:41.139Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/cd31606e-e7b4-47e9-b150-dbab18a441ae"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/e7708b2c-9194-48ed-aea0-b5eac92f8609.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/e7708b2c-9194-48ed-aea0-b5eac92f8609"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/cd31606e-e7b4-47e9-b150-dbab18a441ae/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

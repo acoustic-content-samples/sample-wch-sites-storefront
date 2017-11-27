@@ -1,6 +1,6 @@
 {
   "id": "a469fb98-65c3-4538-8d03-ce345be7be81",
-  "rev": "6-4b0a6b2de366bd6fb82f32c527e20f9d",
+  "rev": "7-a3b6dba23943cafbd46120e053f6bbcf",
   "name": "E-Shopper blog page",
   "classification": "content-type",
   "path": "/E-/E-Shopper-blog-page",
@@ -9,10 +9,12 @@
     "page"
   ],
   "description": "",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-20T20:43:31.420Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:27.175Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:50.899Z",
   "status": "ready",
   "tags": [
     "e-shopper"

@@ -1,6 +1,6 @@
 {
   "id": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
-  "rev": "6-cc386ae46f6a89fa771230b6efe9f686",
+  "rev": "7-f0dd148c469327c01f9d2f50132965dc",
   "name": "E-Shopper blurb",
   "classification": "content-type",
   "path": "/E-/E-Shopper-blurb",
@@ -8,10 +8,12 @@
     "standalone"
   ],
   "description": "",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-15T18:27:13.169Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:27.041Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:50.607Z",
   "status": "ready",
   "tags": [
     "e-shopper"

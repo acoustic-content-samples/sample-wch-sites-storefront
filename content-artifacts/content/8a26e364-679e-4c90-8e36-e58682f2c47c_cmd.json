@@ -1,14 +1,13 @@
 {
   "id": "8a26e364-679e-4c90-8e36-e58682f2c47c",
-  "rev": "3-f80d5862a9b5a639456980782674e2e6",
   "name": "Shop",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-16T19:48:39.575Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-15T18:54:26.538Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T17:59:58.370Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T17:59:58.370Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -35,6 +34,11 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
-  }
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+  },
+  "type": "Standard page",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-b05eb18b47982f215ba9c38a5894c83c"
 }

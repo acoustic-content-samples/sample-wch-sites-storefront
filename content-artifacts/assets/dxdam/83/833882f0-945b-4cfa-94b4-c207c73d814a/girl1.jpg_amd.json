@@ -7,29 +7,29 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-21T16:12:19.682Z",
+  "lastModified": "2017-11-27T17:59:39.498Z",
   "description": "",
   "tags": {
     "values": [
       "user:e-shopper"
     ],
     "declined": [],
-    "analysis": "failed"
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "girl1.jpg",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "4-88db733eb4bf026455696c89fcfc5a87",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "10-72cb4e4e9752bc4c0c9888dffdc7554b",
   "cognitive": {
-    "status": "failed"
+    "status": "pending"
   },
   "id": "833882f0-945b-4cfa-94b4-c207c73d814a",
   "resource": "62937212-45f5-4118-b67f-db15da212dc8",
   "fileSize": 133812,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=62937212-45f5-4118-b67f-db15da212dc8&a=833882f0-945b-4cfa-94b4-c207c73d814a",
@@ -41,5 +41,22 @@
     "height": 441
   },
   "classification": "asset",
-  "created": "2017-11-21T16:10:18.125Z"
+  "created": "2017-11-27T17:59:39.497Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/833882f0-945b-4cfa-94b4-c207c73d814a"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/62937212-45f5-4118-b67f-db15da212dc8.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/62937212-45f5-4118-b67f-db15da212dc8?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/833882f0-945b-4cfa-94b4-c207c73d814a/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

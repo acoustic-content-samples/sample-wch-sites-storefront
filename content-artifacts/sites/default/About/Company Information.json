@@ -5,11 +5,11 @@
   "description": "",
   "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
   "title": "",
-  "classification": "page",
   "contentId": "df66cde7-9b30-4bf2-8d50-556b292b50bf",
+  "classification": "page",
   "contentStatus": "ready",
   "position": 3,
   "id": "94a55267-97b5-4d02-9c23-637a20a9a38a",
-  "rev": "4-ad07ee812270aca47ab9c1927936fe72",
-  "parentId": "94200172-7d2f-4882-b8d6-0b1cca4049f3"
+  "rev": "1-5900735d1dc203a6802e2b422b894427",
+  "parentId": "e442a84f0bee096749da902685291b8a"
 }

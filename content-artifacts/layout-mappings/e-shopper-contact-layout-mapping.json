@@ -1,19 +1,22 @@
 {
   "id": "e-shopper-contact-layout-mapping",
-  "rev": "3-950ef22f639b51c600395bd29b763e8f",
+  "rev": "7-26b54c754e18aca627ebfd16d2643468",
   "name": "eShopperContactLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "bb6e9a2b-1a87-41b7-a6d0-8d2037554c3e"
+    "id": "bb6e9a2b-1a87-41b7-a6d0-8d2037554c3e",
+    "name": "E-Shopper contact"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "e-shopper-contact-layout"
+        "id": "e-shopper-contact-layout",
+        "name": "eShopperContactLayout"
       },
       "layouts": [
         {
-          "id": "e-shopper-contact-layout"
+          "id": "e-shopper-contact-layout",
+          "name": "eShopperContactLayout"
         }
       ]
     }

@@ -1,19 +1,22 @@
 {
   "id": "e-shopper-ad-layout-mapping",
-  "rev": "3-5f3bded2267ffa83f70a0da31228b818",
+  "rev": "7-d47be64a3055fcf77c3f8580eaf77c19",
   "name": "eShopperAdLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "23c92986-b470-47f5-b3af-1e4c4770abdc"
+    "id": "23c92986-b470-47f5-b3af-1e4c4770abdc",
+    "name": "E-Shopper ad"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "e-shopper-ad-layout"
+        "id": "e-shopper-ad-layout",
+        "name": "eShopperAdLayout"
       },
       "layouts": [
         {
-          "id": "e-shopper-ad-layout"
+          "id": "e-shopper-ad-layout",
+          "name": "eShopperAdLayout"
         }
       ]
     }

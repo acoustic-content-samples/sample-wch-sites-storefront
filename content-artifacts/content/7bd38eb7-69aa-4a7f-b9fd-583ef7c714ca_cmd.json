@@ -1,15 +1,14 @@
 {
   "id": "7bd38eb7-69aa-4a7f-b9fd-583ef7c714ca",
-  "rev": "10-6c75de025de012ba08fa0d06a1a6ff9a",
   "name": "E-Shopper blog list",
   "description": "",
   "classification": "content",
   "typeId": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c",
   "locale": "en",
-  "lastModified": "2017-11-21T00:53:25.499Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-20T18:20:59.916Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T17:59:58.298Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T17:59:58.298Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -29,12 +28,18 @@
       "elementType": "category",
       "categoryIds": [
         "ef87675d-2d54-4297-9c46-a41fb13b83f0"
+      ],
+      "categories": [
+        "Dynamic list criteria/Type/E-Shopper blog post"
       ]
     },
     "sortOrder": {
       "elementType": "category",
       "categoryIds": [
         "7af6cd7a-80de-420e-aa7f-c4bd98f926f9"
+      ],
+      "categories": [
+        "List ordering options/By date descending"
       ]
     },
     "viewAllLink": {
@@ -50,6 +55,11 @@
   ],
   "kind": [],
   "thumbnail": {
-    "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf"
-  }
+    "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf",
+    "url": "/authoring/v1/resources/b05c661d5e891602477ea9714733573f"
+  },
+  "type": "Dynamic list",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-472c7154a7154d4aabe2b12f203979fb"
 }

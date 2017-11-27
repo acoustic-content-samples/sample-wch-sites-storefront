@@ -1,6 +1,6 @@
 {
   "id": "bb6e9a2b-1a87-41b7-a6d0-8d2037554c3e",
-  "rev": "15-a23092afc9d7bec6d6022e67926324cf",
+  "rev": "7-90dc644637e8f7b0f76ffa65255b61ed",
   "name": "E-Shopper contact",
   "classification": "content-type",
   "path": "/E-/E-Shopper-contact",
@@ -8,10 +8,12 @@
     "standalone"
   ],
   "description": "",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-20T20:11:27.454Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:27.246Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:50.740Z",
   "status": "ready",
   "tags": [
     "e-shopper"

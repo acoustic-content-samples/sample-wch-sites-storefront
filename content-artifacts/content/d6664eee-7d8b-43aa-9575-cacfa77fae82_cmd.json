@@ -1,14 +1,13 @@
 {
   "id": "d6664eee-7d8b-43aa-9575-cacfa77fae82",
-  "rev": "6-51f930a665ad65a82436d0b164555a22",
   "name": "eShopperSaleAd",
   "classification": "content",
   "typeId": "23c92986-b470-47f5-b3af-1e4c4770abdc",
   "locale": "en",
-  "lastModified": "2017-11-21T15:58:38.934Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-21T15:58:12.876Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:04.100Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:04.100Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -38,7 +37,12 @@
   },
   "kind": [],
   "thumbnail": {
-    "id": "dc1a2880-a545-422a-a13b-17a0c7fc8494"
+    "id": "dc1a2880-a545-422a-a13b-17a0c7fc8494",
+    "url": "/authoring/v1/resources/523ba443-03b7-426a-b210-bba66954131f?fit=inside%7C220:145"
   },
-  "description": ""
+  "description": "",
+  "type": "E-Shopper ad",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-e6d3315c1a348decad6a7d2246adc155"
 }

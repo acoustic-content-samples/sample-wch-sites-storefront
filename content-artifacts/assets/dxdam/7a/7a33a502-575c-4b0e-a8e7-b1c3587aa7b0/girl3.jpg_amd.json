@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-21T16:10:59.775Z",
+  "lastModified": "2017-11-27T17:59:38.723Z",
   "description": "",
   "tags": {
     "values": [
@@ -21,52 +21,22 @@
       "user:e-shopper"
     ],
     "declined": [],
-    "suggested": [
-      "classification:dinner dress",
-      "classification:eveningwear",
-      "classification:dress",
-      "classification:alizarine red color",
-      "classification:cocktail dress",
-      "classification:dark red color",
-      "face:Female"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "girl3.jpg",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "4-bcbf4565b25bc54767a0dda1b78ebefa",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "10-380c53107fcbf39d902d32db1a208a8a",
   "cognitive": {
-    "classifications": [
-      "dinner dress",
-      "eveningwear",
-      "dress",
-      "alizarine red color",
-      "cocktail dress",
-      "dark red color"
-    ],
-    "faces": [
-      {
-        "gender": "Female"
-      }
-    ],
-    "colors": {
-      "vibrant": "#0e82ed",
-      "muted": "#a97b65",
-      "darkVibrant": "#840404",
-      "darkMuted": "#5f3a29",
-      "lightVibrant": "#f3b59f",
-      "lightMuted": "#c9b0ad"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "7a33a502-575c-4b0e-a8e7-b1c3587aa7b0",
   "resource": "afd17b29-5c62-4ddc-951a-79ecd9b64fae",
   "fileSize": 124440,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=afd17b29-5c62-4ddc-951a-79ecd9b64fae&a=7a33a502-575c-4b0e-a8e7-b1c3587aa7b0",
@@ -78,5 +48,22 @@
     "height": 441
   },
   "classification": "asset",
-  "created": "2017-11-21T16:10:18.550Z"
+  "created": "2017-11-27T17:59:38.722Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/7a33a502-575c-4b0e-a8e7-b1c3587aa7b0"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/afd17b29-5c62-4ddc-951a-79ecd9b64fae.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/afd17b29-5c62-4ddc-951a-79ecd9b64fae?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/7a33a502-575c-4b0e-a8e7-b1c3587aa7b0/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

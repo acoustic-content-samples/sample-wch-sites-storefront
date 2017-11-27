@@ -1,6 +1,6 @@
 {
   "id": "82b99ac2-79d7-4519-b1f6-f24452e8f0f4",
-  "rev": "16-226dc0bf1ca424902daea33590a5d6c6",
+  "rev": "7-ba2623f07f1af053f0ad244bda4d60a7",
   "name": "E-Shopper header",
   "classification": "content-type",
   "path": "/E-/E-Shopper-header",
@@ -8,17 +8,21 @@
     "standalone"
   ],
   "thumbnail": {
-    "id": "78490787-4867-4b8f-9a9d-bddd407b854b"
+    "id": "78490787-4867-4b8f-9a9d-bddd407b854b",
+    "path": "/dxdam/78/78490787-4867-4b8f-9a9d-bddd407b854b/header_icon_220.png",
+    "url": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146"
   },
   "contentThumbnail": {
     "imageElement": "websiteLogo",
     "source": "imageElementOrType"
   },
   "description": "Customize elements of the header that shows up on your website pages.  The website navigation is governed by the developer code for the site.",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-15T17:32:19.547Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:26.335Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:50.019Z",
   "status": "ready",
   "tags": [
     "IBM sites kicker",

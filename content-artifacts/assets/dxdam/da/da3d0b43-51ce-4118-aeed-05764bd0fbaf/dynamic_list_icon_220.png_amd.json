@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-15T17:32:20.696Z",
+  "lastModified": "2017-11-27T17:59:41.311Z",
   "description": "",
   "tags": {
     "values": [
@@ -18,40 +18,22 @@
       "classification:coal black color"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:black color",
-      "classification:coal black color",
-      "classification:blue color"
-    ]
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "dynamic_list_icon_220.png",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "5-e7c239c6ddb2a36dfa2ba76d58af38ce",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "19-5a165b850e6c94a71f5a6b9af77fe29a",
   "cognitive": {
-    "classifications": [
-      "black color",
-      "coal black color",
-      "blue color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#225098",
-      "muted": "#7c8ca2",
-      "darkVibrant": "#1c447c",
-      "darkMuted": "#343c45",
-      "lightMuted": "#94a4c4"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf",
   "resource": "b05c661d5e891602477ea9714733573f",
   "fileSize": 1861,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=b05c661d5e891602477ea9714733573f&a=da3d0b43-51ce-4118-aeed-05764bd0fbaf",
@@ -63,5 +45,22 @@
     "height": 145
   },
   "classification": "asset",
-  "created": "2017-11-15T17:32:17.175Z"
+  "created": "2017-11-27T17:59:41.310Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/da3d0b43-51ce-4118-aeed-05764bd0fbaf"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/b05c661d5e891602477ea9714733573f.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/b05c661d5e891602477ea9714733573f"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/da3d0b43-51ce-4118-aeed-05764bd0fbaf/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-15T17:32:21.441Z",
+  "lastModified": "2017-11-27T17:59:38.558Z",
   "description": "Used as thumbnail for the standard page content type.",
   "tags": {
     "values": [
@@ -28,61 +28,22 @@
       "classification:video display"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:automated teller machine",
-      "classification:machine",
-      "classification:shredder",
-      "classification:dialog box",
-      "classification:window",
-      "classification:video display",
-      "classification:electronic device",
-      "classification:magnetic stripe",
-      "classification:memory device",
-      "classification:home appliance",
-      "classification:appliance",
-      "classification:beige color",
-      "classification:gray color"
-    ]
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "page-home-220px.png",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "5-48b1ecfd074209c04f7d9783261a0905",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "19-07d08d890c5b7c1f6c535cc79194e956",
   "cognitive": {
-    "classifications": [
-      "automated teller machine",
-      "machine",
-      "shredder",
-      "dialog box",
-      "window",
-      "video display",
-      "electronic device",
-      "magnetic stripe",
-      "memory device",
-      "home appliance",
-      "appliance",
-      "beige color",
-      "gray color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#d4ac56",
-      "muted": "#777779",
-      "darkVibrant": "#644424",
-      "darkMuted": "#534c46",
-      "lightVibrant": "#ecc48c",
-      "lightMuted": "#bcbcbc"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
   "resource": "d22cb3c0070450e37c5d7515b6d3906a",
   "fileSize": 12849,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=d22cb3c0070450e37c5d7515b6d3906a&a=257b578f-7f29-49e5-9e50-97c3846ccf98",
@@ -94,5 +55,22 @@
     "height": 145
   },
   "classification": "asset",
-  "created": "2017-11-15T17:32:17.080Z"
+  "created": "2017-11-27T17:59:38.558Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/257b578f-7f29-49e5-9e50-97c3846ccf98"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/257b578f-7f29-49e5-9e50-97c3846ccf98/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

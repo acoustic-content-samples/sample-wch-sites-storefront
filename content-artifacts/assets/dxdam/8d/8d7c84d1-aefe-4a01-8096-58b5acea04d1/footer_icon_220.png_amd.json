@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-15T17:32:20.583Z",
+  "lastModified": "2017-11-27T17:59:39.526Z",
   "description": "",
   "tags": {
     "values": [
@@ -26,57 +26,22 @@
       "classification:video display"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:digital clock",
-      "classification:clock",
-      "classification:timepiece",
-      "classification:measuring instrument",
-      "classification:digital display",
-      "classification:video display",
-      "classification:electronic device",
-      "classification:dialog box",
-      "classification:window",
-      "classification:coal black color",
-      "classification:blue color"
-    ]
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "footer_icon_220.png",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "5-5d5291dcf44145395d6fcc01f3c9017c",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "19-fc6d0c683961f7e497f399a0312c2895",
   "cognitive": {
-    "classifications": [
-      "digital clock",
-      "clock",
-      "timepiece",
-      "measuring instrument",
-      "digital display",
-      "video display",
-      "electronic device",
-      "dialog box",
-      "window",
-      "coal black color",
-      "blue color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#7824b4",
-      "muted": "#6086b4",
-      "darkVibrant": "#14447c",
-      "darkMuted": "#34343c",
-      "lightVibrant": "#9cb4d5",
-      "lightMuted": "#c5d1e0"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1",
   "resource": "ab62962454acad085be1f22d850d0bf7",
   "fileSize": 1670,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=ab62962454acad085be1f22d850d0bf7&a=8d7c84d1-aefe-4a01-8096-58b5acea04d1",
@@ -88,5 +53,22 @@
     "height": 145
   },
   "classification": "asset",
-  "created": "2017-11-15T17:32:17.875Z"
+  "created": "2017-11-27T17:59:39.525Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/8d7c84d1-aefe-4a01-8096-58b5acea04d1"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/ab62962454acad085be1f22d850d0bf7.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/ab62962454acad085be1f22d850d0bf7"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/8d7c84d1-aefe-4a01-8096-58b5acea04d1/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

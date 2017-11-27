@@ -1,9 +1,9 @@
 {
   "id": "9d47dccc-f940-40de-a978-82815c805701",
-  "rev": "3-4154d20797e337b3b3437f862c661364",
+  "rev": "13-f3422a69e92abf1b44344879213c4235",
   "name": "Dynamic list criteria",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "creator": "Adam.iem",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "creator": "WCH Storefront",
   "description": "Enables content creators to select the kinds of content to include in a dynamic list.",
   "classification": "taxonomy",
   "firstClassFor": [
@@ -17,6 +17,6 @@
       "href": "/authoring/v1/categories/9d47dccc-f940-40de-a978-82815c805701"
     }
   },
-  "created": "2017-11-15T17:32:05.696Z",
-  "lastModified": "2017-11-15T17:32:05.696Z"
+  "created": "2017-11-27T17:59:14.115Z",
+  "lastModified": "2017-11-27T17:59:14.115Z"
 }

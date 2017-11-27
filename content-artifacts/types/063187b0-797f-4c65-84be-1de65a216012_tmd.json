@@ -1,6 +1,6 @@
 {
   "id": "063187b0-797f-4c65-84be-1de65a216012",
-  "rev": "27-ebfbf85ce10d80034da4966445f6d4b6",
+  "rev": "7-6cd8808510ade54ac86a966853fdec8b",
   "name": "E-Shopper footer",
   "classification": "content-type",
   "path": "/E-/E-Shopper-footer",
@@ -8,17 +8,21 @@
     "standalone"
   ],
   "thumbnail": {
-    "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1"
+    "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1",
+    "path": "/dxdam/8d/8d7c84d1-aefe-4a01-8096-58b5acea04d1/footer_icon_220.png",
+    "url": "/authoring/v1/resources/ab62962454acad085be1f22d850d0bf7"
   },
   "contentThumbnail": {
     "imageElement": "background",
     "source": "imageElementOrType"
   },
   "description": "Customize elements of the footer that shows up on website pages.",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-15T17:32:19.598Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:26.202Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:49.824Z",
   "status": "ready",
   "tags": [
     "IBM sites kicker",

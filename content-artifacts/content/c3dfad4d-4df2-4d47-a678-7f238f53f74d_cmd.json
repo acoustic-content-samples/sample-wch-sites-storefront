@@ -1,14 +1,13 @@
 {
   "id": "c3dfad4d-4df2-4d47-a678-7f238f53f74d",
-  "rev": "4-6e79545b0b350832b49823a363fcd7ee",
   "name": "Corporate Responsibility",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-16T19:51:32.529Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-16T14:27:43.262Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:03.186Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:03.186Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -21,7 +20,11 @@
       "elementType": "reference",
       "values": [
         {
-          "id": "bec796f0-c120-46d1-bd80-f6ee52b99e27"
+          "id": "bec796f0-c120-46d1-bd80-f6ee52b99e27",
+          "name": "Corporate Responsibility",
+          "typeId": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
+          "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+          "status": "ready"
         }
       ]
     },
@@ -40,6 +43,11 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
-  }
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+  },
+  "type": "Standard page",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-5590e50bd667ad5dd3f455bce81f5edd"
 }

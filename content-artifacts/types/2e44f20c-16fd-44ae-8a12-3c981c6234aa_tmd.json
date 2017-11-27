@@ -1,6 +1,6 @@
 {
   "id": "2e44f20c-16fd-44ae-8a12-3c981c6234aa",
-  "rev": "4-bd1d7ba5c28a2cc8fca8fbad3192cd65",
+  "rev": "7-6fb26df4be2797ad6b1c13be24ff30ea",
   "name": "E-Shopper login",
   "classification": "content-type",
   "path": "/E-Shopper-login",
@@ -8,10 +8,12 @@
     "standalone"
   ],
   "description": "",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-21T17:00:26.082Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:26.032Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:49.925Z",
   "status": "ready",
   "tags": [
     "e-shopper"

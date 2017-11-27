@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-20T18:16:39.973Z",
+  "lastModified": "2017-11-27T17:59:37.585Z",
   "description": "",
   "tags": {
     "values": [
@@ -23,57 +23,22 @@
     "declined": [
       "classification:ruddiness"
     ],
-    "suggested": [
-      "classification:ruddiness",
-      "classification:person",
-      "classification:hair",
-      "classification:makeup",
-      "classification:cosmetic",
-      "classification:toiletry",
-      "classification:light brown color",
-      "face:18-24"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "blog-three.jpg",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "5-4536ad5e0a47a31c26e05d73532c0aaf",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "10-a799f7dc6bdaa386341749a4c3e12951",
   "cognitive": {
-    "classifications": [
-      "ruddiness",
-      "person",
-      "hair",
-      "makeup",
-      "cosmetic",
-      "toiletry",
-      "light brown color"
-    ],
-    "faces": [
-      {
-        "age": {
-          "minimum": 18,
-          "maximum": 24
-        }
-      }
-    ],
-    "colors": {
-      "vibrant": "#68c4f0",
-      "muted": "#8f655e",
-      "darkVibrant": "#643424",
-      "darkMuted": "#513533",
-      "lightVibrant": "#f6bca4",
-      "lightMuted": "#ccafb1"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "17021d1e-dfd5-4a54-b4c2-2d0bc37d0339",
   "resource": "389aaddb-26db-464e-b83d-f2495a50b100",
   "fileSize": 273949,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=389aaddb-26db-464e-b83d-f2495a50b100&a=17021d1e-dfd5-4a54-b4c2-2d0bc37d0339",
@@ -85,5 +50,22 @@
     "height": 396
   },
   "classification": "asset",
-  "created": "2017-11-20T18:15:10.298Z"
+  "created": "2017-11-27T17:59:37.585Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/17021d1e-dfd5-4a54-b4c2-2d0bc37d0339"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/389aaddb-26db-464e-b83d-f2495a50b100.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/389aaddb-26db-464e-b83d-f2495a50b100?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/17021d1e-dfd5-4a54-b4c2-2d0bc37d0339/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

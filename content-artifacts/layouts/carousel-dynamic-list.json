@@ -1,11 +1,12 @@
 {
   "id": "carousel-dynamic-list",
-  "rev": "5-f6ade1ce27690ab62561d1cbe3213149",
+  "rev": "13-398a97133215b14dfdffacd738338b0b",
   "name": "Carousel",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/list-carousel_220.svg"
+    "path": "/layouts/thumbnails/list-carousel_220.svg",
+    "url": "/authoring/v1/resources/b1ec768d0f08d77804a5e9f85720b51e"
   },
   "template": "carousel-dynamic-list",
   "templateType": "angular"

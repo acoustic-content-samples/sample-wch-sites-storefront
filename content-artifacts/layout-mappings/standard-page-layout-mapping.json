@@ -1,19 +1,22 @@
 {
   "id": "standard-page-layout-mapping",
-  "rev": "5-388186c5477cd64c2a9ae072143d3a9d",
+  "rev": "13-2d5931cb1bcb36e9a1b0e209b5f5e1d4",
   "name": "standardPageLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "2af1d22a-fecf-41e1-a808-7301cb37b79f"
+    "id": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+    "name": "Standard page"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "standard-page-layout"
+        "id": "standard-page-layout",
+        "name": "One column"
       },
       "layouts": [
         {
-          "id": "standard-page-layout"
+          "id": "standard-page-layout",
+          "name": "One column"
         }
       ]
     }

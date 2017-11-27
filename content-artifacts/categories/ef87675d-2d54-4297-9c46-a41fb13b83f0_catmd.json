@@ -1,9 +1,9 @@
 {
   "id": "ef87675d-2d54-4297-9c46-a41fb13b83f0",
-  "rev": "1-bc751a2a7b7365ff61a6d18c232637ad",
+  "rev": "7-d3ddbe1c175b5e64b622aa961e738032",
   "name": "E-Shopper blog post",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "creator": "Adam.iem",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "creator": "WCH Storefront",
   "classification": "category",
   "taxonomy": "9d47dccc-f940-40de-a978-82815c805701",
   "parent": "8a1cca57-4e5b-4d66-b8fa-668490b8e9b1",
@@ -27,6 +27,6 @@
       "href": "/authoring/v1/categories/8a1cca57-4e5b-4d66-b8fa-668490b8e9b1"
     }
   },
-  "created": "2017-11-20T18:07:46.647Z",
-  "lastModified": "2017-11-20T18:07:46.647Z"
+  "created": "2017-11-27T17:59:15.646Z",
+  "lastModified": "2017-11-27T17:59:15.646Z"
 }

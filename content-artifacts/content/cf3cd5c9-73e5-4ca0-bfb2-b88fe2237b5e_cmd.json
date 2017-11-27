@@ -1,14 +1,13 @@
 {
   "id": "cf3cd5c9-73e5-4ca0-bfb2-b88fe2237b5e",
-  "rev": "3-a737cea73171570af586ef43e8963e61",
   "name": "eShopperCheckout",
   "classification": "content",
   "typeId": "98faa920-6c28-4669-9af1-4a24b4704ff4",
   "locale": "en",
-  "lastModified": "2017-11-22T12:55:25.152Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-22T12:55:19.146Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:03.589Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:03.589Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -23,5 +22,9 @@
     }
   ],
   "kind": [],
-  "description": ""
+  "description": "",
+  "type": "E-Shopper checkout",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-7cc04ae84a8473b3321f69ceb6baf3a2"
 }

@@ -1,6 +1,6 @@
 {
   "id": "8f3b9172-8227-46b3-be14-f10c196c9134",
-  "rev": "9-ecf40aaae35c9dccfb8cf3e72d9b48fc",
+  "rev": "7-8b07d1335a8fd0bc6ad2d5349a1ba023",
   "name": "E-Shopper blog post",
   "classification": "content-type",
   "path": "/E-/E-Shopper-blog-post",
@@ -12,10 +12,12 @@
     "source": "imageElementOrType"
   },
   "description": "",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-20T18:04:07.057Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:26.955Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:50.557Z",
   "status": "ready",
   "tags": [],
   "elements": [

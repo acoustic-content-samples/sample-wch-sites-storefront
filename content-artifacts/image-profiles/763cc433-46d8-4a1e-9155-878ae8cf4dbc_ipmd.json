@@ -1,13 +1,15 @@
 {
   "id": "763cc433-46d8-4a1e-9155-878ae8cf4dbc",
-  "rev": "3-55cf25792b5b116b16407200bc00df72",
+  "rev": "13-382ded3c5d4fa816e7a29f93c59b30f3",
   "name": "Profile for banner content",
   "classification": "image-profile",
   "description": "Used for images in the footer content types.",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-15T17:32:01.462Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-15T17:32:01.462Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:12.148Z",
   "dimensions": [
     {
       "label": "Banner",

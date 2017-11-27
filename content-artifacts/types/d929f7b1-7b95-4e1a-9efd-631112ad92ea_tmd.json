@@ -1,6 +1,6 @@
 {
   "id": "d929f7b1-7b95-4e1a-9efd-631112ad92ea",
-  "rev": "4-791229c34f80e61bb8d6e0de4c0d51ba",
+  "rev": "7-41fa6edc19d4f8c4f5236b989a590075",
   "name": "E-Shopper cart",
   "classification": "content-type",
   "path": "/E-Shopper-cart",
@@ -8,10 +8,12 @@
     "standalone"
   ],
   "description": "",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-21T17:08:45.058Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:27.082Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:51.090Z",
   "status": "ready",
   "tags": [
     "e-shopper"

@@ -1,14 +1,13 @@
 {
   "id": "8617ec67-21f4-4067-b772-e9e7062ad328",
-  "rev": "4-765ab6e758570eb3003a19943a6d9c01",
   "name": "E-Shopper ad carousel",
   "classification": "content",
   "typeId": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c",
   "locale": "en",
-  "lastModified": "2017-11-21T16:15:37.318Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-21T16:15:12.634Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T17:59:58.282Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T17:59:58.282Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -26,6 +25,9 @@
       "elementType": "category",
       "categoryIds": [
         "0e824eb0-bb45-4ad2-b8d0-2de2edd27461"
+      ],
+      "categories": [
+        "Dynamic list criteria/Type/E-Shopper ad carousel item"
       ]
     },
     "sortOrder": {
@@ -44,7 +46,12 @@
   ],
   "kind": [],
   "thumbnail": {
-    "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf"
+    "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf",
+    "url": "/authoring/v1/resources/b05c661d5e891602477ea9714733573f"
   },
-  "description": ""
+  "description": "",
+  "type": "Dynamic list",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-9bee35b0f52051bf9f6feca8401fbb95"
 }

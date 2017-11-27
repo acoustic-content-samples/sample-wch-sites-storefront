@@ -1,14 +1,13 @@
 {
   "id": "0869e219-9c30-460b-85e4-a418bcca9c1d",
-  "rev": "4-0d6bfe9a760f96eb085258f3f0d49fe2",
   "name": "Cart",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-22T12:06:46.912Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-16T16:24:08.809Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:24.384Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:24.384Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -21,7 +20,11 @@
       "elementType": "reference",
       "values": [
         {
-          "id": "399b2f4c-2289-4e9c-aea5-0ed4589001f7"
+          "id": "399b2f4c-2289-4e9c-aea5-0ed4589001f7",
+          "name": "eShopperCart",
+          "typeId": "d929f7b1-7b95-4e1a-9efd-631112ad92ea",
+          "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+          "status": "ready"
         }
       ]
     },
@@ -40,6 +43,11 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
-  }
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+  },
+  "type": "Standard page",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-0cb00d8882248c2170fc211b4eb968e2"
 }

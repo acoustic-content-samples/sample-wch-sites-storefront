@@ -1,19 +1,22 @@
 {
   "id": "e-shopper-cart-layout-mapping",
-  "rev": "5-6408a825626fa7ffafc1f9caecd4c15c",
+  "rev": "7-feef4aeebc4d74ffad0b02f629473697",
   "name": "eShopperCartLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "d929f7b1-7b95-4e1a-9efd-631112ad92ea"
+    "id": "d929f7b1-7b95-4e1a-9efd-631112ad92ea",
+    "name": "E-Shopper cart"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "e-shopper-cart-layout"
+        "id": "e-shopper-cart-layout",
+        "name": "eShopperCartLayout"
       },
       "layouts": [
         {
-          "id": "e-shopper-cart-layout"
+          "id": "e-shopper-cart-layout",
+          "name": "eShopperCartLayout"
         }
       ]
     }

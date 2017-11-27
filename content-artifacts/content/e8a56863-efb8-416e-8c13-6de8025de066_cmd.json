@@ -1,15 +1,14 @@
 {
   "id": "e8a56863-efb8-416e-8c13-6de8025de066",
-  "rev": "12-52930dc348c3622a98ad07f2e9005d08",
   "name": "eshopperFooterConfig",
   "description": "",
   "classification": "content",
   "typeId": "063187b0-797f-4c65-84be-1de65a216012",
   "locale": "en",
-  "lastModified": "2017-11-22T14:15:52.261Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-16T16:20:16.632Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:05.288Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:05.288Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -48,9 +47,6 @@
       "elementType": "text",
       "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor"
     },
-    "videoLinks": {
-      "elementType": "reference"
-    },
     "address": {
       "elementType": "text",
       "value": "505 S Atlantic Ave Virginia Beach, VA"
@@ -58,6 +54,11 @@
   },
   "kind": [],
   "thumbnail": {
-    "id": "205f9ff2-9458-450a-992d-5dd971b17389"
-  }
+    "id": "205f9ff2-9458-450a-992d-5dd971b17389",
+    "url": "/authoring/v1/resources/584e822a-d0d6-413d-b3da-1aac4fb21703?fit=inside%7C220:145"
+  },
+  "type": "E-Shopper footer",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "5-44cc0c1fd71fd5652b86c8238890709e"
 }

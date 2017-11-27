@@ -1,9 +1,9 @@
 {
   "id": "52265429-9349-49fe-b35d-f7b71493190e",
-  "rev": "3-b6b4b22c05a9802416e3d0117aaff53a",
+  "rev": "13-51046965c903bc5f9574f870b8c81097",
   "name": "List ordering options",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "creator": "Adam.iem",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "creator": "WCH Storefront",
   "description": "Enables content creators to order items in a dynamic list.",
   "classification": "taxonomy",
   "firstClassFor": [
@@ -17,6 +17,6 @@
       "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
     }
   },
-  "created": "2017-11-15T17:32:05.832Z",
-  "lastModified": "2017-11-15T17:32:05.832Z"
+  "created": "2017-11-27T17:59:14.157Z",
+  "lastModified": "2017-11-27T17:59:14.157Z"
 }

@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-21T15:56:56.043Z",
+  "lastModified": "2017-11-27T17:59:41.120Z",
   "description": "",
   "tags": {
     "values": [
@@ -21,55 +21,22 @@
       "user:e-shopper"
     ],
     "declined": [],
-    "suggested": [
-      "classification:person",
-      "classification:magazine",
-      "classification:Lilo (air mattress)",
-      "classification:news magazine",
-      "classification:advertiser",
-      "classification:orange color",
-      "face:18-24"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "shipping.jpg",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "4-737fdb02045e6d005b97aa22c62eccc0",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "10-169e4a7d4bc275911f4b1151a02a5a0f",
   "cognitive": {
-    "classifications": [
-      "person",
-      "magazine",
-      "Lilo (air mattress)",
-      "news magazine",
-      "advertiser",
-      "orange color"
-    ],
-    "faces": [
-      {
-        "age": {
-          "minimum": 18,
-          "maximum": 24
-        }
-      }
-    ],
-    "colors": {
-      "vibrant": "#faa023",
-      "muted": "#9f6658",
-      "darkVibrant": "#46231c",
-      "darkMuted": "#7a4e43",
-      "lightVibrant": "#fcc472",
-      "lightMuted": "#cfacac"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "b622c681-6cf1-490d-be07-c20bdbd41a2b",
   "resource": "4bf5708b-627a-4977-91b7-3345dd242181",
   "fileSize": 57427,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=4bf5708b-627a-4977-91b7-3345dd242181&a=b622c681-6cf1-490d-be07-c20bdbd41a2b",
@@ -81,5 +48,22 @@
     "height": 329
   },
   "classification": "asset",
-  "created": "2017-11-21T15:56:28.524Z"
+  "created": "2017-11-27T17:59:41.120Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/b622c681-6cf1-490d-be07-c20bdbd41a2b"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/4bf5708b-627a-4977-91b7-3345dd242181.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/4bf5708b-627a-4977-91b7-3345dd242181?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/b622c681-6cf1-490d-be07-c20bdbd41a2b/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

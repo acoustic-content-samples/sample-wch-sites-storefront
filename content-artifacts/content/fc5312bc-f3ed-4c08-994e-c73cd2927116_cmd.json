@@ -1,14 +1,13 @@
 {
   "id": "fc5312bc-f3ed-4c08-994e-c73cd2927116",
-  "rev": "4-3a5dfdc517d531fe78d16fd96daf8e02",
   "name": "Contact",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-20T20:17:28.558Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-15T18:54:54.092Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:05.351Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:05.351Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -21,7 +20,11 @@
       "elementType": "reference",
       "values": [
         {
-          "id": "dced50ce-375b-48d4-b424-3ac652ef8860"
+          "id": "dced50ce-375b-48d4-b424-3ac652ef8860",
+          "name": "eShopperContact",
+          "typeId": "bb6e9a2b-1a87-41b7-a6d0-8d2037554c3e",
+          "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+          "status": "ready"
         }
       ]
     },
@@ -40,6 +43,11 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
-  }
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+  },
+  "type": "Standard page",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-d5aa1142807d0c63782cfe144f54c09d"
 }

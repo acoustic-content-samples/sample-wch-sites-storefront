@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-21T16:10:59.775Z",
+  "lastModified": "2017-11-27T17:59:40.427Z",
   "description": "",
   "tags": {
     "values": [
@@ -23,59 +23,22 @@
       "user:e-shopper"
     ],
     "declined": [],
-    "suggested": [
-      "classification:outerwear",
-      "classification:surcoat",
-      "classification:coat",
-      "classification:overgarment",
-      "classification:garment",
-      "classification:shopper",
-      "classification:person",
-      "classification:bottle green color",
-      "face:18-24"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "girl2.jpg",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "4-b520b1dcabb3eaa8ef598c5c3fb839d5",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "10-01ca88c32a539ad4f24f39716da204fd",
   "cognitive": {
-    "classifications": [
-      "outerwear",
-      "surcoat",
-      "coat",
-      "overgarment",
-      "garment",
-      "shopper",
-      "person",
-      "bottle green color"
-    ],
-    "faces": [
-      {
-        "age": {
-          "minimum": 18,
-          "maximum": 24
-        }
-      }
-    ],
-    "colors": {
-      "vibrant": "#d9e90a",
-      "muted": "#9d8667",
-      "darkVibrant": "#6c7c04",
-      "darkMuted": "#513927",
-      "lightVibrant": "#ecd1b4",
-      "lightMuted": "#b8c0c9"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "ab5d896e-32dc-4171-9b00-220c1185f105",
   "resource": "548fd441-7c4e-4002-bf23-a4a93a06ef0d",
   "fileSize": 144294,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=548fd441-7c4e-4002-bf23-a4a93a06ef0d&a=ab5d896e-32dc-4171-9b00-220c1185f105",
@@ -87,5 +50,22 @@
     "height": 441
   },
   "classification": "asset",
-  "created": "2017-11-21T16:10:18.175Z"
+  "created": "2017-11-27T17:59:40.427Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/ab5d896e-32dc-4171-9b00-220c1185f105"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/548fd441-7c4e-4002-bf23-a4a93a06ef0d.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/548fd441-7c4e-4002-bf23-a4a93a06ef0d?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/ab5d896e-32dc-4171-9b00-220c1185f105/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

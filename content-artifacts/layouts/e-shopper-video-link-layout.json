@@ -1,11 +1,12 @@
 {
   "id": "e-shopper-video-link-layout",
-  "rev": "3-80f609a640f80f96bde01a6ca8853989",
+  "rev": "7-10b32f0f9cb042f16276157ec3dbf9de",
   "name": "eShopperVideoLinkLayout",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/e-shopper-video-link-layout.jpg"
+    "path": "/layouts/thumbnails/e-shopper-video-link-layout.jpg",
+    "url": "/authoring/v1/resources/a9b7575381cd03962dbe81e4116c8663"
   },
   "template": "e-shopper-video-link-layout",
   "templateType": "angular"

@@ -1,6 +1,6 @@
 {
   "id": "16f3938f-90a7-44e9-baf0-751d861a6164",
-  "rev": "16-3f2afcb55aea1ecf06e4ab518e81fb49",
+  "rev": "13-aafdbf6e1196e018173582641bc126d2",
   "name": "Error page",
   "classification": "content-type",
   "path": "/Er/Error-page",
@@ -12,10 +12,12 @@
     "source": "imageElementOrType"
   },
   "description": "Error page is shown in case of problems with the Single Page application.",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-15T17:32:20.914Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:26.418Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:49.931Z",
   "status": "ready",
   "tags": [
     "oslo",

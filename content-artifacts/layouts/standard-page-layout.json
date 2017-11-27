@@ -1,11 +1,12 @@
 {
   "id": "standard-page-layout",
-  "rev": "5-2077a9dc0adacd8dfd3579948f8c1cdb",
+  "rev": "13-6ab26e37a784179b28abd6bb0adbacd3",
   "name": "One column",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/one-column_220.svg"
+    "path": "/layouts/thumbnails/one-column_220.svg",
+    "url": "/authoring/v1/resources/5eb93499e1cc72e8aa63064590e1f768"
   },
   "template": "standard-page-layout",
   "templateType": "angular"

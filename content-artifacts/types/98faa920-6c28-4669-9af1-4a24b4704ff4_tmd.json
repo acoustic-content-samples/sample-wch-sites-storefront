@@ -1,6 +1,6 @@
 {
   "id": "98faa920-6c28-4669-9af1-4a24b4704ff4",
-  "rev": "4-decd86ccb7167ca30b3a81827aff8942",
+  "rev": "7-f7ca851b3229226f33e6544e3c4068a9",
   "name": "E-Shopper checkout",
   "classification": "content-type",
   "path": "/E-Shopper-checkout",
@@ -8,10 +8,12 @@
     "standalone"
   ],
   "description": "",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-21T17:08:24.829Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:27.208Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:50.729Z",
   "status": "ready",
   "tags": [
     "e-shopper"

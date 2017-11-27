@@ -1,11 +1,12 @@
 {
   "id": "e-shopper-blurb-layout",
-  "rev": "6-099e97679d18f8c72a4df1753df39cda",
+  "rev": "7-2ae107d8f51ee8c0fed8df22431f4e60",
   "name": "eShopperBlurbLayout",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/e-shopper-blurb-layout.jpg"
+    "path": "/layouts/thumbnails/e-shopper-blurb-layout.jpg",
+    "url": "/authoring/v1/resources/a9b7575381cd03962dbe81e4116c8663"
   },
   "template": "e-shopper-blurb-layout",
   "templateType": "angular"

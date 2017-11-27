@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-21T15:56:56.043Z",
+  "lastModified": "2017-11-27T17:59:43.116Z",
   "description": "",
   "tags": {
     "values": [
@@ -21,46 +21,22 @@
       "user:e-shopper"
     ],
     "declined": [],
-    "suggested": [
-      "classification:window envelope",
-      "classification:envelope",
-      "classification:wrapping",
-      "classification:magnetic stripe",
-      "classification:memory device",
-      "classification:orange color",
-      "classification:reddish orange color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "advertisement.jpg",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "4-648e34d6e3c19645c3131d32e8e617eb",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "10-efcf435f496e72a709dffc74351bd602",
   "cognitive": {
-    "classifications": [
-      "window envelope",
-      "envelope",
-      "wrapping",
-      "magnetic stripe",
-      "memory device",
-      "orange color",
-      "reddish orange color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#fcac43",
-      "darkVibrant": "#824a02",
-      "lightVibrant": "#fcc478"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "dc1a2880-a545-422a-a13b-17a0c7fc8494",
   "resource": "523ba443-03b7-426a-b210-bba66954131f",
   "fileSize": 43493,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=523ba443-03b7-426a-b210-bba66954131f&a=dc1a2880-a545-422a-a13b-17a0c7fc8494",
@@ -72,5 +48,22 @@
     "height": 150
   },
   "classification": "asset",
-  "created": "2017-11-21T15:56:28.695Z"
+  "created": "2017-11-27T17:59:43.115Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/dc1a2880-a545-422a-a13b-17a0c7fc8494"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/523ba443-03b7-426a-b210-bba66954131f.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/523ba443-03b7-426a-b210-bba66954131f?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/dc1a2880-a545-422a-a13b-17a0c7fc8494/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

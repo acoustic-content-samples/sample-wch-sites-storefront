@@ -1,11 +1,12 @@
 {
   "id": "e-shopper-ad-carousel-item-layout",
-  "rev": "5-dc80f17e32dbd5116bdc654cd8b28ac8",
+  "rev": "7-ca29d94e60d1011ded9e33cf1dcbcd56",
   "name": "eShopperAdCarouselItemLayout",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/e-shopper-ad-carousel-item-layout.jpg"
+    "path": "/layouts/thumbnails/e-shopper-ad-carousel-item-layout.jpg",
+    "url": "/authoring/v1/resources/a9b7575381cd03962dbe81e4116c8663"
   },
   "template": "e-shopper-ad-carousel-item-layout",
   "templateType": "angular"

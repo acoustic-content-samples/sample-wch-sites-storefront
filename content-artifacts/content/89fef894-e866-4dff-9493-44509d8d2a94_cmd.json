@@ -1,14 +1,13 @@
 {
   "id": "89fef894-e866-4dff-9493-44509d8d2a94",
-  "rev": "4-5e7612a349f5adfa76254f0958b4771a",
   "name": "Careers",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-16T19:51:53.392Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-16T14:29:10.786Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T17:59:58.825Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T17:59:58.825Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -21,7 +20,11 @@
       "elementType": "reference",
       "values": [
         {
-          "id": "7c59d042-b097-458b-8f5d-6cefb9b6cd62"
+          "id": "7c59d042-b097-458b-8f5d-6cefb9b6cd62",
+          "name": "Careers",
+          "typeId": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
+          "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+          "status": "ready"
         }
       ]
     },
@@ -40,6 +43,11 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
-  }
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+  },
+  "type": "Standard page",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-97f75527b2af1a35c367d86552a7ef5e"
 }

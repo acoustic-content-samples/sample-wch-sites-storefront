@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-15T17:32:20.689Z",
+  "lastModified": "2017-11-27T17:59:43.078Z",
   "description": "",
   "tags": {
     "values": [
@@ -21,46 +21,22 @@
       "classification:light source"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:strip lighting",
-      "classification:light source",
-      "classification:fluorescent lamp",
-      "classification:lamp",
-      "classification:coal black color",
-      "classification:black color"
-    ]
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "list_icon_220.png",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "5-c6536f7eca7112e784a3d96c7edd4f87",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "19-189cdb97af3a3e2b45f44e0d06ab2ec4",
   "cognitive": {
-    "classifications": [
-      "strip lighting",
-      "light source",
-      "fluorescent lamp",
-      "lamp",
-      "coal black color",
-      "black color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#282ca0",
-      "muted": "#7c8ca2",
-      "darkVibrant": "#882c9c",
-      "darkMuted": "#384850",
-      "lightMuted": "#9da6b2"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "ece1c54c-2a8f-47ee-a222-22a5741a543f",
   "resource": "38fafa9631cbbe54a37595877533a2b5",
   "fileSize": 1203,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=38fafa9631cbbe54a37595877533a2b5&a=ece1c54c-2a8f-47ee-a222-22a5741a543f",
@@ -72,5 +48,22 @@
     "height": 145
   },
   "classification": "asset",
-  "created": "2017-11-15T17:32:17.239Z"
+  "created": "2017-11-27T17:59:43.077Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/ece1c54c-2a8f-47ee-a222-22a5741a543f"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/38fafa9631cbbe54a37595877533a2b5.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/38fafa9631cbbe54a37595877533a2b5"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/ece1c54c-2a8f-47ee-a222-22a5741a543f/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

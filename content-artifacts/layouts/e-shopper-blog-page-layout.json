@@ -1,11 +1,12 @@
 {
   "id": "e-shopper-blog-page-layout",
-  "rev": "11-50001184514bf0d1e490e4d029dda5bb",
+  "rev": "7-ba2d66a36007bcf8d511f6747541e7a2",
   "name": "eShopperBlogPageLayout",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/e-shopper-blog-page-layout.jpg"
+    "path": "/layouts/thumbnails/e-shopper-blog-page-layout.jpg",
+    "url": "/authoring/v1/resources/a9b7575381cd03962dbe81e4116c8663"
   },
   "template": "e-shopper-blog-page-layout",
   "templateType": "angular"

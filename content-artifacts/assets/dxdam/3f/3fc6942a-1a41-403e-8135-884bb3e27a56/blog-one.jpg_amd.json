@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-20T18:14:57.910Z",
+  "lastModified": "2017-11-27T17:59:39.034Z",
   "description": "",
   "tags": {
     "values": [
@@ -22,60 +22,25 @@
       "user:e-shopper"
     ],
     "declined": [],
-    "suggested": [
-      "classification:person",
-      "classification:young girl",
-      "classification:girl",
-      "classification:woman",
-      "classification:female",
-      "classification:loungewear",
-      "classification:ultramarine color",
-      "face:18-24"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "blog-one.jpg",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "4-962e90b5b1a83f7e9ec3d5fa6309f90f",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "10-504cedb01d9175df5f28738042780519",
   "cognitive": {
-    "classifications": [
-      "person",
-      "young girl",
-      "girl",
-      "woman",
-      "female",
-      "loungewear",
-      "ultramarine color"
-    ],
-    "faces": [
-      {
-        "age": {
-          "minimum": 18,
-          "maximum": 24
-        }
-      }
-    ],
-    "colors": {
-      "vibrant": "#1378b8",
-      "muted": "#92654e",
-      "darkVibrant": "#084d80",
-      "darkMuted": "#6a4730",
-      "lightVibrant": "#e8c98f",
-      "lightMuted": "#c38f7a"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "3fc6942a-1a41-403e-8135-884bb3e27a56",
   "resource": "8002797c-7fb5-406b-a93c-a28598fbf752",
   "fileSize": 166708,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
-      "id": "r=8002797c-7fb5-406b-a93c-a28598fbf752&a=3fc6942a-1a41-403e-8135-884bb3e27a56:draft",
+      "id": "r=8002797c-7fb5-406b-a93c-a28598fbf752&a=3fc6942a-1a41-403e-8135-884bb3e27a56",
       "source": "/authoring/v1/resources/8002797c-7fb5-406b-a93c-a28598fbf752"
     }
   },
@@ -84,5 +49,22 @@
     "height": 398
   },
   "classification": "asset",
-  "created": "2017-11-20T18:13:32.524Z"
+  "created": "2017-11-27T17:59:39.033Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/3fc6942a-1a41-403e-8135-884bb3e27a56"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/8002797c-7fb5-406b-a93c-a28598fbf752.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/8002797c-7fb5-406b-a93c-a28598fbf752?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/3fc6942a-1a41-403e-8135-884bb3e27a56/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

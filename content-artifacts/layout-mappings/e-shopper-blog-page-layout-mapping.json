@@ -1,19 +1,22 @@
 {
   "id": "e-shopper-blog-page-layout-mapping",
-  "rev": "11-7221b5e5d686c4522e99baca248a213a",
+  "rev": "7-5caa9a171e5b37c25a08b2f78a275e17",
   "name": "eShopperBlogPageLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "a469fb98-65c3-4538-8d03-ce345be7be81"
+    "id": "a469fb98-65c3-4538-8d03-ce345be7be81",
+    "name": "E-Shopper blog page"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "e-shopper-blog-page-layout"
+        "id": "e-shopper-blog-page-layout",
+        "name": "eShopperBlogPageLayout"
       },
       "layouts": [
         {
-          "id": "e-shopper-blog-page-layout"
+          "id": "e-shopper-blog-page-layout",
+          "name": "eShopperBlogPageLayout"
         }
       ]
     }

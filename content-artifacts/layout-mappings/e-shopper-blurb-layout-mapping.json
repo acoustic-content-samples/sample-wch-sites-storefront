@@ -1,19 +1,22 @@
 {
   "id": "e-shopper-blurb-layout-mapping",
-  "rev": "6-0e6a9ed4c186d5dc4ad535260d5a9a86",
+  "rev": "7-46df5e4c2c08fbcd7a28d1f7d8399d72",
   "name": "eShopperBlurbLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab"
+    "id": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
+    "name": "E-Shopper blurb"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "e-shopper-blurb-layout"
+        "id": "e-shopper-blurb-layout",
+        "name": "eShopperBlurbLayout"
       },
       "layouts": [
         {
-          "id": "e-shopper-blurb-layout"
+          "id": "e-shopper-blurb-layout",
+          "name": "eShopperBlurbLayout"
         }
       ]
     }

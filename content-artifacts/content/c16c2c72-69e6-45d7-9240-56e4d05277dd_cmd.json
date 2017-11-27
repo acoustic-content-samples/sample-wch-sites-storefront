@@ -1,21 +1,24 @@
 {
   "id": "c16c2c72-69e6-45d7-9240-56e4d05277dd",
-  "rev": "4-9fd209a1f02eb0b796de5716c5ffa236",
   "name": "Blog2",
   "description": "",
   "classification": "content",
   "typeId": "a469fb98-65c3-4538-8d03-ce345be7be81",
-  "lastModified": "2017-11-21T00:44:32.509Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-20T20:51:49.345Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:01.413Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:01.413Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [],
   "status": "ready",
   "elements": {
     "blogList": {
       "elementType": "reference",
       "value": {
-        "id": "7bd38eb7-69aa-4a7f-b9fd-583ef7c714ca"
+        "id": "7bd38eb7-69aa-4a7f-b9fd-583ef7c714ca",
+        "name": "E-Shopper blog list",
+        "typeId": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c",
+        "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+        "status": "ready"
       }
     }
   },
@@ -28,5 +31,9 @@
   ],
   "kind": [
     "page"
-  ]
+  ],
+  "type": "E-Shopper blog page",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-2ed6c6bef5f2549fab23eab1eba30145"
 }

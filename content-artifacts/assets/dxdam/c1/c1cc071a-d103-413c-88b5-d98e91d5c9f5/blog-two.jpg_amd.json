@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-20T18:16:17.746Z",
+  "lastModified": "2017-11-27T17:59:40.915Z",
   "description": "",
   "tags": {
     "values": [
@@ -18,46 +18,22 @@
       "user:e-shopper"
     ],
     "declined": [],
-    "suggested": [
-      "classification:person",
-      "classification:light brown color",
-      "classification:beige color",
-      "face:Female"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "blog-two.jpg",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "4-bf7c867a4ca0d14927e95ad27c18053a",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "10-fb0f15a35701ca03c50b388ee9a990da",
   "cognitive": {
-    "classifications": [
-      "person",
-      "light brown color",
-      "beige color"
-    ],
-    "faces": [
-      {
-        "gender": "Female"
-      }
-    ],
-    "colors": {
-      "vibrant": "#d28042",
-      "muted": "#a85350",
-      "darkVibrant": "#920c20",
-      "darkMuted": "#745464",
-      "lightVibrant": "#eaac7e",
-      "lightMuted": "#fcfbfa"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "c1cc071a-d103-413c-88b5-d98e91d5c9f5",
   "resource": "1e7f065f-606d-489b-851e-3a6a49f5b063",
   "fileSize": 197291,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=1e7f065f-606d-489b-851e-3a6a49f5b063&a=c1cc071a-d103-413c-88b5-d98e91d5c9f5",
@@ -69,5 +45,22 @@
     "height": 396
   },
   "classification": "asset",
-  "created": "2017-11-20T18:15:10.315Z"
+  "created": "2017-11-27T17:59:40.914Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/c1cc071a-d103-413c-88b5-d98e91d5c9f5"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/1e7f065f-606d-489b-851e-3a6a49f5b063.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/1e7f065f-606d-489b-851e-3a6a49f5b063?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/c1cc071a-d103-413c-88b5-d98e91d5c9f5/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

@@ -1,15 +1,14 @@
 {
   "id": "aaf029fe-8dc4-4d96-a02f-3540591d8a23",
-  "rev": "5-5959c90481a445448e69c1f409257873",
   "name": "Privacy Policy",
   "description": "",
   "classification": "content",
   "typeId": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
   "locale": "en",
-  "lastModified": "2017-11-21T15:28:38.735Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-15T18:48:25.912Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:03.901Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:03.901Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -32,5 +31,9 @@
       }
     }
   ],
-  "kind": []
+  "kind": [],
+  "type": "E-Shopper blurb",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-ddc10580c5769f1b1046d1ec717972a4"
 }

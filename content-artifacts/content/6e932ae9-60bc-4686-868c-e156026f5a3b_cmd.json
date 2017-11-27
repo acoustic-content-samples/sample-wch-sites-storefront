@@ -1,14 +1,13 @@
 {
   "id": "6e932ae9-60bc-4686-868c-e156026f5a3b",
-  "rev": "11-c62673093e336a0101bddc6ccf75ecab",
   "name": "New accessories online now!",
   "classification": "content",
   "typeId": "8f3b9172-8227-46b3-be14-f10c196c9134",
   "locale": "en",
-  "lastModified": "2017-11-20T18:20:32.529Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-20T18:18:47.501Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T17:59:56.563Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T17:59:56.563Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -58,7 +57,12 @@
   },
   "kind": [],
   "thumbnail": {
-    "id": "c1cc071a-d103-413c-88b5-d98e91d5c9f5"
+    "id": "c1cc071a-d103-413c-88b5-d98e91d5c9f5",
+    "url": "/authoring/v1/resources/1e7f065f-606d-489b-851e-3a6a49f5b063?fit=inside%7C220:145"
   },
-  "description": ""
+  "description": "",
+  "type": "E-Shopper blog post",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-fa399045d7ae97bcc61ab79cb9514b87"
 }

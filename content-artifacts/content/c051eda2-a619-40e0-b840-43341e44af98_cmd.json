@@ -1,14 +1,13 @@
 {
   "id": "c051eda2-a619-40e0-b840-43341e44af98",
-  "rev": "4-832a41e6110b0ccc0db5a15c3e49332c",
   "name": "Refund Policy",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-16T19:52:33.848Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-16T14:30:24.669Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:01.763Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:01.763Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -21,7 +20,11 @@
       "elementType": "reference",
       "values": [
         {
-          "id": "63548abe-8571-44bc-aa6b-45bec56e5800"
+          "id": "63548abe-8571-44bc-aa6b-45bec56e5800",
+          "name": "Refund Policy",
+          "typeId": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
+          "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+          "status": "ready"
         }
       ]
     },
@@ -40,6 +43,11 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
-  }
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+  },
+  "type": "Standard page",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-5c5e89ece14ca96b5ed7d4eb2b21a30f"
 }

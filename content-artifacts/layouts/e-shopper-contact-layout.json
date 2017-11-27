@@ -1,11 +1,12 @@
 {
   "id": "e-shopper-contact-layout",
-  "rev": "3-10d4fcd76d1e3fdbb9967a10244bc559",
+  "rev": "7-f3048136b83d72ea4e6e226bc6f4a781",
   "name": "eShopperContactLayout",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/e-shopper-contact-layout.jpg"
+    "path": "/layouts/thumbnails/e-shopper-contact-layout.jpg",
+    "url": "/authoring/v1/resources/a9b7575381cd03962dbe81e4116c8663"
   },
   "template": "e-shopper-contact-layout",
   "templateType": "angular"

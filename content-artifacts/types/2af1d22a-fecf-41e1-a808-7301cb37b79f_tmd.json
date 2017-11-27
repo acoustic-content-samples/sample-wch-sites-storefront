@@ -1,6 +1,6 @@
 {
   "id": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "rev": "11-d15b66e1fa611033059833f4126c08c6",
+  "rev": "13-f9ed2586f6608193f822843ed649d970",
   "name": "Standard page",
   "classification": "content-type",
   "path": "/St/Standard-page",
@@ -9,17 +9,21 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "path": "/dxdam/25/257b578f-7f29-49e5-9e50-97c3846ccf98/page-home-220px.png",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
   },
   "contentThumbnail": {
     "imageElement": "",
     "source": "imageElementOrType"
   },
   "description": "Standard page has a one column layout which includes multiple sections for greater flexibility.  In the Oslo site, it's used for the Home, Events, and About us pages.",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-15T17:32:21.086Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:26.041Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:49.858Z",
   "status": "ready",
   "tags": [
     "oslo",

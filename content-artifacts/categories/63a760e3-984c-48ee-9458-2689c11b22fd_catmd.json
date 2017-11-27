@@ -1,9 +1,9 @@
 {
   "id": "63a760e3-984c-48ee-9458-2689c11b22fd",
-  "rev": "2-edf3e0ec202cc7a964f200cf29902db0",
+  "rev": "7-c8e44104cd1b7ba74be19eb4e0c47c67",
   "name": "E-Shopper video link",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "creator": "Adam.iem",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "creator": "WCH Storefront",
   "classification": "category",
   "taxonomy": "9d47dccc-f940-40de-a978-82815c805701",
   "parent": "8a1cca57-4e5b-4d66-b8fa-668490b8e9b1",
@@ -27,6 +27,6 @@
       "href": "/authoring/v1/categories/8a1cca57-4e5b-4d66-b8fa-668490b8e9b1"
     }
   },
-  "created": "2017-11-16T20:41:21.185Z",
-  "lastModified": "2017-11-16T20:42:03.114Z"
+  "created": "2017-11-27T17:59:15.630Z",
+  "lastModified": "2017-11-27T17:59:15.630Z"
 }

@@ -1,9 +1,9 @@
 {
   "id": "8a1cca57-4e5b-4d66-b8fa-668490b8e9b1",
-  "rev": "3-e591601f4f303743fdd2fd8ac6a5ed80",
+  "rev": "13-ee96440c9ebb8fa8601a9e031982a1e7",
   "name": "Type",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "creator": "Adam.iem",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "creator": "WCH Storefront",
   "classification": "category",
   "taxonomy": "9d47dccc-f940-40de-a978-82815c805701",
   "parent": "9d47dccc-f940-40de-a978-82815c805701",
@@ -25,6 +25,6 @@
       "href": "/authoring/v1/categories/9d47dccc-f940-40de-a978-82815c805701"
     }
   },
-  "created": "2017-11-15T17:32:10.690Z",
-  "lastModified": "2017-11-15T17:32:10.690Z"
+  "created": "2017-11-27T17:59:14.305Z",
+  "lastModified": "2017-11-27T17:59:14.305Z"
 }

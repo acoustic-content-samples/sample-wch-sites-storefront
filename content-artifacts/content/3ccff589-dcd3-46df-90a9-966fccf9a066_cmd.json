@@ -1,15 +1,14 @@
 {
   "id": "3ccff589-dcd3-46df-90a9-966fccf9a066",
-  "rev": "14-b887f02253d99b9d0061bd1c58fd0af8",
   "name": "FAQs",
   "description": "",
   "classification": "content",
   "typeId": "9bd965ca-0e14-44fc-89a4-ad7ff080c9ab",
   "locale": "en",
-  "lastModified": "2017-11-16T19:56:02.630Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-15T18:47:26.373Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T17:59:55.823Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T17:59:55.823Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -32,5 +31,9 @@
       }
     }
   ],
-  "kind": []
+  "kind": [],
+  "type": "E-Shopper blurb",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-dc8fc824e593725c8c86b92dfd645d47"
 }

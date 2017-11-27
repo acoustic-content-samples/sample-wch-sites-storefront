@@ -1,15 +1,14 @@
 {
   "id": "9f0388fa-9466-4a63-90e3-21035874e3fc",
-  "rev": "10-aad7c3b49b0c521e83ee8fca021e0cd3",
   "name": "Girls Pink T Shirt arrived in store",
   "description": "",
   "classification": "content",
   "typeId": "8f3b9172-8227-46b3-be14-f10c196c9134",
   "locale": "en",
-  "lastModified": "2017-11-20T18:14:14.532Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-20T18:10:16.250Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T17:59:58.696Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T17:59:58.696Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -59,6 +58,11 @@
   },
   "kind": [],
   "thumbnail": {
-    "id": "3fc6942a-1a41-403e-8135-884bb3e27a56"
-  }
+    "id": "3fc6942a-1a41-403e-8135-884bb3e27a56",
+    "url": "/authoring/v1/resources/8002797c-7fb5-406b-a93c-a28598fbf752?fit=inside%7C220:145"
+  },
+  "type": "E-Shopper blog post",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-8e89e8c487a4f31811daf80b8df0fb8e"
 }

@@ -1,14 +1,13 @@
 {
   "id": "1e31f1d3-38d3-4e9b-b23b-c616fba24b06",
-  "rev": "4-8e88d3e661057022b1327f3a097ccca9",
   "name": "Login",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-21T17:03:40.848Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-21T01:13:52.770Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:24.596Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:24.596Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [],
   "status": "ready",
   "elements": {
@@ -19,7 +18,11 @@
       "elementType": "reference",
       "values": [
         {
-          "id": "d5088441-2657-4873-b7e8-e358e2ab21cc"
+          "id": "d5088441-2657-4873-b7e8-e358e2ab21cc",
+          "name": "eShopperLogin",
+          "typeId": "2e44f20c-16fd-44ae-8a12-3c981c6234aa",
+          "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+          "status": "ready"
         }
       ]
     },
@@ -38,6 +41,11 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
-  }
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+  },
+  "type": "Standard page",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-1ad7fdeb54cadf38b508f4f4d5260f44"
 }

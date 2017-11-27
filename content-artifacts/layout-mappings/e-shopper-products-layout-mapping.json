@@ -1,19 +1,22 @@
 {
   "id": "e-shopper-products-layout-mapping",
-  "rev": "3-ca16a6087fb2755f8cd954aebd59dce7",
+  "rev": "7-4a29a3eefa4192a3214acccb3e5be0e4",
   "name": "eShopperProductsLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "c77e86a9-926a-4c7b-99c9-dd41b8547ade"
+    "id": "c77e86a9-926a-4c7b-99c9-dd41b8547ade",
+    "name": "E-Shopper products"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "e-shopper-products-layout"
+        "id": "e-shopper-products-layout",
+        "name": "eShopperProductsLayout"
       },
       "layouts": [
         {
-          "id": "e-shopper-products-layout"
+          "id": "e-shopper-products-layout",
+          "name": "eShopperProductsLayout"
         }
       ]
     }

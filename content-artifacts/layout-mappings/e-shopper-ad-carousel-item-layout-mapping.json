@@ -1,19 +1,22 @@
 {
   "id": "e-shopper-ad-carousel-item-layout-mapping",
-  "rev": "5-88e9d828f1cf787199da7205c972e9e4",
+  "rev": "7-47a817c6753635dc95cc24797f6fc75a",
   "name": "eShopperAdCarouselItemLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "54b1ff0e-d7a2-4476-bda3-e8c8d400db09"
+    "id": "54b1ff0e-d7a2-4476-bda3-e8c8d400db09",
+    "name": "E-Shopper ad carousel item"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "e-shopper-ad-carousel-item-layout"
+        "id": "e-shopper-ad-carousel-item-layout",
+        "name": "eShopperAdCarouselItemLayout"
       },
       "layouts": [
         {
-          "id": "e-shopper-ad-carousel-item-layout"
+          "id": "e-shopper-ad-carousel-item-layout",
+          "name": "eShopperAdCarouselItemLayout"
         }
       ]
     }

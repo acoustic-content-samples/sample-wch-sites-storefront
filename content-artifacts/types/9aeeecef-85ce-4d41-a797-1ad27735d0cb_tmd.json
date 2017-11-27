@@ -1,6 +1,6 @@
 {
   "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb",
-  "rev": "9-f27f3da00e25a20d832d83677f1e4c5d",
+  "rev": "13-e3a53b39bbf3071c339ff5b0ec473b85",
   "name": "List",
   "classification": "content-type",
   "path": "/Li/List",
@@ -8,17 +8,21 @@
     "standalone"
   ],
   "thumbnail": {
-    "id": "ece1c54c-2a8f-47ee-a222-22a5741a543f"
+    "id": "ece1c54c-2a8f-47ee-a222-22a5741a543f",
+    "path": "/dxdam/ec/ece1c54c-2a8f-47ee-a222-22a5741a543f/list_icon_220.png",
+    "url": "/authoring/v1/resources/38fafa9631cbbe54a37595877533a2b5"
   },
   "contentThumbnail": {
     "imageElement": "",
     "source": "imageElementOrType"
   },
   "description": "Use this to create curated lists of content to feature throughout your website. In Oslo we use it to create the Editor's Choice list which show up on the design.",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "creator": "WCH Storefront",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "created": "2017-11-15T17:32:22.562Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "lastModified": "2017-11-22T17:24:26.948Z",
+  "lastModifier": "WCH Storefront",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "lastModified": "2017-11-27T17:59:50.574Z",
   "status": "ready",
   "tags": [
     "oslo",

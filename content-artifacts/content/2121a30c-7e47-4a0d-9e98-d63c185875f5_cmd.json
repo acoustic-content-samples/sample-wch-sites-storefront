@@ -1,14 +1,13 @@
 {
   "id": "2121a30c-7e47-4a0d-9e98-d63c185875f5",
-  "rev": "5-cc388bd7ff37afb28ea35fb2ac493588",
-  "name": "Login",
+  "name": "Products",
   "description": "",
   "classification": "content",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "lastModified": "2017-11-22T14:49:57.264Z",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "created": "2017-11-16T16:24:24.882Z",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModified": "2017-11-27T18:00:24.453Z",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "created": "2017-11-27T18:00:24.453Z",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "tags": [
     "user:e-shopper"
   ],
@@ -18,10 +17,18 @@
       "elementType": "reference",
       "values": [
         {
-          "id": "d6664eee-7d8b-43aa-9575-cacfa77fae82"
+          "id": "d6664eee-7d8b-43aa-9575-cacfa77fae82",
+          "name": "eShopperSaleAd",
+          "typeId": "23c92986-b470-47f5-b3af-1e4c4770abdc",
+          "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+          "status": "ready"
         },
         {
-          "id": "317f5db0-f940-4b67-ba22-c8e7769f8d9d"
+          "id": "317f5db0-f940-4b67-ba22-c8e7769f8d9d",
+          "name": "eShopperProducts",
+          "typeId": "c77e86a9-926a-4c7b-99c9-dd41b8547ade",
+          "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+          "status": "ready"
         }
       ]
     },
@@ -43,6 +50,11 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
-  }
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+  },
+  "type": "Standard page",
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "rev": "7-dd8fa6bcb9e7a612826b7eea180ee964"
 }

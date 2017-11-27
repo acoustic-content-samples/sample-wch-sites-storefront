@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-11-15T17:32:19.825Z",
+  "lastModified": "2017-11-27T17:59:38.309Z",
   "description": "",
   "tags": {
     "values": [
@@ -28,61 +28,22 @@
       "classification:video display"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:dialog box",
-      "classification:window",
-      "classification:video display",
-      "classification:electronic device",
-      "classification:digital clock",
-      "classification:clock",
-      "classification:timepiece",
-      "classification:measuring instrument",
-      "classification:digital display",
-      "classification:automated teller machine",
-      "classification:machine",
-      "classification:coal black color",
-      "classification:black color"
-    ]
+    "analysis": "pending"
   },
   "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "header_icon_220.png",
-  "creatorId": "9befb23c-810c-4b47-8698-e817271ce367",
-  "rev": "5-ebc744b01b90fa804d91b96ea37244f5",
+  "creatorId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
+  "rev": "19-740fa3e135b68f458e682b1156b89a17",
   "cognitive": {
-    "classifications": [
-      "dialog box",
-      "window",
-      "video display",
-      "electronic device",
-      "digital clock",
-      "clock",
-      "timepiece",
-      "measuring instrument",
-      "digital display",
-      "automated teller machine",
-      "machine",
-      "coal black color",
-      "black color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#5177b0",
-      "muted": "#648cbc",
-      "darkVibrant": "#142c5c",
-      "darkMuted": "#34343c",
-      "lightVibrant": "#91aad4",
-      "lightMuted": "#9bb4d3"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "78490787-4867-4b8f-9a9d-bddd407b854b",
   "resource": "9a069bfa086cfe1ae7c98e789fed8146",
   "fileSize": 1717,
   "status": "ready",
-  "lastModifierId": "9befb23c-810c-4b47-8698-e817271ce367",
+  "lastModifierId": "cd58f128-b69d-4c5e-b2fe-2e32ebed1078",
   "renditions": {
     "default": {
       "id": "r=9a069bfa086cfe1ae7c98e789fed8146&a=78490787-4867-4b8f-9a9d-bddd407b854b",
@@ -94,5 +55,22 @@
     "height": 145
   },
   "classification": "asset",
-  "created": "2017-11-15T17:32:16.931Z"
+  "created": "2017-11-27T17:59:38.309Z",
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/78490787-4867-4b8f-9a9d-bddd407b854b"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/78490787-4867-4b8f-9a9d-bddd407b854b/status/retire"
+    }
+  },
+  "creator": "WCH Storefront",
+  "lastModifier": "WCH Storefront",
+  "categories": []
 }

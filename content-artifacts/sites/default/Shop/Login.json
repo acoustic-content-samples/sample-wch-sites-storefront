@@ -5,12 +5,11 @@
   "description": "",
   "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
   "title": "",
+  "contentId": "1e31f1d3-38d3-4e9b-b23b-c616fba24b06",
   "classification": "page",
-  "contentId": "371405fd-5109-47bd-816b-6e608194ae40",
-  "contentStatus": "draft",
-  "contentLinkedDocId": "1e31f1d3-38d3-4e9b-b23b-c616fba24b06",
+  "contentStatus": "ready",
   "position": 3,
   "id": "a0b4ff28-d5ed-45bc-baa5-2f718d7ab7ab",
-  "rev": "5-441e9822c5fa902505987472e43dda20",
+  "rev": "3-f2bc9bf8639516f7c6de697bef0deb9c",
   "parentId": "a3bdbc16-157a-4045-9938-6f9f67aa576e"
 }
