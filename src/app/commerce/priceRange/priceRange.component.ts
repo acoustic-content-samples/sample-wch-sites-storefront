@@ -65,8 +65,7 @@ export class PriceRangeComponent implements OnInit, AfterViewInit {
 			Build the base URL, ideally this would be handled in a parent class
 		 */
 		this.urlSub = this.activeRoute.url.subscribe((url) => {
-			let root = this.activeRoute.parent.routeConfig.path;
-			this.baseUrl = root;
+			this.baseUrl = '/';
 			let path = Object.keys(url);
 			path.forEach((seg) => {
 				this.baseUrl += `/${url[seg]}`;

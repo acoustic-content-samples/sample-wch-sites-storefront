@@ -23,7 +23,7 @@ export class ItemContainerComponent implements OnInit{
 
     getUrl(item: any): string {
         if(item.price) {
-            return item.url.length ? '/shop/products/' + item.url[item.url.length - 1] : '/shop/products';
+            return item.url.length ? '/shop/product/' + item.url[item.url.length - 1] : '/shop/products';
         } else {
             return '/shop/products/' + item.url.join('/');
         }

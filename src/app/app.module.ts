@@ -55,10 +55,10 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 const pageRoutes: Routes = [
-	{ path: 'products/:id', component: EShopperProductsLayoutComponent },
-	{ path: 'products/:category/:id', component: EShopperProductsLayoutComponent },
-	{ path: 'products/:category/:subCategory/:id', component: EShopperProductsLayoutComponent },
-	{ path: 'product/:id', component: ProductDetailsComponent },
+	{ path: 'shop/products/:id', component: EShopperProductsLayoutComponent },
+	{ path: 'shop/products/:category/:id', component: EShopperProductsLayoutComponent },
+	{ path: 'shop/products/:category/:subCategory/:id', component: EShopperProductsLayoutComponent },
+	{ path: 'shop/product/:id', component: ProductDetailsComponent },
 	{ path: 'blog/:id', component: BlogSingleComponent },
 	{ path: '', redirectTo: '/home', pathMatch: 'full' },
 	{ path: '**', component: PageComponent }

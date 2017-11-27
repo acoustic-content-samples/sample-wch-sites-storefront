@@ -67,8 +67,7 @@ export class BrandsComponent implements OnInit, OnDestroy {
 		});
 
 		this.urlSub = this.activeRoute.url.subscribe((url) => {
-			let root = this.activeRoute.parent.routeConfig.path;
-			this.baseUrl = root;
+			this.baseUrl = '/';
 			let path = Object.keys(url);
 			path.forEach((seg) => {
 				this.baseUrl += `/${url[seg]}`;
