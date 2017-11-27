@@ -1,6 +1,6 @@
 {
-	"contentHubID": "93ad2da4-9dc6-4290-9ef5-0f8d3d087748",
-	"contentHubDomainName": "dch-dxcloud.rtp.raleigh.ibm.com",
+	"contentHubID": "79222fb7-a0a0-4e75-a4b6-33ac7a67cf5d",
+	"contentHubDomainName": "my16.digitalexperience.ibm.com",
 	"commerceSearchDomainName": "aas129.watsoncommerce.ibm.com",
 	"commerceSearchSecurePort":"443",
 	"commerceSearchContextPath":"/search/resources",
