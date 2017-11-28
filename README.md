@@ -3,7 +3,7 @@ An E-Shopper storefront sample which uses WCH sites.
 
 Preparation
 ------
-The deployment step of this repository pushes the Single Page Application (SPA) files into the WCH tenant, overlaying existing files. It will overlay any existing files in the web asset folder. We recommend to first do a pull with wchtools in case you want to keep artifacts that you still need. If you use the Sites SPA, it will get overlayed.
+The deployment step of this repository pushes the Single Page Application (SPA) files into the WCH tenant, overlaying existing files. It will overlay any existing files in the web asset folder. We recommend to first do a pull with wchtools in case you want to keep artifacts that you still need. If you use the Sites SPA, it will get overlayed and existing pages will no longer render.
 
 To use
 ------
@@ -41,7 +41,7 @@ To use
 	"commerceCatalogID": "10502"
 ```
 3. Run `wchtools init` to setup the [WCH tools CLI](https://github.com/ibm-wch/wchtools-cli#getting-started)
-4. (**optional**) Run `wchtools delete -A --all -v` to empty your tenant if you want a fresh start. **WARNING**: _This will delete all your tenant's Content, Assets, Types, Layouts, Pages, Taxonomies and Image Profiles._ Read more [here](https://github.com/ibm-wch/wchtools-cli#deleting-all-instances-of-a-specified-artifact-type-or-all-instances-of-all-artifact-types)
+4. (**optional but recommended**) Run `wchtools delete -A --all -v` to empty your tenant to get a fresh start. **WARNING**: _This will delete all your tenant's Content, Assets, Types, Layouts, Pages, Taxonomies and Image Profiles._ Read more [here](https://github.com/ibm-wch/wchtools-cli#deleting-all-instances-of-a-specified-artifact-type-or-all-instances-of-all-artifact-types)
 5. Add the site artifacts with  `npm run init-content`
 6. Set your tenant information in `src/app/Constants.ts`, then run a local development server with `npm start`
 7. Customize your site, read more [here](https://developer.ibm.com/customer-engagement/docs/wch/developing-your-own-website/)
