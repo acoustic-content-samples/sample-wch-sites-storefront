@@ -60,7 +60,7 @@ const pageRoutes: Routes = [
 	{ path: 'shop/products/:category/:subCategory/:id', component: EShopperProductsLayoutComponent },
 	{ path: 'shop/product/:id', component: ProductDetailsComponent },
 	{ path: 'blog/:id', component: BlogSingleComponent },
-	{ path: '', redirectTo: '/home', pathMatch: 'full' },
+	{ path: '', redirectTo: '/eshopper', pathMatch: 'full' },
 	{ path: '**', component: PageComponent }
 ];
 

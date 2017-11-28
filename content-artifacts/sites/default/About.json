@@ -1,6 +1,6 @@
 {
   "name": "About",
-  "segment": "about",
+  "segment": "about-us",
   "layoutId": "standard-page-layout",
   "description": "",
   "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
@@ -9,7 +9,7 @@
   "contentId": "48e4288b-fabe-41b4-96fe-f918ed348949",
   "classification": "page",
   "contentStatus": "ready",
-  "position": -1,
+  "position": 14,
   "id": "e442a84f0bee096749da902685291b8a",
   "rev": "13-b4e1e448c19aa5a4b59da9cf7b733401"
 }
