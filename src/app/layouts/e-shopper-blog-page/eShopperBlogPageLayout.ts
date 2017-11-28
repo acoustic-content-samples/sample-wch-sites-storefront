@@ -17,6 +17,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { TypeEShopperBlogPageComponent } from './../../components/e-shopper-blog-page/typeEShopperBlogPageComponent';
 import { ElementMap } from "ibm-wch-sdk-ng/src/interfaces/rendering-context";
 import { Subscription } from "rxjs/Subscription";
+import {ActivatedRoute} from "@angular/router";
 
 /*
  * @name eShopperBlogPageLayout
@@ -31,9 +32,13 @@ import { Subscription } from "rxjs/Subscription";
 })
 export class EShopperBlogPageLayoutComponent extends TypeEShopperBlogPageComponent implements OnInit, OnDestroy {
 	rContext: RenderingContext;
+	blogId: String;
+	navSub: Subscription;
+	singleLayoutMode: string
 
-	constructor() {
+	constructor(private route: ActivatedRoute) {
 		super();
+		this.singleLayoutMode = 'single';
 	}
 
 	ngOnInit() {
@@ -42,9 +47,16 @@ export class EShopperBlogPageLayoutComponent extends TypeEShopperBlogPageCompone
 		this.safeSubscribe(this.onRenderingContext, (renderingContext) => {
 			this.rContext = renderingContext;
 		})
+
+		this.navSub = this.route.queryParamMap
+			.map(params => params.get('id') || '')
+			.subscribe(id => {
+			this.blogId = id;
+		});
 	}
 
 	ngOnDestroy () {
 		super.ngOnDestroy();
+		this.navSub.unsubscribe();
 	}
 }
