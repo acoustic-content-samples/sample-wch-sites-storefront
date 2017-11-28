@@ -37,7 +37,6 @@ import { EShopperProductsLayoutComponent } from './layouts/e-shopper-products/eS
 import { ProductDetailsComponent } from './layouts/e-shopper-products/productDetails/productDetails.component';
 import { BundleComponentsComponent } from './layouts/e-shopper-products/productDetails/bundleComponents.component';
 import { ReviewsModule } from './layouts/e-shopper-products/productDetails/reviews/reviews.module';
-import { BlogSingleComponent } from './layouts/e-shopper-blog-page/blogSingle/blogSingle.component';
 import { AppComponent } from './app.component';
 import { environment } from './environment/environment';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -92,7 +91,6 @@ export function HttpLoaderFactory(http: Http) {
 		AppComponent,
 		WchHeaderComponent,
 		WchFooterComponent,
-		BlogSingleComponent,
 		ProductDetailsComponent,
 		BundleComponentsComponent,
 		PageNotFoundComponent,
