@@ -36,7 +36,6 @@ import { WchFooterComponent } from './wchFooter/wchFooter.component';
 import { EShopperProductsLayoutComponent } from './layouts/e-shopper-products/eShopperProductsLayout';
 import { ProductDetailsComponent } from './layouts/e-shopper-products/productDetails/productDetails.component';
 import { BundleComponentsComponent } from './layouts/e-shopper-products/productDetails/bundleComponents.component';
-import { ReviewsModule } from './layouts/e-shopper-products/productDetails/reviews/reviews.module';
 import { AppComponent } from './app.component';
 import { environment } from './environment/environment';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -54,10 +53,6 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 const pageRoutes: Routes = [
-	// { path: 'shop/products/:id', component: EShopperProductsLayoutComponent },
-	// { path: 'shop/products/:category/:id', component: EShopperProductsLayoutComponent },
-	// { path: 'shop/products/:category/:subCategory/:id', component: EShopperProductsLayoutComponent },
-	// { path: 'shop/product/:id', component: ProductDetailsComponent },
 	{ path: '', redirectTo: '/eshopper', pathMatch: 'full' },
 	{ path: '**', component: PageComponent }
 ];
@@ -78,7 +73,6 @@ export function HttpLoaderFactory(http: Http) {
 		GenericLayoutModule,
 		SAMPLE_MODULE,
 		CommerceModule,
-		ReviewsModule,
 		TranslateModule.forRoot({
 			loader: {
 				provide: TranslateLoader,
