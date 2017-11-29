@@ -1,7 +1,7 @@
 <!-- just render the components in the 'content' column one by cone -->
 <div id="{{rContext.id}}" class="grid-x">
 	<div *ngIf="banner" class="cell">
-		<div class="section" *ngFor="let item of onBanner | async; trackBy: trackByComponentId">
+		<div class="section container" *ngFor="let item of onBanner | async; trackBy: trackByComponentId">
 			<wch-contentref [renderingContext]="item">
 			</wch-contentref>
 		</div>

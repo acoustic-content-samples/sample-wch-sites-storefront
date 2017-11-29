@@ -50,29 +50,7 @@ export class CarouselComponent implements AfterViewInit, OnDestroy {
 	 @ViewChildren('carousel') carousel: QueryList<any>;
 
 		// set default configuration
-		slideConfig = {'speed': 500, 'slidesToShow': 4, 'slidesToScroll': 4, 'dots': false, 'arrows': true,
-			'responsive': [{
-				'breakpoint': 1250,
-				'settings': {
-					'slidesToShow': 3,
-					'slidesToScroll': 3
-				}
-			},
-				{
-				'breakpoint': 700,
-				'settings': {
-					'slidesToShow': 2,
-					'slidesToScroll': 2
-				}
-			},
-				{
-					'breakpoint': 400,
-				'settings': {
-					'slidesToShow': 1,
-					'slidesToScroll': 1
-				}
-			}]
-		};
+		slideConfig = {'speed': 500, 'slidesToShow': 1, 'slidesToScroll': 1, 'dots': false, 'arrows': true};
 		/*
 			speed: number <transition speed in milliseconds>
 			slidesToShow: number <number of slides displayed at once>
