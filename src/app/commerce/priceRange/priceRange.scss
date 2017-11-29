@@ -2,6 +2,31 @@
 
 .price-range{
   margin-top:30px;
+
+  input[type=text] {
+    width: 55px;
+    height: 25px;
+    padding: 1px;
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0 2px;
+  }
+
+  label {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) {
+  .price-range {
+    .well {
+      display: block;
+    }
+
+    input[type=text] {
+      display: inline-block;
+    }
+  }
 }
 
 .well {
@@ -26,10 +51,6 @@ h2 {
   z-index:3;
 }
 
-.range {
-  width: 55px;
-  margin: 2px;
-}
 
 .go {
   vertical-align: middle;

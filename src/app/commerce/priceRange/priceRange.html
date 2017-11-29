@@ -8,9 +8,17 @@
 				Clear
 			</a>
 		</div>
-		<form [formGroup]="priceRangeForm" novalidate>
-			$<input type="text" class="range" formControlName="min">
-			to $<input type="text" class="range" formControlName="max">
+		<form class="form-inline" [formGroup]="priceRangeForm" novalidate>
+			<div class="form-group">
+				<label for="minPrice">$</label>
+				<input type="text" id="minPrice" class="form-control" formControlName="min">
+			</div>
+			<div class="form-group">
+				<label for="maxPrice">to $</label>
+				<input id="maxPrice" type="text" class="form-control" formControlName="max">
+			</div>
+
+
 			<input type="button" class="go" (click)="go()" formControlName="submit" value="go"/>
 		</form>
 	</div>
