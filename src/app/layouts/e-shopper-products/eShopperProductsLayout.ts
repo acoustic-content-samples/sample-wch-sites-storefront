@@ -91,7 +91,7 @@ export class EShopperProductsLayoutComponent extends TypeEShopperProductsCompone
 				if (path.length) {
 					// console.log('productList getItems on %o', path);
 					this.commerceService.getItems(path).then((cat: any) => {
-						this.setItems(cat, null);
+						this.setItems(cat, params);
 					});
 				}
 			} else {
@@ -107,6 +107,7 @@ export class EShopperProductsLayoutComponent extends TypeEShopperProductsCompone
             params = this.globalParams;
         }
         this.allItems = fromServer;
+console.warn('params %o',params);
 	    if (params) {
             this.filteredItems = this.filterService.checkForFiltering(params, fromServer);
             this.change.detectChanges();

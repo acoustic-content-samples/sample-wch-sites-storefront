@@ -42,7 +42,6 @@ export class PriceRangeComponent implements OnInit, AfterViewInit {
 	private minPriceKey = 'minPrice';
 	private maxPriceKey = 'maxPrice';
 
-
 	constructor(private commerceService: CommerceService,
 				private fb: FormBuilder,
 				private route: Router,
@@ -53,14 +52,10 @@ export class PriceRangeComponent implements OnInit, AfterViewInit {
 			min: '',
 			max: '',
 			submit: 'GO'
-
 		});
-
 	}
 
 	ngOnInit(): void {
-
-
 		/*
 			Build the base URL, ideally this would be handled in a parent class
 		 */
@@ -98,7 +93,6 @@ export class PriceRangeComponent implements OnInit, AfterViewInit {
 		//adds a product filter for specific brands.
 		this.filterService.addFilter(new MinPriceFilter(this.minPriceKey));
 		this.filterService.addFilter(new MaxPriceFilter(this.maxPriceKey));
-
 	}
 
 	private setForm(priceRange: any) {
@@ -108,7 +102,6 @@ export class PriceRangeComponent implements OnInit, AfterViewInit {
 				max: priceRange.maxPrice
 			});
 	}
-
 
 	ngAfterViewInit(): void {
 
@@ -126,18 +119,16 @@ export class PriceRangeComponent implements OnInit, AfterViewInit {
 		tempMap.set(this.minPriceKey, [minVal]);
 		tempMap.set(this.maxPriceKey, [maxVal]);
 
-		let url = this.filterService.getURLMergedParameters(this.baseUrl, this.globalParams, tempMap );
+		let url = this.filterService.getURLMergedParameters(this.baseUrl, this.globalParams, tempMap);
 		this.route.navigateByUrl(url);
 	}
 
-
 	convertNum(price: any) {
-		if(price.trim().length > 0 && !Number.isNaN(price)){
+		if(price && price.trim().length > 0 && !Number.isNaN(price)){
 			return Number.parseFloat(price).toFixed(2);
 		}
 		return null;
 	}
-
 
 	clear() {
 		this.priceRangeForm.reset({
@@ -145,31 +136,6 @@ export class PriceRangeComponent implements OnInit, AfterViewInit {
 			max: '',
 			submit: 'GO'
 		});
+		this.go();
 	}
-
-	/*
-	private getPriceRange(items: any[]): any{
-		let minPrice: any;
-		let maxPrice: any = 0;
-
-		items.forEach((item) => {
-			if(item.price) {
-				item.price.forEach((priceItem: any) => {
-					if (priceItem.usage === 'Display') { //I assume we want "Display" here and not "Offer"
-
-						if (!minPrice) {
-							minPrice = priceItem.value;
-						}
-						minPrice = Math.min(priceItem.value, minPrice);
-						maxPrice = Math.max(priceItem.value, maxPrice);
-
-					}
-				})
-			}
-		});
-		
-		return {minPrice: minPrice, maxPrice: maxPrice};
-	}
-	*/
-
 }

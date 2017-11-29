@@ -5,8 +5,10 @@
 				<div class="left-sidebar">
 					<h2>Category</h2>
 					<wc-category></wc-category>
-					<wc-brands></wc-brands>
-					<wc-price-range></wc-price-range>
+					<div *ngIf="!productID">
+						<wc-brands></wc-brands>
+						<wc-price-range></wc-price-range>
+					</div>
 					<div *ngIf="ad && ad.url" class="shipping text-center"><!--shipping-->
 						<img [src]="renderingContext.context.hub.deliveryUrl.origin + ad.url" [alt]="ad.altText">
 					</div><!--/shipping-->
