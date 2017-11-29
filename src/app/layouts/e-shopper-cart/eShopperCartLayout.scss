@@ -42,3 +42,29 @@
 #do_action {
     margin-bottom: 0;
 }
+
+tbody tr:nth-child(even) {
+	background-color: transparent;
+}
+
+.table.table-condensed tr:last-child {
+    border-bottom: 0;
+}
+
+tbody {
+	border: none;
+}
+
+.cart_quantity_input {
+	width: auto;
+	margin: 0;
+    padding: 0;
+	color: #696763;
+	height: 28px;
+}
+
+.cart_quantity_button a {
+	margin: 0;
+    padding: 0;
+	border: none;
+}

@@ -26,6 +26,16 @@ export class EShopperCartLayoutComponent extends TypeEShopperCartComponent imple
         super();
     }
 
+	set cart( cart: any ) {
+		if ( !this._cart ) {
+			this._cart = cart;
+		}
+		else {
+			this._cart = { ...this._cart, ...cart };
+		}
+		this.cartTransactionService.normalizeCart(this._cart);
+	}
+
 	get cart(): any {
 		return this._cart;
 	}
@@ -33,7 +43,9 @@ export class EShopperCartLayoutComponent extends TypeEShopperCartComponent imple
 	public initializeCart() {
 		this.cartTransactionService.getCart()
 			.then(response => {
-				this._cart = response.body
+				this.cart = response.body;
+console.error(this._cart);
+console.error(this.cart);
 			});
 	}
 
@@ -41,7 +53,7 @@ export class EShopperCartLayoutComponent extends TypeEShopperCartComponent imple
 		let q = parseInt( item.quantity );
 		item.quantity = ( ++q ).toString();
 		this.cartTransactionService //update to server
-			.updateOrderItem( this._cart )
+			.updateOrderItem( this.cart )
 			.then( response => this.initializeCart() );
 	}
 
@@ -50,9 +62,16 @@ export class EShopperCartLayoutComponent extends TypeEShopperCartComponent imple
 		if ( q && q > 1 ) {
 			item.quantity = ( --q ).toString();
 			this.cartTransactionService //update to server
-				.updateOrderItem( this._cart )
+				.updateOrderItem( this.cart )
 				.then( response => this.initializeCart() );
 		}
+	}
+
+	private deleteItem( item: any ) {
+		item.quantity = '0';
+		this.cartTransactionService //update to server
+			.updateOrderItem( this.cart )
+			.then( response => this.initializeCart() );
 	}
 
 	ngOnInit() {

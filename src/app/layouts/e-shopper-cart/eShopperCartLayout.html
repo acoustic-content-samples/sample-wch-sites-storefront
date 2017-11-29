@@ -42,7 +42,7 @@
 								<p class="cart_total_price">${{item.orderItemPrice | number:'2.2-2'}}</p>
 							</td>
 							<td class="cart_delete">
-								<a class="cart_quantity_delete" routerLink="/nowhere"><i class="fa fa-times"></i></a>
+								<a class="cart_quantity_delete" (click)="deleteItem(item)"><i class="fa fa-times"></i></a>
 							</td>
 						</ng-container>
 					</tr>
@@ -85,7 +85,7 @@
 			<login [useForCheckout]="true"></login>
 		</div>
 		<div class="registered-checkout" *ngIf="isLoggedIn">
-			<a class="btn btn-default update" [routerLink]="['/checkout']" translate>ContinueCheckout</a>
+			<a class="btn btn-default update" [routerLink]="['/shop/checkout']" translate>ContinueCheckout</a>
 		</div>
 	</div>
 </section>
