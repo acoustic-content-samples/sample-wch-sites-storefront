@@ -8,6 +8,7 @@
  * specific language governing permissions and limitations under the License.
 */
 import { Component, Input, OnInit } from '@angular/core';
+import {NavigationExtras, Router} from '@angular/router';
 
 @Component({
 	selector: 'item-container',
@@ -17,16 +18,32 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ItemContainerComponent implements OnInit{
     @Input() item: any;
 
-    constructor() {}
+    constructor(private router: Router) {}
 
     ngOnInit() {}
 
-    getUrl(item: any): string {
-        if(item.price) {
-            return item.url.length ? '/shop/product/' + item.url[item.url.length - 1] : '/shop/products';
-        } else {
-            return '/shop/products/' + item.url.join('/');
-        }
-    }
+    goToProduct(item) {
+		if (item.price) {
+			// return item.url.length ? '/shop/product/' + item.url[item.url.length - 1] : '/shop/products';
+			if (item.url.length) {
+				const productId = item.url.pop();
+				const params: NavigationExtras = {
+					queryParams: {'id': productId,
+					'path': item.url.join('/')}
+				};
+				this.router.navigate([`/shop/products`], params);
+			} else {
+				this.router.navigate([`/shop/products`]);
+			}
+		} else {
+			const params: NavigationExtras = {
+				queryParams: {'path': item.url.join('/')}
+			};
+			this.router.navigate([`/shop/products`], params);
+		}
+
+
+	}
+
 
 }

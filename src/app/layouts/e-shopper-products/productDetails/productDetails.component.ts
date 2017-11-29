@@ -7,7 +7,7 @@
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
 */
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { HttpErrorResponse } from '@angular/common/http';
 
@@ -34,6 +34,8 @@ export class ProductDetailsComponent implements OnInit {
 		selectedAttributes: {}
 	};
 
+	@Input() productID: string;
+
 	constructor(
 		private cartTransactionService: CartTransactionService,
 		private route: ActivatedRoute,
@@ -41,12 +43,11 @@ export class ProductDetailsComponent implements OnInit {
 	) {}
 
 	ngOnInit () {
-		this.route.params.subscribe(params => {
-			this.cartTransactionService.getProduct(params.id).then(product => {
+
+			this.cartTransactionService.getProduct(this.productID).then(product => {
 				this.logger.info( this.constructor.name + " getProduct: %o", product );
 				this.initializeProduct(product);
 			});
-		});
 	}
 
 	onAttributeChange(): void {

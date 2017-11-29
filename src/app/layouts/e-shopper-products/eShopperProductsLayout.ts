@@ -31,6 +31,7 @@ export class EShopperProductsLayoutComponent extends TypeEShopperProductsCompone
 	searchSub: ISubscription;
 	catSub: ISubscription;
 	globalParams: Params;
+	productID: string;
 
     constructor(private commerceService: CommerceService,
 				private route: ActivatedRoute,
@@ -45,6 +46,7 @@ export class EShopperProductsLayoutComponent extends TypeEShopperProductsCompone
 	ngOnInit() {
         this.allItems = this.filteredItems = [];
 		// categories are route parameters
+		/*
 		this.catSub = this.route.params.subscribe(params => {
 
 			let path = [];
@@ -64,27 +66,48 @@ export class EShopperProductsLayoutComponent extends TypeEShopperProductsCompone
 				});
 			}
 		});
+		*/
 
 		// search terms are query parameters
 		this.searchSub = this.route.queryParams.subscribe(params => {
-			if(params['search']) {
+			this.productID = null;
+			if (params['search']) {
 				this.commerceService.searchForProduct(params['search']).subscribe((cat: any) => {
 					    this.setItems(cat, params);
 				});
+			} else if (params['id']){
+				this.productID = params['id'];
+			} else if (params['path']) {
+				const path = params['path'].split('/');
+				if (params['category']) {
+					path.push(params['category']);
+				}
+				if (params['subCategory']) {
+					path.push(params['subCategory']);
+				}
+				if (params['id']) {
+					path.push(params['id']);
+				}
+				if (path.length) {
+					// console.log('productList getItems on %o', path);
+					this.commerceService.getItems(path).then((cat: any) => {
+						this.setItems(cat, null);
+					});
+				}
 			} else {
-                this.globalParams = params;
-                this.setItems(this.allItems, params);
-            }
+				this.globalParams = params;
+				this.setItems(this.allItems, params);
+			}
 		});
 
 	}
 
 	private setItems(fromServer: any[], params: Params){
-        if(!params){
+        if (!params) {
             params = this.globalParams;
         }
         this.allItems = fromServer;
-	    if(params){
+	    if (params) {
             this.filteredItems = this.filterService.checkForFiltering(params, fromServer);
             this.change.detectChanges();
         } else {
@@ -94,7 +117,7 @@ export class EShopperProductsLayoutComponent extends TypeEShopperProductsCompone
     }
 
 	ngOnDestroy(){
-	    this.catSub.unsubscribe();
+	    //this.catSub.unsubscribe();
 	    this.searchSub.unsubscribe();
     }
 }

@@ -13,10 +13,15 @@
 				</div>
 			</div>
 			<div class="col-sm-9 padding-right">
-				<div class="features_items"><!--features_items-->
+				<div *ngIf="productID">
+					<product-details [productID]="productID"></product-details>
+				</div>
+				<div *ngIf="!productID" class="features_items"><!--features_items-->
 					<h2 class="title text-center">Items</h2>
 					<item-container *ngFor="let item of filteredItems" [item]="item"></item-container>
-					<p *ngIf="filteredItems.length === 0">Pick a category to begin</p>
+					<div *ngIf="filteredItems.length === 0">
+						<!--<featured></featured>-->
+					</div>
 				</div><!--features_items-->
 			</div>
 		</div>
