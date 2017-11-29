@@ -59,9 +59,10 @@
 				<div class="col-md-8 clearfix">
 					<div class="shop-menu clearfix pull-right">
 						<ul class="nav navbar-nav">
-							<li><a href="checkout.html" href routerLink="/shop/checkout"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-							<li><a href="checkout.html" href routerLink="/shop/cart"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-							<li><a href="checkout.html" href routerLink="/shop/login"><i class="fa fa-lock"></i> Login</a></li>
+							<li><a href routerLink="/shop/checkout"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+							<li><a href routerLink="/shop/cart"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+							<li *ngIf="!isLoggedIn"><a href routerLink="/shop/login"><i class="fa fa-lock"></i> Login</a></li>
+							<li *ngIf="isLoggedIn"><a href (click)="logout()"><i class="fa fa-lock"></i> Logout</a></li>
 						</ul>
 					</div>
 				</div>
