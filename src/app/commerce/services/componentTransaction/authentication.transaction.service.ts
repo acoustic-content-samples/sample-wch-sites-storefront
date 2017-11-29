@@ -57,7 +57,9 @@ export class AuthenticationTransactionService {
 				this._isLoggedIn = true;
 				sessionStorage.setItem('currentUser', btoa(JSON.stringify(response)));
 			}
-			this._observer.next(true);	// update the subscribers to the user's auth status
+			if(this._observer) {
+				this._observer.next(true);	// update the subscribers to the user's auth status
+			}
 			return res;
 		});
 	}
@@ -70,7 +72,9 @@ export class AuthenticationTransactionService {
 		return this.loginIdentityService.logout(params, undefined).toPromise().then(res => {
 			this.logger.info( this.constructor.name + " logout: %o", res );
 			this._isLoggedIn = false;
-			this._observer.next(false);	// update the subscribers to the user's auth status
+			if(this._observer) {
+				this._observer.next(false);	// update the subscribers to the user's auth status
+			}
 			return res;
 		});
 	}
@@ -154,7 +158,9 @@ export class AuthenticationTransactionService {
 				this._isLoggedIn = true;
 				sessionStorage.setItem('currentUser', btoa(JSON.stringify(response)));
 			}
-			this._observer.next(true);	// update the subscribers to the user's auth status
+			if(this._observer) {
+				this._observer.next(true);	// update the subscribers to the user's auth status
+			}
 			return res;
 		});
 	}
