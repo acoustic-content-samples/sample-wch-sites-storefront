@@ -29,6 +29,7 @@ import { Ng2LoggerFactory } from './common/Ng2LoggerFactory';
 import 'script-loader!foundation-sites/dist/js/foundation.js';
 
 import { WchNgModule, PageComponent, SiteBootstrap, Site, WchLoggerFactory } from 'ibm-wch-sdk-ng';
+import { WchNgEditModule } from 'ibm-wch-sdk-ng-edit';
 import { LoggerOptions as AppLoggerOptions } from "./commerce/logger.options";
 
 import { WchHeaderComponent} from './wchHeader/wchHeader.component';
@@ -69,6 +70,7 @@ export function HttpLoaderFactory(http: Http) {
 		HttpModule,
 		HttpClientModule,
 		WchNgModule.forRoot(environment),
+		WchNgEditModule.forRoot(),
 		SiteCommonModule,
 		GenericLayoutModule,
 		SAMPLE_MODULE,

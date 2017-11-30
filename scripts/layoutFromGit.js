@@ -67,7 +67,7 @@ if (args.length != 1) {
 					console.error(`Project ${projectDir} is not an installable layout as it does not contain a content-artifacts directory`);
 				} else {
 					shell.cd(artifactsDir);
-					child_process.execFileSync('wchtools', ['push', '-A', '-v'], {stdio: 'inherit'});
+					child_process.execFileSync(/^win/.test(process.platform) ? 'wchtools.cmd' : 'wchtools', ['push', '-A', '-v'], {stdio: 'inherit'});
 					copyFiles();
 				}
 			})
