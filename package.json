@@ -46,7 +46,6 @@
     "core-js": "^2.4.1",
     "foundation-sites": "^6.4.1",
     "ibm-wch-sdk-ng": "*",
-    "ibm-wch-sdk-ng-edit": "*",
     "ng2-logger": "^1.0.3",
     "p3x-angular-compile": "^4.3.0-53",
     "reflect-metadata": "^0.1.10",
