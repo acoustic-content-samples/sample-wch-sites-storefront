@@ -1,6 +1,12 @@
 # sample-wch-sites-storefront
 An E-Shopper storefront sample which uses WCH sites.
 
+Prerequisites
+------
+* A WCH tenant in Trial or Standard Tier
+* [wchtools-cli](https://github.com/ibm-wch/wchtools-cli) v2.1.3 or above
+* Node.js v6.11.1 or above
+
 Preparation
 ------
 The deployment step of this repository pushes the Single Page Application (SPA) files into the WCH tenant, overlaying existing files. It will overlay any existing files in the web asset folder. We recommend to first do a pull with wchtools in case you want to keep artifacts that you still need. If you use the Sites SPA, it will get overlayed and existing pages will no longer render.
