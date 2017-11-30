@@ -40,7 +40,7 @@ To use
 	put your transaction commerce server catalog ID - i.e. 10502
 	"commerceCatalogID": "10502"
 ```
-3. Add your Commerce server to the trust cross-origin domains under WCH -> Hub setup -> General settings -> Security
+3. Add your Commerce server to the trusted cross-origin domains under WCH -> Hub setup -> General settings -> Security
 4. Run `wchtools init` to setup the [WCH tools CLI](https://github.com/ibm-wch/wchtools-cli#getting-started)
 5. (**optional but recommended**) Run `wchtools delete -A --all -v` to empty your tenant to get a fresh start. **WARNING**: _This will delete all your tenant's Content, Assets, Types, Layouts, Pages, Taxonomies and Image Profiles._ Read more [here](https://github.com/ibm-wch/wchtools-cli#deleting-all-instances-of-a-specified-artifact-type-or-all-instances-of-all-artifact-types)
 6. Add the site artifacts with  `npm run init-content`
