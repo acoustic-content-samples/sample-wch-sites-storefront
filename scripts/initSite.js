@@ -115,12 +115,12 @@ if(shell.grep('Sites Kicker', path.join(srcDir, 'index.html')).length < 2) {
 
 					// deploy the updated /scripts/wchContent folder
 					console.log('\nDeploying content to your tenant...\n');
-					child_process.execFileSync('wchtools', ['push', '-a', '-A', '-f', '-v', '--dir', tempDistName, '--password', wchPassword], {stdio: 'inherit'});
+					child_process.execFileSync(/^win/.test(process.platform) ? 'wchtools.cmd' : 'wchtools', ['push', '-a', '-A', '-f', '-v', '--dir', tempDistName, '--password', wchPassword], {stdio: 'inherit'});
 
 					// build the SPA and deploy the /dist folder (same as the build-deploy task, but user doesn't need to enter his/her password again)
 					console.log('\nBuilding and deploying your layouts and SPA code...');
 					child_process.execFileSync(/^win/.test(process.platform) ? 'npm.cmd' : 'npm', ['run', 'build'], {stdio: 'inherit'});
-					child_process.execFileSync('wchtools', ['push', '-a', '-A', '-f', '-v', '--dir', 'dist', '--password', wchPassword], {stdio: 'inherit'});
+					child_process.execFileSync(/^win/.test(process.platform) ? 'wchtools.cmd' : 'wchtools', ['push', '-a', '-A', '-f', '-v', '--dir', 'dist', '--password', wchPassword], {stdio: 'inherit'});
 
 					// delete temp dist directory
 					rimraf(distDir, (e) => {

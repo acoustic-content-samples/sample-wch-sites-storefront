@@ -24,6 +24,7 @@
 		</div>
 		<!--/register-req-->
 		<div>
+			<div *ngIf="errorTime" class="checkout-error" role="alert" translate>{{errorTime}}</div>
 			<div *ngIf="checkout.step == 1 && isGuest">
 				<guest-shipping-billing (onSave)="onSaveGuestAddress($event)"></guest-shipping-billing>
 			</div>
@@ -110,7 +111,7 @@
 						<p>Billing and Shipping</p>
 						<div class="form-one">
 							<form>
-								<input name="nickName" type="text" [(ngModel)]="checkout.address.nickName" placeholder="Recipient">
+								<input name="nickName" type="text" [(ngModel)]="checkout.address.nickName" placeholder="Nickname*">
 								<input name="email" type="text" [(ngModel)]="checkout.address.email1" placeholder="Email*">
 								<input name="firstName" type="text" [(ngModel)]="checkout.address.firstName" placeholder="First Name *">
 								<input name="lastName" type="text" [(ngModel)]="checkout.address.lastName" placeholder="Last Name *">

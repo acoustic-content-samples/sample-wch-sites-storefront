@@ -57,20 +57,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<ul class="user_option">
-					<li>
-						<promo-code [cart]="this"></promo-code>
-					</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
 				<div class="total_area">
 					<ul>
 						<li *ngIf="cart">Cart Sub Total <span>${{cart.totalProductPrice | number:'2.2-2'}}</span></li>
 						<li *ngIf="cart">Discount <span>${{cart.totalAdjustment | number:'1.2-2'}}</span></li>
 						<li *ngIf="cart">Total <span>${{cart.grandTotal | number:'2.2-2'}}</span></li>
 					</ul>
-					<a class="btn btn-default update" href="">Update</a>
 				</div>
 			</div>
 		</div>
