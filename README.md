@@ -11,7 +11,7 @@ Preparation
 ------
 The deployment step of this repository pushes the Single Page Application (SPA) files into the WCH tenant, overlaying existing files. It will overlay any existing files in the web asset folder. We recommend to first do a pull with wchtools in case you want to keep artifacts that you still need. If you use the Sites SPA, it will get overlayed and existing pages will no longer render.
 
-*Limitations*: Inline editing will not work with this sample.
+*Limitations*: Inline editing will not work with this sample at this time.
 
 To use
 ------
@@ -49,10 +49,11 @@ To use
 	"commerceCatalogID": "10502"
 ```
 3. Add your Commerce server to the trusted cross-origin domains under WCH -> Hub setup -> General settings -> Security
-4. Run `wchtools init` to setup the [WCH tools CLI](https://github.com/ibm-wch/wchtools-cli#getting-started)
-5. Run `wchtools delete -A --all -v` to empty your tenant to get a fresh start. **WARNING**: _This will delete all your tenant's Content, Assets, Types, Layouts, Pages, Taxonomies and Image Profiles._ Read more [here](https://github.com/ibm-wch/wchtools-cli#deleting-all-instances-of-a-specified-artifact-type-or-all-instances-of-all-artifact-types)
-6. Add the site artifacts with  `npm run init-content`
-7. Set your tenant information in `src/app/Constants.ts`, then run a local development server with `npm start`
-8. Customize your site, read more [here](https://developer.ibm.com/customer-engagement/docs/wch/developing-your-own-website/)
-9. Build with `npm run build`
-10. Deploy Angular app, SPA or layout changes to WCH with `npm run deploy`
+4. Configure your commerce server to send CORS headers for localhost, and your tenant live and preview host
+5. Run `wchtools init` to setup the [WCH tools CLI](https://github.com/ibm-wch/wchtools-cli#getting-started)
+6. Run `wchtools delete -A --all -v` to empty your tenant to get a fresh start. **WARNING**: _This will delete all your tenant's Content, Assets, Types, Layouts, Pages, Taxonomies and Image Profiles._ Read more [here](https://github.com/ibm-wch/wchtools-cli#deleting-all-instances-of-a-specified-artifact-type-or-all-instances-of-all-artifact-types)
+7. Add the site artifacts with  `npm run init-content`
+8. Set your tenant information in `src/app/Constants.ts`, then run a local development server with `npm start`
+9. Customize your site, read more [here](https://developer.ibm.com/customer-engagement/docs/wch/developing-your-own-website/)
+10. Build with `npm run build`
+11. Deploy Angular app, SPA or layout changes to WCH with `npm run deploy`
