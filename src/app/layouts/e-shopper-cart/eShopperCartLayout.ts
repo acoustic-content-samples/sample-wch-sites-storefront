@@ -44,8 +44,6 @@ export class EShopperCartLayoutComponent extends TypeEShopperCartComponent imple
 		this.cartTransactionService.getCart()
 			.then(response => {
 				this.cart = response.body;
-console.error(this._cart);
-console.error(this.cart);
 			});
 	}
 

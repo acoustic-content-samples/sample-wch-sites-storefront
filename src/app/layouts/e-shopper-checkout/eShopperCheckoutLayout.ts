@@ -44,7 +44,7 @@ export class EShopperCheckoutLayoutComponent extends TypeEShopperCheckoutCompone
     initializeCart() {
         this.checkoutTransactionService.getCart()
             .then( response => {
-                this._cart = response.body;
+                this.cart = response.body;
             } );
     }
 
@@ -58,7 +58,7 @@ export class EShopperCheckoutLayoutComponent extends TypeEShopperCheckoutCompone
                 addressLine: []
             }
         }
-        this._checkout = checkout;
+        this.checkout = checkout;
     }
 
     set checkout( checkout: any ) {
@@ -80,38 +80,38 @@ export class EShopperCheckoutLayoutComponent extends TypeEShopperCheckoutCompone
     getShippingAddressAndId(addressList : any){
         let address, addressId;
         if (addressList.length && addressList[1] && addressList[1].useSameAddress){
-            this._checkout.address = addressList[0].data;
+            this.checkout.address = addressList[0].data;
             return addressList[0].response;
         } 
-        this._checkout.address = addressList[1].data;
+        this.checkout.address = addressList[1].data;
         return addressList[1].response;
     }
 
     onSaveGuestAddress(event : any) {
         let addressId = this.getShippingAddressAndId(event);
-        this.checkoutTransactionService.prepareOrderWithShipping(this._checkout, this._cart.grandTotal, addressId)
-        .then(response =>  this._checkout.step++ );
+        this.checkoutTransactionService.prepareOrderWithShipping(this.checkout, this.cart.grandTotal, addressId)
+        .then(response =>  this.checkout.step++ );
     }
 
     next() {
-        if ( this._checkout.step == 1 ) {
-            this.checkoutTransactionService.prepareOrderWithAddressAndShipping( this._checkout, this._cart.grandTotal )
-                .then( response => this._checkout.step++ );
+        if ( this.checkout.step == 1 ) {
+            this.checkoutTransactionService.prepareOrderWithAddressAndShipping( this.checkout, this.cart.grandTotal )
+                .then( response => this.checkout.step++ );
         }
         else {
             this.checkoutTransactionService.submitOrder()
-                .then( response => this._checkout.step++ );
+                .then( response => this.checkout.step++ );
         }
     }
 
     back() {
         if ( this.canBack() ) {
-            this._checkout.step--;
+            this.checkout.step--;
         }
     }
 
     canBack(): boolean {
-        return this._checkout.step > 1;
+        return this.checkout.step > 1;
     }
 
 }
