@@ -1,6 +1,8 @@
 # sample-wch-sites-storefront
 An E-Shopper storefront sample which uses WCH sites.
 
+![products page](screenshot.png?raw=true "Screenshot of Products page")
+
 Prerequisites
 ------
 * A WCH tenant in Trial or Standard Tier
