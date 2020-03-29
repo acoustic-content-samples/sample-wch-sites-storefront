@@ -1,11 +1,11 @@
 # sample-wch-sites-storefront
-An E-Shopper storefront sample which uses WCH sites.
+An E-Shopper storefront sample which uses Acoustic Content (formerly Watson Content Hub or WCH) sites.
 
 ![products page](screenshot.png?raw=true "Screenshot of Products page")
 
 Prerequisites
 ------
-* A WCH tenant in Trial or Standard Tier
+* An Acoustic Content tenant in Trial or Standard Tier
 * [wchtools-cli](https://github.com/ibm-wch/wchtools-cli) v2.1.3 or above
 * Node.js v6.11.1 or above
 
