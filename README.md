@@ -56,6 +56,6 @@ To use
 6. Run `wchtools delete -A --all -v` to empty your tenant to get a fresh start. **WARNING**: _This will delete all your tenant's Content, Assets, Types, Layouts, Pages, Taxonomies and Image Profiles._ Read more [here](https://github.com/ibm-wch/wchtools-cli#deleting-all-instances-of-a-specified-artifact-type-or-all-instances-of-all-artifact-types)
 7. Add the site artifacts with  `npm run init-content`
 8. Set your tenant information in `src/app/Constants.ts`, then run a local development server with `npm start`
-9. Customize your site, read more [here](https://developer.ibm.com/customer-engagement/docs/wch/developing-your-own-website/)
+9. Customize your site, read more [here](https://developer.goacoustic.com/acoustic-content/docs/roadmap-developing-your-own-website)
 10. Build with `npm run build`
 11. Deploy Angular app, SPA or layout changes to WCH with `npm run deploy`
